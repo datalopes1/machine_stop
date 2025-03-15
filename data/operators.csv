@@ -1,0 +1,211 @@
+operatorId,machineId,name,workShift
+0001,0035,Ravi Garcia,Noite
+0002,0010,Henry Rodrigues,Noite
+0003,0022,Sr. Ian Andrade,Noite
+0004,0032,Dr. João Felipe Azevedo,Manhã
+0005,0060,Levi Cunha,Tarde
+0006,0035,Sara Gonçalves,Noite
+0007,0029,Natália Casa Grande,Noite
+0008,0042,Davi Miguel da Cruz,Manhã
+0009,0030,Dra. Zoe da Luz,Manhã
+0010,0041,Dra. Mariane Pacheco,Tarde
+0011,0035,Maria Cecília Câmara,Manhã
+0012,0028,Thomas Monteiro,Noite
+0013,0041,Benicio Camargo,Manhã
+0014,0064,Emanuel Vieira,Tarde
+0015,0059,Mariana Peixoto,Manhã
+0016,0034,Matheus Garcia,Manhã
+0017,0032,Nina Moura,Noite
+0018,0069,Yuri Albuquerque,Tarde
+0019,0055,Bruna Rodrigues,Noite
+0020,0052,Juliana Vargas,Tarde
+0021,0029,Manuela Camargo,Manhã
+0022,0066,Pedro Henrique Castro,Tarde
+0023,0012,Agatha Silveira,Manhã
+0024,0015,Sra. Sarah Teixeira,Manhã
+0025,0021,Thiago Caldeira,Noite
+0026,0055,Letícia Porto,Noite
+0027,0009,Fernanda Cassiano,Tarde
+0028,0049,Sr. Vitor Hugo Vasconcelos,Noite
+0029,0060,Agatha Peixoto,Noite
+0030,0033,Dr. Antony Camargo,Noite
+0031,0002,Dr. Isaque Araújo,Noite
+0032,0015,Bruno Barros,Noite
+0033,0069,Sra. Ana Lívia Teixeira,Tarde
+0034,0044,Carolina Cardoso,Manhã
+0035,0038,Olívia Novaes,Tarde
+0036,0021,João Moura,Tarde
+0037,0001,Mariana Cunha,Noite
+0038,0034,Gabriela Silva,Noite
+0039,0023,Murilo Rios,Noite
+0040,0014,Maria Fernanda Macedo,Noite
+0041,0039,Milena Campos,Noite
+0042,0065,Henry Gabriel Azevedo,Noite
+0043,0026,Sr. Yuri da Conceição,Manhã
+0044,0048,Hellena Abreu,Manhã
+0045,0070,Bento da Conceição,Noite
+0046,0001,Arthur Gabriel Farias,Noite
+0047,0042,Théo da Costa,Tarde
+0048,0003,Ryan Cunha,Manhã
+0049,0047,Caroline Silveira,Tarde
+0050,0031,Olívia da Cruz,Manhã
+0051,0031,Maria Luísa Correia,Noite
+0052,0011,Calebe Ribeiro,Manhã
+0053,0063,Maria Lima,Manhã
+0054,0069,Nina Siqueira,Manhã
+0055,0017,Carlos Eduardo Araújo,Noite
+0056,0061,Maitê Caldeira,Noite
+0057,0022,Gael Correia,Tarde
+0058,0068,Melissa Carvalho,Noite
+0059,0055,Emilly da Mota,Manhã
+0060,0070,Isadora Barbosa,Noite
+0061,0026,Beatriz Aragão,Noite
+0062,0040,Ágatha Albuquerque,Tarde
+0063,0048,Isaac Cavalcante,Tarde
+0064,0067,Raquel Mendes,Tarde
+0065,0016,Murilo Araújo,Manhã
+0066,0029,Mateus Abreu,Manhã
+0067,0044,Julia Viana,Manhã
+0068,0030,Laura Lima,Noite
+0069,0029,Dra. Raquel Cassiano,Manhã
+0070,0010,Juan Cunha,Noite
+0071,0008,Vitor Hugo Araújo,Manhã
+0072,0009,Sra. Ana Laura Aragão,Manhã
+0073,0043,Pietra Montenegro,Manhã
+0074,0066,Eduarda Araújo,Manhã
+0075,0036,Anna Liz Cirino,Noite
+0076,0063,Bernardo Rocha,Manhã
+0077,0070,Nathan Campos,Manhã
+0078,0061,Isadora Pacheco,Manhã
+0079,0061,Ana Cecília Pinto,Tarde
+0080,0025,Otto Ribeiro,Manhã
+0081,0013,Stephany Dias,Noite
+0082,0056,Gustavo Rios,Tarde
+0083,0055,Sra. Isabella da Luz,Tarde
+0084,0060,Caroline Rios,Noite
+0085,0007,Letícia Marques,Noite
+0086,0013,Sr. Anthony Marques,Manhã
+0087,0052,Beatriz Barbosa,Noite
+0088,0044,Hadassa Montenegro,Manhã
+0089,0032,Davi Lucca Ferreira,Manhã
+0090,0025,Joaquim Freitas,Noite
+0091,0058,Emanuel Macedo,Manhã
+0092,0055,Liz Pimenta,Manhã
+0093,0036,Vitória Albuquerque,Tarde
+0094,0032,Letícia Ribeiro,Manhã
+0095,0057,Davi Luiz da Luz,Noite
+0096,0013,Cauê Souza,Manhã
+0097,0070,Daniela da Mata,Manhã
+0098,0012,Gustavo Henrique Silva,Manhã
+0099,0022,Sr. João Montenegro,Tarde
+0100,0063,Isis Aragão,Tarde
+0101,0028,Otávio da Mota,Tarde
+0102,0008,Alexandre Farias,Manhã
+0103,0049,João Castro,Manhã
+0104,0050,Sra. Mariane Novais,Tarde
+0105,0059,Daniel Barbosa,Tarde
+0106,0055,Srta. Ísis Andrade,Noite
+0107,0063,Sr. Pedro Cardoso,Manhã
+0108,0025,Leandro Fonseca,Tarde
+0109,0028,Luiz Henrique Costela,Manhã
+0110,0070,Isadora Rios,Manhã
+0111,0041,Luiz Gustavo Vasconcelos,Manhã
+0112,0007,Maria Luísa Pinto,Noite
+0113,0062,Srta. Isabela Castro,Noite
+0114,0068,Noah Alves,Manhã
+0115,0008,Lucas Gabriel Viana,Noite
+0116,0011,Isadora da Mata,Manhã
+0117,0009,Cauê Garcia,Noite
+0118,0009,Ravy Câmara,Noite
+0119,0031,Raul Ferreira,Tarde
+0120,0016,Ian Câmara,Noite
+0121,0032,Gael Guerra,Noite
+0122,0006,Dr. Bernardo Vargas,Noite
+0123,0011,Luiz Fernando Ramos,Tarde
+0124,0067,Maria Liz Rocha,Tarde
+0125,0034,Luísa Alves,Manhã
+0126,0041,José Pedro Cavalcanti,Manhã
+0127,0034,Julia Andrade,Tarde
+0128,0017,Pedro Henrique Ferreira,Noite
+0129,0039,Sra. Maya Pereira,Tarde
+0130,0041,Bruna Gomes,Manhã
+0131,0002,Esther da Cunha,Tarde
+0132,0013,Pedro Henrique Abreu,Manhã
+0133,0069,Zoe Rodrigues,Manhã
+0134,0065,Dra. Fernanda Fonseca,Tarde
+0135,0017,Ana Lívia Rios,Tarde
+0136,0009,Dr. Davi Silveira,Manhã
+0137,0048,Thiago das Neves,Tarde
+0138,0021,Maria Luísa Duarte,Tarde
+0139,0070,Laís Novaes,Noite
+0140,0039,Gael Leão,Noite
+0141,0068,Maria Helena Rocha,Manhã
+0142,0039,Srta. Liz Guerra,Noite
+0143,0014,Agatha da Rosa,Manhã
+0144,0034,Gustavo Henrique Lopes,Manhã
+0145,0014,Luna Martins,Noite
+0146,0020,Melina Rocha,Tarde
+0147,0037,Thomas Melo,Noite
+0148,0027,Srta. Antonella da Paz,Noite
+0149,0044,Lívia Borges,Manhã
+0150,0034,Leonardo Câmara,Noite
+0151,0063,Diogo Alves,Tarde
+0152,0007,Joaquim Melo,Manhã
+0153,0055,Ana Sophia Marques,Tarde
+0154,0006,Evelyn Silva,Manhã
+0155,0043,Sra. Sabrina Guerra,Manhã
+0156,0034,Diogo Rezende,Manhã
+0157,0057,Srta. Bianca Vasconcelos,Noite
+0158,0055,Hellena Cavalcanti,Noite
+0159,0002,Dra. Nicole Aragão,Manhã
+0160,0010,Isadora Campos,Noite
+0161,0020,Catarina Martins,Noite
+0162,0005,Vitória Novais,Tarde
+0163,0019,Luiza Sá,Tarde
+0164,0017,Sofia Lima,Manhã
+0165,0040,Melissa Castro,Tarde
+0166,0006,Sra. Milena da Luz,Tarde
+0167,0027,João Guilherme Vargas,Noite
+0168,0032,Raquel Pires,Noite
+0169,0014,João Guilherme Macedo,Tarde
+0170,0053,João Pedro da Costa,Noite
+0171,0020,Lucas Gabriel Dias,Manhã
+0172,0021,Anna Liz Carvalho,Manhã
+0173,0053,Igor Gomes,Manhã
+0174,0023,Srta. Hadassa Azevedo,Noite
+0175,0043,Maria Luísa Farias,Tarde
+0176,0032,Nina Leão,Tarde
+0177,0021,Gustavo Leão,Noite
+0178,0014,Alícia Teixeira,Tarde
+0179,0005,Maria Helena Mendes,Tarde
+0180,0029,Luiz Gustavo da Rosa,Manhã
+0181,0059,Mariah Nascimento,Tarde
+0182,0040,Dra. Ísis Pereira,Manhã
+0183,0029,Ryan Câmara,Manhã
+0184,0025,Pedro Henrique Mendonça,Tarde
+0185,0043,Mathias Fernandes,Tarde
+0186,0009,Maria Luiza Silveira,Tarde
+0187,0045,Ravi Lucca Cardoso,Noite
+0188,0066,Yasmin Alves,Tarde
+0189,0069,Amanda Barros,Tarde
+0190,0004,Mariane Carvalho,Manhã
+0191,0034,Emilly Aragão,Manhã
+0192,0034,Mateus Duarte,Manhã
+0193,0014,Rafael Duarte,Noite
+0194,0056,Dr. João Lucas Sá,Tarde
+0195,0041,Isis Barros,Tarde
+0196,0066,Allana Souza,Manhã
+0197,0050,Ana Júlia Ferreira,Noite
+0198,0025,Bernardo Vasconcelos,Tarde
+0199,0006,Ana Cecília Sá,Noite
+0200,0056,Josué Costa,Manhã
+0201,0067,Eduardo da Costa,Noite
+0202,0026,Renan Rios,Tarde
+0203,0056,Henrique Martins,Manhã
+0204,0043,Sra. Maria Eduarda Cavalcante,Noite
+0205,0041,Bruna Vasconcelos,Noite
+0206,0016,Leonardo Caldeira,Noite
+0207,0039,Amanda das Neves,Noite
+0208,0040,Maria Flor Gonçalves,Noite
+0209,0053,Srta. Ana Vitória Pastor,Tarde
+0210,0052,Dra. Isabelly Caldeira,Noite

@@ -1,18 +1,24 @@
+# ------ IMPORTS E CONFIGS ------
 import pandas as pd
 import numpy as np
 import random
 from faker import Faker
 
+# Seeds para reprodutibilidade dos dados
 fake = Faker('pt_BR')
 Faker.seed(42)
 random.seed(42)
 
+# ------ CONSTANTES ------
+# Turnos de trabalho
 WORK_SHIFT = [
     'Manhã',
     'Tarde',
     'Noite'
 ]
 
+# Máquinas de custos de hora trabalhada
+# (máquina, custo)
 OPERATIONAL_COST = {
     'Escavadeira Hidráulica': 630, 
     'Perfuratriz': 420, 
@@ -21,12 +27,15 @@ OPERATIONAL_COST = {
     'Caminhão Fora de Estrada': 640
 }
 
+# Tipos de manutenção
 MAINTENANCE_TYPE = [
     'Preventiva',
     'Preditiva',
     'Corretiva'
 ]
 
+# Custos de incidentes por máquina e variação min e max dos custos
+# (incidente, custo_min, custo_max)
 INCIDENT_COST = {
     'Escavadeira Hidráulica': [
         ('Vazamento de óleo hidráulico', 12000, 18000),
@@ -61,6 +70,8 @@ INCIDENT_COST = {
     ]
 }
 
+# Severidade dos incidentes e intervalo de horas de parada
+# (severidade, [min, max])
 INCIDENT_SEVERITY = {
     'Baixa': [1, 4],
     'Média': [4, 24],
@@ -68,14 +79,19 @@ INCIDENT_SEVERITY = {
     'Crítica': [72, 168]
 }
 
+# Caminho dos arquivos .csv finais
 FILE_PATHS = {
-    'machine': 'data/machine.xlsx',
-    'operators': 'data/operators.xlsx',
-    'incidents': 'data/incidents.xlsx',
-    'maintenance': 'data/maintenance.xlsx'
+    'machine': 'data/machine.csv',
+    'operators': 'data/operators.csv',
+    'incidents': 'data/incidents.csv',
+    'maintenance': 'data/maintenance.csv'
 }
 
+# ------ FUNÇÕES ------
 def machine_data(n_entries: int, start_date: str, end_date: str) -> pd.DataFrame:
+    """
+    Gera dados sintéticos das máquinas
+    """
     
     start_date = pd.to_datetime(start_date)
     end_date = pd.to_datetime(end_date)
@@ -89,13 +105,19 @@ def machine_data(n_entries: int, start_date: str, end_date: str) -> pd.DataFrame
         data.append({
             'machineId': f"{_ + 1:04}",
             'machineType': machine_type,
-            'dataFrabricacao': fake.date_between(start_date=start_date, end_date=end_date),
+            'dataFrabricacao': fake.date_between(
+                start_date=start_date, 
+                end_date=end_date
+            ),
             'operationalCost': OPERATIONAL_COST[machine_type],
         })
     
     return pd.DataFrame(data)
 
 def operators_data(n_entries: int, machine_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Gera os dados sintéticos dos operadores, usando os dados da máquinas
+    """
 
     data = []
 
@@ -113,7 +135,9 @@ def operators_data(n_entries: int, machine_df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(data)
 
 def incident_data(n_entries: int, start_date: str, end_date: str, machine_df: pd.DataFrame) -> pd.DataFrame:
-
+    """
+    Gera os dados sintéticos dos incidentes, usando os dados das máquinas
+    """
     start_date = pd.to_datetime(start_date)
     end_date = pd.to_datetime(end_date)
 
@@ -130,14 +154,19 @@ def incident_data(n_entries: int, start_date: str, end_date: str, machine_df: pd
             'machineId': machine_id,
             'machineType': machine_type,
             'incidentType': incident_type[0],
-            'incidentDate': fake.date_between(start_date=start_date, end_date=end_date),
+            'incidentDate': fake.date_between(
+                start_date=start_date, 
+                end_date=end_date
+            ),
             'severity': random.choice(list(INCIDENT_SEVERITY.keys())),
         })
 
     return pd.DataFrame(data)
 
 def maintenance_data(n_entries: int, incident_data: pd.DataFrame) -> pd.DataFrame:
-
+    """
+    Gera os dados sintéticos das manutenção, usando os dados dos incidentes
+    """
     data = []
 
     for _ in range(n_entries):
@@ -155,7 +184,13 @@ def maintenance_data(n_entries: int, incident_data: pd.DataFrame) -> pd.DataFram
             'incidentId': incident_id,
             'machineId': incident_row['machineId'],
             'maintenanceDate': incident_row['incidentDate'],
-            'maintenanceCost': round(random.uniform(incident_type[1], incident_type[2]), 2),
+            'maintenanceCost': round(
+                random.uniform(
+                    incident_type[1], 
+                    incident_type[2]
+                ), 
+                2
+            ),
             'downtimeHours': random.randint(
                 INCIDENT_SEVERITY[incident_row['severity']][0],
                 INCIDENT_SEVERITY[incident_row['severity']][1]
@@ -166,21 +201,22 @@ def maintenance_data(n_entries: int, incident_data: pd.DataFrame) -> pd.DataFram
 
 if __name__=="__main__":
     """
-    Gerar dados fictícios para as máquinas, operadores, incidentes e manutenções
+    Gerar dados fictícios para as máquinas, operadores, incidentes e 
+    manutenções em arquivos .csv
     """
     machine = machine_data(70, '2014-01-01', '2023-12-31')
     operators = operators_data(210, machine)
     incidents = incident_data(750, '2024-01-01', '2024-12-31', machine)
     maitenance = maintenance_data(750, incidents)
 
-    machine.to_excel(FILE_PATHS['machine'], index=False)
+    machine.to_csv(FILE_PATHS['machine'], index=False)
     print(f"Dados das máquinas salvos com sucesso em {FILE_PATHS['machine']}")
 
-    operators.to_excel(FILE_PATHS['operators'], index=False)   
+    operators.to_csv(FILE_PATHS['operators'], index=False)   
     print(f"Dados dos operadores salvos com sucesso em {FILE_PATHS['operators']}")
 
-    incidents.to_excel(FILE_PATHS['incidents'], index=False)
+    incidents.to_csv(FILE_PATHS['incidents'], index=False)
     print(f"Dados dos incidentes salvos com sucesso em {FILE_PATHS['incidents']}")
 
-    maitenance.to_excel(FILE_PATHS['maintenance'], index=False)
+    maitenance.to_csv(FILE_PATHS['maintenance'], index=False)
     print(f"Dados das manutenções salvos com sucesso em {FILE_PATHS['maintenance']}")

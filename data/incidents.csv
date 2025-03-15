@@ -1,0 +1,751 @@
+incidentId,machineId,machineType,incidentType,incidentDate,severity
+0001,0038,Britador Primário,Desgaste das mandíbulas,2024-09-27,Média
+0002,0054,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-27,Média
+0003,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-27,Baixa
+0004,0039,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-26,Média
+0005,0056,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-22,Crítica
+0006,0057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-21,Média
+0007,0066,Carregadeira,Danos na caçamba de carga,2024-11-08,Média
+0008,0011,Britador Primário,Falha no motor elétrico,2024-02-17,Alta
+0009,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-05,Alta
+0010,0029,Perfuratriz,Falha no compressor de ar,2024-08-07,Média
+0011,0004,Perfuratriz,Desgaste da broca,2024-10-30,Média
+0012,0061,Perfuratriz,Desgaste da broca,2024-01-16,Crítica
+0013,0054,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-14,Crítica
+0014,0064,Carregadeira,Danos na caçamba de carga,2024-07-25,Média
+0015,0019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-15,Baixa
+0016,0055,Perfuratriz,Falha no compressor de ar,2024-09-13,Média
+0017,0067,Perfuratriz,Quebra do motor de perfuração,2024-05-23,Baixa
+0018,0032,Carregadeira,Desgaste dos pneus,2024-01-27,Crítica
+0019,0018,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-07-15,Alta
+0020,0057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-08,Crítica
+0021,0021,Perfuratriz,Quebra do motor de perfuração,2024-05-12,Crítica
+0022,0034,Perfuratriz,Falha no compressor de ar,2024-01-05,Alta
+0023,0067,Perfuratriz,Quebra do motor de perfuração,2024-11-25,Média
+0024,0036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-12,Baixa
+0025,0037,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-15,Alta
+0026,0043,Carregadeira,Superaquecimento do motor,2024-07-09,Baixa
+0027,0018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-02-10,Média
+0028,0050,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-06-17,Média
+0029,0009,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-20,Crítica
+0030,0043,Carregadeira,Danos na caçamba de carga,2024-09-03,Crítica
+0031,0008,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-12-12,Crítica
+0032,0050,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-11-17,Crítica
+0033,0062,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-27,Alta
+0034,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-01,Crítica
+0035,0069,Carregadeira,Falha no sistema hidráulico,2024-02-29,Crítica
+0036,0029,Perfuratriz,Vazamento de combustível,2024-06-18,Crítica
+0037,0063,Britador Primário,Bloqueio por material,2024-03-09,Crítica
+0038,0044,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-11,Média
+0039,0060,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-21,Baixa
+0040,0051,Carregadeira,Desgaste dos pneus,2024-09-09,Baixa
+0041,0055,Perfuratriz,Falha no compressor de ar,2024-04-14,Crítica
+0042,0024,Perfuratriz,Desgaste da broca,2024-08-27,Alta
+0043,0049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-09,Média
+0044,0059,Carregadeira,Superaquecimento do motor,2024-12-23,Alta
+0045,0049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-28,Crítica
+0046,0033,Perfuratriz,Desgaste da broca,2024-10-27,Crítica
+0047,0003,Carregadeira,Desgaste dos pneus,2024-07-06,Alta
+0048,0029,Perfuratriz,Desgaste da broca,2024-06-29,Baixa
+0049,0004,Perfuratriz,Falha no compressor de ar,2024-06-18,Média
+0050,0003,Carregadeira,Falha no sistema hidráulico,2024-11-16,Média
+0051,0017,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-10,Baixa
+0052,0028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-18,Alta
+0053,0048,Britador Primário,Desgaste das mandíbulas,2024-04-14,Baixa
+0054,0021,Perfuratriz,Vazamento de combustível,2024-05-05,Baixa
+0055,0004,Perfuratriz,Vazamento de combustível,2024-11-26,Crítica
+0056,0051,Carregadeira,Falha no sistema hidráulico,2024-04-05,Baixa
+0057,0032,Carregadeira,Desgaste dos pneus,2024-11-18,Alta
+0058,0016,Perfuratriz,Desgaste da broca,2024-12-28,Alta
+0059,0069,Carregadeira,Danos na caçamba de carga,2024-02-03,Alta
+0060,0009,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-18,Baixa
+0061,0054,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-12-08,Baixa
+0062,0056,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-24,Crítica
+0063,0020,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-04-04,Média
+0064,0067,Perfuratriz,Vazamento de combustível,2024-10-18,Crítica
+0065,0060,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-29,Alta
+0066,0042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-09,Baixa
+0067,0036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-25,Média
+0068,0060,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-16,Alta
+0069,0004,Perfuratriz,Quebra do motor de perfuração,2024-05-27,Alta
+0070,0024,Perfuratriz,Quebra do motor de perfuração,2024-05-10,Média
+0071,0046,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-01-12,Alta
+0072,0036,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-10,Baixa
+0073,0067,Perfuratriz,Falha no compressor de ar,2024-11-26,Baixa
+0074,0031,Carregadeira,Danos na caçamba de carga,2024-05-06,Crítica
+0075,0031,Carregadeira,Danos na caçamba de carga,2024-03-11,Crítica
+0076,0058,Perfuratriz,Desgaste da broca,2024-07-08,Baixa
+0077,0038,Britador Primário,Desgaste das mandíbulas,2024-03-23,Crítica
+0078,0032,Carregadeira,Superaquecimento do motor,2024-05-17,Alta
+0079,0061,Perfuratriz,Vazamento de combustível,2024-11-05,Crítica
+0080,0043,Carregadeira,Superaquecimento do motor,2024-04-10,Crítica
+0081,0035,Carregadeira,Superaquecimento do motor,2024-05-12,Alta
+0082,0030,Britador Primário,Bloqueio por material,2024-04-18,Média
+0083,0041,Carregadeira,Desgaste dos pneus,2024-12-07,Média
+0084,0025,Britador Primário,Desgaste das mandíbulas,2024-08-19,Crítica
+0085,0036,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-29,Baixa
+0086,0025,Britador Primário,Falha no motor elétrico,2024-12-07,Média
+0087,0047,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-17,Alta
+0088,0002,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-03,Alta
+0089,0006,Perfuratriz,Desgaste da broca,2024-01-04,Alta
+0090,0017,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-07-19,Baixa
+0091,0002,Escavadeira Hidráulica,Falha no sistema de rotação,2024-03-15,Crítica
+0092,0062,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-03,Alta
+0093,0024,Perfuratriz,Desgaste da broca,2024-04-03,Alta
+0094,0062,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-06,Baixa
+0095,0052,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-06-06,Baixa
+0096,0007,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-08,Média
+0097,0039,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-03,Média
+0098,0016,Perfuratriz,Quebra do motor de perfuração,2024-10-21,Média
+0099,0067,Perfuratriz,Quebra do motor de perfuração,2024-04-03,Crítica
+0100,0057,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-25,Crítica
+0101,0040,Carregadeira,Desgaste dos pneus,2024-07-03,Baixa
+0102,0027,Carregadeira,Falha no sistema hidráulico,2024-09-07,Alta
+0103,0011,Britador Primário,Desgaste das mandíbulas,2024-10-03,Média
+0104,0023,Britador Primário,Bloqueio por material,2024-07-09,Média
+0105,0001,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-23,Crítica
+0106,0061,Perfuratriz,Vazamento de combustível,2024-11-03,Baixa
+0107,0030,Britador Primário,Falha no motor elétrico,2024-01-07,Alta
+0108,0059,Carregadeira,Desgaste dos pneus,2024-02-06,Média
+0109,0034,Perfuratriz,Falha no compressor de ar,2024-04-24,Crítica
+0110,0015,Perfuratriz,Falha no compressor de ar,2024-03-27,Média
+0111,0035,Carregadeira,Falha no sistema hidráulico,2024-06-06,Baixa
+0112,0008,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-09-25,Alta
+0113,0037,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-04,Baixa
+0114,0060,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-28,Crítica
+0115,0035,Carregadeira,Danos na caçamba de carga,2024-09-14,Crítica
+0116,0011,Britador Primário,Bloqueio por material,2024-08-13,Crítica
+0117,0042,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-05-23,Baixa
+0118,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-02,Baixa
+0119,0035,Carregadeira,Desgaste dos pneus,2024-08-02,Média
+0120,0061,Perfuratriz,Quebra do motor de perfuração,2024-07-25,Alta
+0121,0024,Perfuratriz,Quebra do motor de perfuração,2024-05-13,Crítica
+0122,0012,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-14,Alta
+0123,0053,Carregadeira,Superaquecimento do motor,2024-10-16,Alta
+0124,0014,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-01,Alta
+0125,0053,Carregadeira,Danos na caçamba de carga,2024-05-08,Alta
+0126,0052,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-05-16,Crítica
+0127,0012,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-29,Alta
+0128,0042,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-06-25,Crítica
+0129,0066,Carregadeira,Desgaste dos pneus,2024-04-15,Crítica
+0130,0053,Carregadeira,Desgaste dos pneus,2024-04-29,Média
+0131,0067,Perfuratriz,Vazamento de combustível,2024-04-07,Crítica
+0132,0057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-30,Média
+0133,0035,Carregadeira,Falha no sistema hidráulico,2024-02-16,Alta
+0134,0057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-07,Baixa
+0135,0004,Perfuratriz,Falha no compressor de ar,2024-03-15,Média
+0136,0040,Carregadeira,Desgaste dos pneus,2024-05-02,Crítica
+0137,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-16,Baixa
+0138,0060,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-15,Média
+0139,0064,Carregadeira,Superaquecimento do motor,2024-07-27,Alta
+0140,0054,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-23,Crítica
+0141,0032,Carregadeira,Danos na caçamba de carga,2024-09-25,Média
+0142,0050,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-03-12,Média
+0143,0009,Escavadeira Hidráulica,Falha no sistema de rotação,2024-03-15,Crítica
+0144,0044,Escavadeira Hidráulica,Falha no sistema de rotação,2024-03-25,Baixa
+0145,0037,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-13,Crítica
+0146,0020,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-07-07,Crítica
+0147,0045,Britador Primário,Falha no motor elétrico,2024-04-17,Crítica
+0148,0059,Carregadeira,Superaquecimento do motor,2024-10-08,Média
+0149,0031,Carregadeira,Danos na caçamba de carga,2024-08-16,Média
+0150,0053,Carregadeira,Desgaste dos pneus,2024-10-22,Alta
+0151,0061,Perfuratriz,Quebra do motor de perfuração,2024-07-22,Crítica
+0152,0020,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-19,Baixa
+0153,0017,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-04-19,Baixa
+0154,0057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-09,Crítica
+0155,0002,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-19,Crítica
+0156,0020,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-03-16,Crítica
+0157,0034,Perfuratriz,Vazamento de combustível,2024-04-25,Crítica
+0158,0011,Britador Primário,Falha no motor elétrico,2024-03-29,Crítica
+0159,0041,Carregadeira,Danos na caçamba de carga,2024-05-20,Baixa
+0160,0009,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-03-10,Alta
+0161,0030,Britador Primário,Bloqueio por material,2024-04-27,Crítica
+0162,0013,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-01-06,Crítica
+0163,0022,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-01,Baixa
+0164,0006,Perfuratriz,Vazamento de combustível,2024-07-26,Baixa
+0165,0038,Britador Primário,Falha no motor elétrico,2024-02-19,Alta
+0166,0056,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-16,Média
+0167,0068,Carregadeira,Danos na caçamba de carga,2024-01-18,Média
+0168,0022,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-01-22,Baixa
+0169,0049,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-02,Crítica
+0170,0019,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-23,Crítica
+0171,0033,Perfuratriz,Quebra do motor de perfuração,2024-09-27,Alta
+0172,0002,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-19,Alta
+0173,0070,Perfuratriz,Falha no compressor de ar,2024-09-04,Baixa
+0174,0057,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-03,Alta
+0175,0055,Perfuratriz,Vazamento de combustível,2024-10-19,Crítica
+0176,0039,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-09,Crítica
+0177,0062,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-09,Média
+0178,0049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-04,Alta
+0179,0038,Britador Primário,Bloqueio por material,2024-01-05,Crítica
+0180,0036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-10,Baixa
+0181,0064,Carregadeira,Superaquecimento do motor,2024-04-20,Média
+0182,0046,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-07-01,Média
+0183,0033,Perfuratriz,Falha no compressor de ar,2024-07-04,Baixa
+0184,0006,Perfuratriz,Vazamento de combustível,2024-06-20,Crítica
+0185,0005,Perfuratriz,Vazamento de combustível,2024-05-12,Média
+0186,0012,Escavadeira Hidráulica,Falha no sistema de rotação,2024-03-12,Alta
+0187,0054,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-01-20,Média
+0188,0017,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-04-08,Alta
+0189,0022,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-30,Crítica
+0190,0038,Britador Primário,Falha no motor elétrico,2024-07-04,Baixa
+0191,0060,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-14,Média
+0192,0029,Perfuratriz,Quebra do motor de perfuração,2024-11-15,Alta
+0193,0012,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-01-26,Baixa
+0194,0034,Perfuratriz,Desgaste da broca,2024-06-04,Crítica
+0195,0048,Britador Primário,Falha no motor elétrico,2024-07-09,Crítica
+0196,0048,Britador Primário,Bloqueio por material,2024-01-29,Média
+0197,0061,Perfuratriz,Desgaste da broca,2024-08-12,Alta
+0198,0029,Perfuratriz,Desgaste da broca,2024-09-01,Crítica
+0199,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-23,Baixa
+0200,0018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-01-21,Baixa
+0201,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-28,Baixa
+0202,0013,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-27,Média
+0203,0050,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-11-11,Alta
+0204,0070,Perfuratriz,Quebra do motor de perfuração,2024-08-06,Média
+0205,0054,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-27,Crítica
+0206,0053,Carregadeira,Superaquecimento do motor,2024-02-03,Baixa
+0207,0048,Britador Primário,Desgaste das mandíbulas,2024-04-06,Crítica
+0208,0057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-16,Alta
+0209,0013,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-04,Alta
+0210,0008,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-23,Alta
+0211,0025,Britador Primário,Bloqueio por material,2024-06-10,Crítica
+0212,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-23,Baixa
+0213,0007,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-19,Média
+0214,0017,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-03,Baixa
+0215,0027,Carregadeira,Falha no sistema hidráulico,2024-08-28,Média
+0216,0043,Carregadeira,Falha no sistema hidráulico,2024-03-28,Baixa
+0217,0036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-10-28,Média
+0218,0070,Perfuratriz,Vazamento de combustível,2024-07-21,Média
+0219,0015,Perfuratriz,Desgaste da broca,2024-05-27,Média
+0220,0002,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-23,Média
+0221,0042,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-12-18,Média
+0222,0034,Perfuratriz,Desgaste da broca,2024-06-20,Média
+0223,0054,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-25,Baixa
+0224,0061,Perfuratriz,Quebra do motor de perfuração,2024-11-30,Alta
+0225,0066,Carregadeira,Desgaste dos pneus,2024-08-16,Crítica
+0226,0065,Britador Primário,Desgaste das mandíbulas,2024-06-15,Baixa
+0227,0067,Perfuratriz,Vazamento de combustível,2024-04-28,Crítica
+0228,0004,Perfuratriz,Desgaste da broca,2024-08-08,Crítica
+0229,0052,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-29,Baixa
+0230,0063,Britador Primário,Rompimento de correias,2024-01-24,Baixa
+0231,0011,Britador Primário,Falha no motor elétrico,2024-08-24,Média
+0232,0009,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-10-14,Alta
+0233,0042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-02-08,Alta
+0234,0059,Carregadeira,Danos na caçamba de carga,2024-10-23,Baixa
+0235,0015,Perfuratriz,Falha no compressor de ar,2024-03-21,Crítica
+0236,0058,Perfuratriz,Falha no compressor de ar,2024-08-30,Crítica
+0237,0044,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-03-22,Crítica
+0238,0054,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-12,Alta
+0239,0055,Perfuratriz,Vazamento de combustível,2024-09-13,Alta
+0240,0048,Britador Primário,Desgaste das mandíbulas,2024-02-01,Crítica
+0241,0009,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-01,Baixa
+0242,0012,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-03,Baixa
+0243,0048,Britador Primário,Desgaste das mandíbulas,2024-03-08,Baixa
+0244,0043,Carregadeira,Desgaste dos pneus,2024-08-02,Crítica
+0245,0046,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-01-30,Baixa
+0246,0037,Escavadeira Hidráulica,Falha no sistema de rotação,2024-03-01,Alta
+0247,0014,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-01-02,Média
+0248,0062,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-06-07,Baixa
+0249,0045,Britador Primário,Falha no motor elétrico,2024-06-23,Baixa
+0250,0036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-09-24,Crítica
+0251,0004,Perfuratriz,Vazamento de combustível,2024-08-18,Baixa
+0252,0024,Perfuratriz,Vazamento de combustível,2024-07-01,Alta
+0253,0044,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-23,Baixa
+0254,0024,Perfuratriz,Falha no compressor de ar,2024-01-13,Crítica
+0255,0009,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-03-30,Baixa
+0256,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-21,Crítica
+0257,0054,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-01,Alta
+0258,0021,Perfuratriz,Vazamento de combustível,2024-04-19,Alta
+0259,0042,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-09-30,Baixa
+0260,0020,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-29,Baixa
+0261,0011,Britador Primário,Falha no motor elétrico,2024-06-25,Crítica
+0262,0055,Perfuratriz,Quebra do motor de perfuração,2024-01-28,Crítica
+0263,0054,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-23,Média
+0264,0066,Carregadeira,Desgaste dos pneus,2024-03-31,Alta
+0265,0056,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-24,Alta
+0266,0063,Britador Primário,Falha no motor elétrico,2024-04-12,Baixa
+0267,0029,Perfuratriz,Quebra do motor de perfuração,2024-11-01,Baixa
+0268,0001,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-03,Alta
+0269,0028,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-30,Alta
+0270,0038,Britador Primário,Falha no motor elétrico,2024-08-17,Baixa
+0271,0001,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-13,Crítica
+0272,0023,Britador Primário,Desgaste das mandíbulas,2024-11-08,Crítica
+0273,0069,Carregadeira,Falha no sistema hidráulico,2024-12-28,Alta
+0274,0010,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-03-17,Baixa
+0275,0056,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-14,Crítica
+0276,0010,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-02-14,Crítica
+0277,0052,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-07-30,Alta
+0278,0015,Perfuratriz,Quebra do motor de perfuração,2024-03-28,Baixa
+0279,0042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-09-08,Crítica
+0280,0047,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-27,Crítica
+0281,0014,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-18,Crítica
+0282,0052,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-13,Crítica
+0283,0040,Carregadeira,Superaquecimento do motor,2024-11-17,Média
+0284,0043,Carregadeira,Falha no sistema hidráulico,2024-02-25,Baixa
+0285,0066,Carregadeira,Desgaste dos pneus,2024-01-28,Média
+0286,0045,Britador Primário,Falha no motor elétrico,2024-01-24,Média
+0287,0031,Carregadeira,Desgaste dos pneus,2024-03-05,Média
+0288,0033,Perfuratriz,Falha no compressor de ar,2024-11-03,Média
+0289,0020,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-29,Média
+0290,0064,Carregadeira,Danos na caçamba de carga,2024-08-19,Crítica
+0291,0042,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-17,Média
+0292,0057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-16,Crítica
+0293,0057,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-09,Alta
+0294,0008,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-23,Baixa
+0295,0040,Carregadeira,Danos na caçamba de carga,2024-04-22,Crítica
+0296,0005,Perfuratriz,Desgaste da broca,2024-06-19,Alta
+0297,0037,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-18,Baixa
+0298,0065,Britador Primário,Rompimento de correias,2024-07-01,Crítica
+0299,0006,Perfuratriz,Quebra do motor de perfuração,2024-09-24,Média
+0300,0042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-04-28,Média
+0301,0008,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-09-28,Baixa
+0302,0044,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-05,Média
+0303,0006,Perfuratriz,Falha no compressor de ar,2024-04-15,Crítica
+0304,0057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-13,Alta
+0305,0048,Britador Primário,Falha no motor elétrico,2024-07-28,Crítica
+0306,0053,Carregadeira,Superaquecimento do motor,2024-07-10,Baixa
+0307,0043,Carregadeira,Desgaste dos pneus,2024-06-19,Alta
+0308,0013,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-01,Alta
+0309,0033,Perfuratriz,Falha no compressor de ar,2024-08-20,Alta
+0310,0011,Britador Primário,Desgaste das mandíbulas,2024-01-16,Alta
+0311,0040,Carregadeira,Danos na caçamba de carga,2024-12-11,Média
+0312,0011,Britador Primário,Falha no motor elétrico,2024-06-16,Crítica
+0313,0043,Carregadeira,Falha no sistema hidráulico,2024-10-12,Baixa
+0314,0055,Perfuratriz,Vazamento de combustível,2024-05-05,Baixa
+0315,0047,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-22,Média
+0316,0028,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-07,Crítica
+0317,0025,Britador Primário,Desgaste das mandíbulas,2024-01-11,Média
+0318,0020,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-02-05,Alta
+0319,0013,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-29,Alta
+0320,0017,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-09-18,Média
+0321,0021,Perfuratriz,Falha no compressor de ar,2024-11-20,Média
+0322,0057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-30,Crítica
+0323,0047,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-11,Crítica
+0324,0037,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-16,Média
+0325,0069,Carregadeira,Falha no sistema hidráulico,2024-01-09,Alta
+0326,0061,Perfuratriz,Falha no compressor de ar,2024-10-24,Alta
+0327,0057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-18,Alta
+0328,0049,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-15,Média
+0329,0026,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-14,Alta
+0330,0007,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-11,Alta
+0331,0014,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-01-16,Alta
+0332,0011,Britador Primário,Desgaste das mandíbulas,2024-10-23,Alta
+0333,0058,Perfuratriz,Falha no compressor de ar,2024-10-20,Crítica
+0334,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-03-09,Crítica
+0335,0045,Britador Primário,Bloqueio por material,2024-07-01,Crítica
+0336,0007,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-07-20,Alta
+0337,0031,Carregadeira,Danos na caçamba de carga,2024-09-10,Baixa
+0338,0048,Britador Primário,Desgaste das mandíbulas,2024-06-20,Baixa
+0339,0041,Carregadeira,Desgaste dos pneus,2024-12-21,Alta
+0340,0019,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-18,Baixa
+0341,0037,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-03-11,Média
+0342,0061,Perfuratriz,Quebra do motor de perfuração,2024-08-15,Baixa
+0343,0011,Britador Primário,Bloqueio por material,2024-06-18,Alta
+0344,0028,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-09-03,Crítica
+0345,0015,Perfuratriz,Vazamento de combustível,2024-11-12,Média
+0346,0039,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-09,Baixa
+0347,0031,Carregadeira,Danos na caçamba de carga,2024-02-05,Crítica
+0348,0009,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-01,Crítica
+0349,0069,Carregadeira,Desgaste dos pneus,2024-05-15,Média
+0350,0019,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-07,Crítica
+0351,0001,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-09,Média
+0352,0054,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-04,Baixa
+0353,0068,Carregadeira,Superaquecimento do motor,2024-09-17,Baixa
+0354,0068,Carregadeira,Desgaste dos pneus,2024-02-10,Crítica
+0355,0061,Perfuratriz,Desgaste da broca,2024-11-29,Crítica
+0356,0048,Britador Primário,Falha no motor elétrico,2024-03-03,Baixa
+0357,0046,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-05-08,Alta
+0358,0031,Carregadeira,Desgaste dos pneus,2024-06-08,Alta
+0359,0018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-09-26,Alta
+0360,0070,Perfuratriz,Vazamento de combustível,2024-07-11,Média
+0361,0060,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-21,Média
+0362,0018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-09-14,Crítica
+0363,0005,Perfuratriz,Vazamento de combustível,2024-06-04,Média
+0364,0006,Perfuratriz,Falha no compressor de ar,2024-11-11,Baixa
+0365,0041,Carregadeira,Superaquecimento do motor,2024-10-22,Crítica
+0366,0070,Perfuratriz,Quebra do motor de perfuração,2024-08-01,Alta
+0367,0005,Perfuratriz,Falha no compressor de ar,2024-01-15,Alta
+0368,0046,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-06-25,Alta
+0369,0035,Carregadeira,Desgaste dos pneus,2024-02-04,Alta
+0370,0056,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-02,Crítica
+0371,0050,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-04-08,Média
+0372,0064,Carregadeira,Danos na caçamba de carga,2024-05-05,Alta
+0373,0067,Perfuratriz,Vazamento de combustível,2024-02-15,Baixa
+0374,0055,Perfuratriz,Desgaste da broca,2024-10-27,Crítica
+0375,0024,Perfuratriz,Vazamento de combustível,2024-06-05,Alta
+0376,0014,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-01,Alta
+0377,0038,Britador Primário,Falha no motor elétrico,2024-07-18,Crítica
+0378,0055,Perfuratriz,Falha no compressor de ar,2024-11-16,Crítica
+0379,0045,Britador Primário,Rompimento de correias,2024-01-01,Baixa
+0380,0046,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-09-12,Alta
+0381,0008,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-12-03,Crítica
+0382,0047,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-29,Baixa
+0383,0019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-28,Baixa
+0384,0017,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-06-09,Média
+0385,0047,Escavadeira Hidráulica,Falha no sistema de rotação,2024-01-22,Crítica
+0386,0005,Perfuratriz,Falha no compressor de ar,2024-03-13,Crítica
+0387,0048,Britador Primário,Falha no motor elétrico,2024-07-20,Crítica
+0388,0010,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-20,Alta
+0389,0051,Carregadeira,Superaquecimento do motor,2024-08-29,Alta
+0390,0032,Carregadeira,Desgaste dos pneus,2024-10-20,Baixa
+0391,0024,Perfuratriz,Quebra do motor de perfuração,2024-07-12,Crítica
+0392,0016,Perfuratriz,Vazamento de combustível,2024-08-30,Alta
+0393,0058,Perfuratriz,Falha no compressor de ar,2024-06-20,Alta
+0394,0063,Britador Primário,Desgaste das mandíbulas,2024-10-22,Baixa
+0395,0018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-01-21,Crítica
+0396,0023,Britador Primário,Rompimento de correias,2024-03-20,Baixa
+0397,0041,Carregadeira,Superaquecimento do motor,2024-04-13,Baixa
+0398,0070,Perfuratriz,Vazamento de combustível,2024-08-01,Alta
+0399,0021,Perfuratriz,Falha no compressor de ar,2024-02-20,Alta
+0400,0066,Carregadeira,Falha no sistema hidráulico,2024-12-26,Baixa
+0401,0026,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-21,Média
+0402,0064,Carregadeira,Desgaste dos pneus,2024-06-19,Alta
+0403,0048,Britador Primário,Rompimento de correias,2024-12-08,Média
+0404,0012,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-09-28,Alta
+0405,0051,Carregadeira,Danos na caçamba de carga,2024-07-07,Crítica
+0406,0053,Carregadeira,Desgaste dos pneus,2024-02-17,Média
+0407,0041,Carregadeira,Desgaste dos pneus,2024-01-12,Crítica
+0408,0060,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-01,Média
+0409,0024,Perfuratriz,Falha no compressor de ar,2024-08-24,Crítica
+0410,0065,Britador Primário,Bloqueio por material,2024-11-06,Baixa
+0411,0067,Perfuratriz,Falha no compressor de ar,2024-04-02,Alta
+0412,0022,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-10-02,Alta
+0413,0029,Perfuratriz,Vazamento de combustível,2024-03-02,Alta
+0414,0011,Britador Primário,Falha no motor elétrico,2024-04-30,Média
+0415,0036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-01,Alta
+0416,0069,Carregadeira,Desgaste dos pneus,2024-01-06,Média
+0417,0020,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-02,Alta
+0418,0006,Perfuratriz,Desgaste da broca,2024-06-07,Baixa
+0419,0006,Perfuratriz,Vazamento de combustível,2024-02-06,Média
+0420,0054,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-03-28,Crítica
+0421,0070,Perfuratriz,Vazamento de combustível,2024-11-22,Alta
+0422,0062,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-20,Crítica
+0423,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-14,Baixa
+0424,0008,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-06-28,Crítica
+0425,0054,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-02-15,Crítica
+0426,0027,Carregadeira,Superaquecimento do motor,2024-09-08,Média
+0427,0041,Carregadeira,Superaquecimento do motor,2024-11-19,Alta
+0428,0052,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-02-29,Alta
+0429,0066,Carregadeira,Desgaste dos pneus,2024-07-12,Alta
+0430,0031,Carregadeira,Danos na caçamba de carga,2024-12-28,Baixa
+0431,0035,Carregadeira,Danos na caçamba de carga,2024-10-05,Média
+0432,0019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-23,Baixa
+0433,0038,Britador Primário,Rompimento de correias,2024-07-16,Crítica
+0434,0032,Carregadeira,Falha no sistema hidráulico,2024-09-30,Alta
+0435,0041,Carregadeira,Falha no sistema hidráulico,2024-04-16,Média
+0436,0064,Carregadeira,Danos na caçamba de carga,2024-06-10,Crítica
+0437,0040,Carregadeira,Danos na caçamba de carga,2024-11-20,Baixa
+0438,0012,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-07-06,Crítica
+0439,0031,Carregadeira,Falha no sistema hidráulico,2024-07-02,Alta
+0440,0007,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-04,Alta
+0441,0064,Carregadeira,Danos na caçamba de carga,2024-06-26,Alta
+0442,0069,Carregadeira,Desgaste dos pneus,2024-08-02,Baixa
+0443,0056,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-26,Alta
+0444,0047,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-28,Alta
+0445,0006,Perfuratriz,Quebra do motor de perfuração,2024-03-15,Baixa
+0446,0025,Britador Primário,Falha no motor elétrico,2024-12-24,Alta
+0447,0010,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-20,Crítica
+0448,0036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-16,Média
+0449,0013,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-16,Alta
+0450,0044,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-07,Média
+0451,0026,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-02-23,Baixa
+0452,0006,Perfuratriz,Desgaste da broca,2024-12-01,Média
+0453,0043,Carregadeira,Danos na caçamba de carga,2024-01-28,Crítica
+0454,0020,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-17,Alta
+0455,0041,Carregadeira,Falha no sistema hidráulico,2024-10-27,Crítica
+0456,0039,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-02,Crítica
+0457,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-27,Baixa
+0458,0048,Britador Primário,Falha no motor elétrico,2024-06-10,Baixa
+0459,0054,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-05-11,Baixa
+0460,0061,Perfuratriz,Vazamento de combustível,2024-12-28,Média
+0461,0007,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-01,Média
+0462,0068,Carregadeira,Danos na caçamba de carga,2024-07-16,Média
+0463,0032,Carregadeira,Desgaste dos pneus,2024-04-13,Baixa
+0464,0025,Britador Primário,Bloqueio por material,2024-11-14,Crítica
+0465,0041,Carregadeira,Danos na caçamba de carga,2024-01-01,Média
+0466,0053,Carregadeira,Falha no sistema hidráulico,2024-04-19,Crítica
+0467,0065,Britador Primário,Rompimento de correias,2024-10-08,Baixa
+0468,0018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-25,Alta
+0469,0062,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-21,Alta
+0470,0023,Britador Primário,Rompimento de correias,2024-08-15,Alta
+0471,0070,Perfuratriz,Vazamento de combustível,2024-08-13,Alta
+0472,0062,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-09-13,Média
+0473,0036,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-09,Média
+0474,0039,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-02,Média
+0475,0063,Britador Primário,Falha no motor elétrico,2024-02-27,Crítica
+0476,0045,Britador Primário,Falha no motor elétrico,2024-06-22,Alta
+0477,0016,Perfuratriz,Quebra do motor de perfuração,2024-07-28,Crítica
+0478,0045,Britador Primário,Desgaste das mandíbulas,2024-07-07,Alta
+0479,0006,Perfuratriz,Vazamento de combustível,2024-05-14,Baixa
+0480,0045,Britador Primário,Rompimento de correias,2024-05-09,Alta
+0481,0062,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-02,Média
+0482,0069,Carregadeira,Superaquecimento do motor,2024-10-23,Alta
+0483,0018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-07-30,Média
+0484,0032,Carregadeira,Desgaste dos pneus,2024-05-26,Média
+0485,0030,Britador Primário,Bloqueio por material,2024-06-25,Baixa
+0486,0053,Carregadeira,Superaquecimento do motor,2024-12-28,Crítica
+0487,0013,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-04,Baixa
+0488,0021,Perfuratriz,Quebra do motor de perfuração,2024-12-03,Crítica
+0489,0062,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-03-14,Alta
+0490,0042,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-27,Baixa
+0491,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-02,Baixa
+0492,0023,Britador Primário,Rompimento de correias,2024-08-10,Média
+0493,0005,Perfuratriz,Quebra do motor de perfuração,2024-05-28,Crítica
+0494,0024,Perfuratriz,Vazamento de combustível,2024-03-31,Baixa
+0495,0002,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-28,Baixa
+0496,0043,Carregadeira,Superaquecimento do motor,2024-10-28,Crítica
+0497,0070,Perfuratriz,Quebra do motor de perfuração,2024-06-08,Média
+0498,0065,Britador Primário,Rompimento de correias,2024-01-17,Alta
+0499,0025,Britador Primário,Bloqueio por material,2024-05-03,Alta
+0500,0021,Perfuratriz,Quebra do motor de perfuração,2024-10-16,Alta
+0501,0024,Perfuratriz,Desgaste da broca,2024-07-02,Alta
+0502,0038,Britador Primário,Desgaste das mandíbulas,2024-09-30,Média
+0503,0052,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-12-20,Alta
+0504,0012,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-11,Baixa
+0505,0024,Perfuratriz,Falha no compressor de ar,2024-05-28,Crítica
+0506,0042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-29,Baixa
+0507,0034,Perfuratriz,Quebra do motor de perfuração,2024-09-14,Média
+0508,0058,Perfuratriz,Vazamento de combustível,2024-11-03,Alta
+0509,0039,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-14,Alta
+0510,0047,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-09-10,Baixa
+0511,0016,Perfuratriz,Quebra do motor de perfuração,2024-02-29,Alta
+0512,0021,Perfuratriz,Quebra do motor de perfuração,2024-07-11,Alta
+0513,0016,Perfuratriz,Vazamento de combustível,2024-01-15,Alta
+0514,0029,Perfuratriz,Falha no compressor de ar,2024-02-19,Média
+0515,0062,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-14,Crítica
+0516,0048,Britador Primário,Rompimento de correias,2024-08-17,Crítica
+0517,0069,Carregadeira,Falha no sistema hidráulico,2024-05-08,Média
+0518,0011,Britador Primário,Rompimento de correias,2024-12-03,Alta
+0519,0010,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-02-08,Baixa
+0520,0065,Britador Primário,Desgaste das mandíbulas,2024-12-05,Média
+0521,0022,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-24,Crítica
+0522,0015,Perfuratriz,Falha no compressor de ar,2024-06-19,Crítica
+0523,0012,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-08,Baixa
+0524,0059,Carregadeira,Falha no sistema hidráulico,2024-07-23,Crítica
+0525,0059,Carregadeira,Desgaste dos pneus,2024-12-19,Crítica
+0526,0040,Carregadeira,Desgaste dos pneus,2024-06-26,Crítica
+0527,0033,Perfuratriz,Desgaste da broca,2024-01-06,Média
+0528,0010,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-10-07,Crítica
+0529,0045,Britador Primário,Bloqueio por material,2024-02-25,Baixa
+0530,0009,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-08,Baixa
+0531,0037,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-04,Média
+0532,0018,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-09-11,Alta
+0533,0049,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-29,Crítica
+0534,0049,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-01-30,Média
+0535,0045,Britador Primário,Bloqueio por material,2024-07-01,Média
+0536,0069,Carregadeira,Danos na caçamba de carga,2024-10-30,Média
+0537,0029,Perfuratriz,Desgaste da broca,2024-04-12,Baixa
+0538,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-11,Crítica
+0539,0069,Carregadeira,Danos na caçamba de carga,2024-08-30,Média
+0540,0032,Carregadeira,Danos na caçamba de carga,2024-09-26,Alta
+0541,0020,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-06-03,Média
+0542,0015,Perfuratriz,Desgaste da broca,2024-09-09,Crítica
+0543,0003,Carregadeira,Falha no sistema hidráulico,2024-02-01,Média
+0544,0009,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-26,Baixa
+0545,0058,Perfuratriz,Desgaste da broca,2024-05-07,Média
+0546,0006,Perfuratriz,Quebra do motor de perfuração,2024-11-27,Crítica
+0547,0030,Britador Primário,Desgaste das mandíbulas,2024-09-18,Baixa
+0548,0018,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-29,Média
+0549,0041,Carregadeira,Superaquecimento do motor,2024-07-26,Média
+0550,0039,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-27,Média
+0551,0053,Carregadeira,Superaquecimento do motor,2024-05-02,Alta
+0552,0008,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-31,Crítica
+0553,0064,Carregadeira,Desgaste dos pneus,2024-10-06,Alta
+0554,0049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-10,Crítica
+0555,0053,Carregadeira,Falha no sistema hidráulico,2024-10-21,Alta
+0556,0049,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-08,Crítica
+0557,0031,Carregadeira,Falha no sistema hidráulico,2024-12-04,Alta
+0558,0019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-07-29,Baixa
+0559,0053,Carregadeira,Danos na caçamba de carga,2024-01-14,Média
+0560,0050,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-27,Alta
+0561,0027,Carregadeira,Superaquecimento do motor,2024-01-27,Baixa
+0562,0058,Perfuratriz,Vazamento de combustível,2024-04-01,Baixa
+0563,0069,Carregadeira,Falha no sistema hidráulico,2024-09-02,Baixa
+0564,0035,Carregadeira,Danos na caçamba de carga,2024-09-22,Baixa
+0565,0010,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-12-23,Média
+0566,0062,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-21,Alta
+0567,0039,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-29,Média
+0568,0025,Britador Primário,Bloqueio por material,2024-10-17,Crítica
+0569,0032,Carregadeira,Falha no sistema hidráulico,2024-02-05,Crítica
+0570,0031,Carregadeira,Superaquecimento do motor,2024-06-17,Alta
+0571,0049,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-08,Alta
+0572,0040,Carregadeira,Superaquecimento do motor,2024-10-22,Alta
+0573,0066,Carregadeira,Danos na caçamba de carga,2024-09-03,Crítica
+0574,0013,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-30,Alta
+0575,0027,Carregadeira,Superaquecimento do motor,2024-12-04,Alta
+0576,0053,Carregadeira,Desgaste dos pneus,2024-02-09,Média
+0577,0019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-21,Alta
+0578,0054,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-03-05,Média
+0579,0026,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-26,Média
+0580,0049,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-26,Crítica
+0581,0044,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-16,Crítica
+0582,0063,Britador Primário,Rompimento de correias,2024-01-12,Média
+0583,0046,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-01-18,Média
+0584,0070,Perfuratriz,Quebra do motor de perfuração,2024-05-05,Média
+0585,0070,Perfuratriz,Desgaste da broca,2024-11-05,Baixa
+0586,0010,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-01-22,Baixa
+0587,0053,Carregadeira,Falha no sistema hidráulico,2024-04-23,Média
+0588,0009,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-19,Baixa
+0589,0028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-25,Alta
+0590,0008,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-06-16,Crítica
+0591,0003,Carregadeira,Desgaste dos pneus,2024-02-26,Crítica
+0592,0002,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-04,Alta
+0593,0069,Carregadeira,Superaquecimento do motor,2024-07-25,Baixa
+0594,0065,Britador Primário,Rompimento de correias,2024-06-09,Média
+0595,0014,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-07,Média
+0596,0031,Carregadeira,Falha no sistema hidráulico,2024-09-21,Alta
+0597,0046,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-03,Crítica
+0598,0011,Britador Primário,Falha no motor elétrico,2024-03-10,Crítica
+0599,0059,Carregadeira,Falha no sistema hidráulico,2024-03-07,Média
+0600,0039,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-08,Baixa
+0601,0012,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-01-31,Crítica
+0602,0049,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-24,Baixa
+0603,0002,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-04,Baixa
+0604,0064,Carregadeira,Danos na caçamba de carga,2024-05-28,Alta
+0605,0013,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-28,Média
+0606,0028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-22,Alta
+0607,0006,Perfuratriz,Desgaste da broca,2024-04-03,Alta
+0608,0070,Perfuratriz,Desgaste da broca,2024-07-12,Média
+0609,0041,Carregadeira,Desgaste dos pneus,2024-12-20,Média
+0610,0019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-14,Baixa
+0611,0039,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-25,Média
+0612,0050,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-03-31,Crítica
+0613,0018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-06-28,Alta
+0614,0007,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-09-04,Crítica
+0615,0030,Britador Primário,Bloqueio por material,2024-04-08,Alta
+0616,0051,Carregadeira,Superaquecimento do motor,2024-06-27,Baixa
+0617,0035,Carregadeira,Danos na caçamba de carga,2024-04-09,Crítica
+0618,0030,Britador Primário,Falha no motor elétrico,2024-09-15,Crítica
+0619,0056,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-01-04,Crítica
+0620,0011,Britador Primário,Falha no motor elétrico,2024-12-15,Média
+0621,0010,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-11-08,Alta
+0622,0020,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-06-29,Média
+0623,0050,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-15,Alta
+0624,0014,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-21,Baixa
+0625,0040,Carregadeira,Danos na caçamba de carga,2024-09-20,Alta
+0626,0035,Carregadeira,Desgaste dos pneus,2024-07-31,Média
+0627,0012,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-03-02,Crítica
+0628,0058,Perfuratriz,Quebra do motor de perfuração,2024-01-29,Baixa
+0629,0004,Perfuratriz,Desgaste da broca,2024-06-20,Alta
+0630,0012,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-14,Crítica
+0631,0002,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-16,Crítica
+0632,0050,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-26,Média
+0633,0067,Perfuratriz,Falha no compressor de ar,2024-09-05,Crítica
+0634,0022,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-06-13,Alta
+0635,0039,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-25,Crítica
+0636,0019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-07,Média
+0637,0056,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-26,Crítica
+0638,0039,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-24,Baixa
+0639,0047,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-27,Média
+0640,0064,Carregadeira,Falha no sistema hidráulico,2024-03-18,Crítica
+0641,0014,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-29,Alta
+0642,0001,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-27,Alta
+0643,0049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-06,Crítica
+0644,0043,Carregadeira,Danos na caçamba de carga,2024-02-11,Média
+0645,0039,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-02,Média
+0646,0062,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-28,Média
+0647,0051,Carregadeira,Superaquecimento do motor,2024-08-10,Alta
+0648,0063,Britador Primário,Desgaste das mandíbulas,2024-05-19,Alta
+0649,0049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-11,Crítica
+0650,0047,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-24,Média
+0651,0070,Perfuratriz,Falha no compressor de ar,2024-09-28,Baixa
+0652,0060,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-24,Crítica
+0653,0038,Britador Primário,Bloqueio por material,2024-01-09,Crítica
+0654,0064,Carregadeira,Falha no sistema hidráulico,2024-11-18,Alta
+0655,0031,Carregadeira,Superaquecimento do motor,2024-09-12,Média
+0656,0055,Perfuratriz,Quebra do motor de perfuração,2024-06-02,Baixa
+0657,0058,Perfuratriz,Quebra do motor de perfuração,2024-04-16,Crítica
+0658,0069,Carregadeira,Danos na caçamba de carga,2024-01-04,Baixa
+0659,0047,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-07,Baixa
+0660,0032,Carregadeira,Superaquecimento do motor,2024-12-01,Média
+0661,0006,Perfuratriz,Quebra do motor de perfuração,2024-09-23,Alta
+0662,0056,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-29,Baixa
+0663,0013,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-16,Média
+0664,0066,Carregadeira,Falha no sistema hidráulico,2024-01-20,Crítica
+0665,0048,Britador Primário,Rompimento de correias,2024-12-19,Crítica
+0666,0065,Britador Primário,Desgaste das mandíbulas,2024-08-23,Alta
+0667,0004,Perfuratriz,Quebra do motor de perfuração,2024-10-16,Baixa
+0668,0038,Britador Primário,Rompimento de correias,2024-07-11,Baixa
+0669,0015,Perfuratriz,Falha no compressor de ar,2024-11-19,Alta
+0670,0040,Carregadeira,Superaquecimento do motor,2024-12-17,Crítica
+0671,0027,Carregadeira,Danos na caçamba de carga,2024-12-16,Alta
+0672,0061,Perfuratriz,Desgaste da broca,2024-04-21,Crítica
+0673,0058,Perfuratriz,Vazamento de combustível,2024-10-28,Baixa
+0674,0039,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-06,Baixa
+0675,0003,Carregadeira,Superaquecimento do motor,2024-03-30,Baixa
+0676,0022,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-23,Média
+0677,0021,Perfuratriz,Vazamento de combustível,2024-11-07,Crítica
+0678,0060,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-16,Crítica
+0679,0024,Perfuratriz,Falha no compressor de ar,2024-03-26,Crítica
+0680,0051,Carregadeira,Desgaste dos pneus,2024-09-04,Média
+0681,0058,Perfuratriz,Quebra do motor de perfuração,2024-03-14,Crítica
+0682,0001,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-29,Média
+0683,0036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-07,Baixa
+0684,0069,Carregadeira,Falha no sistema hidráulico,2024-09-20,Alta
+0685,0042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-10-20,Crítica
+0686,0015,Perfuratriz,Vazamento de combustível,2024-10-06,Crítica
+0687,0068,Carregadeira,Superaquecimento do motor,2024-10-25,Crítica
+0688,0051,Carregadeira,Desgaste dos pneus,2024-09-13,Alta
+0689,0046,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-09-21,Média
+0690,0039,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-21,Média
+0691,0041,Carregadeira,Desgaste dos pneus,2024-02-23,Média
+0692,0040,Carregadeira,Desgaste dos pneus,2024-08-31,Média
+0693,0048,Britador Primário,Desgaste das mandíbulas,2024-02-07,Crítica
+0694,0054,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-12-16,Crítica
+0695,0055,Perfuratriz,Falha no compressor de ar,2024-08-31,Crítica
+0696,0069,Carregadeira,Falha no sistema hidráulico,2024-09-08,Média
+0697,0063,Britador Primário,Falha no motor elétrico,2024-01-16,Média
+0698,0024,Perfuratriz,Vazamento de combustível,2024-04-29,Crítica
+0699,0007,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-02,Baixa
+0700,0063,Britador Primário,Desgaste das mandíbulas,2024-06-20,Média
+0701,0050,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-01-13,Crítica
+0702,0063,Britador Primário,Rompimento de correias,2024-08-13,Crítica
+0703,0063,Britador Primário,Desgaste das mandíbulas,2024-05-21,Baixa
+0704,0004,Perfuratriz,Falha no compressor de ar,2024-10-11,Alta
+0705,0005,Perfuratriz,Vazamento de combustível,2024-02-21,Média
+0706,0069,Carregadeira,Superaquecimento do motor,2024-02-05,Média
+0707,0059,Carregadeira,Danos na caçamba de carga,2024-12-19,Baixa
+0708,0015,Perfuratriz,Vazamento de combustível,2024-04-24,Alta
+0709,0070,Perfuratriz,Desgaste da broca,2024-05-06,Crítica
+0710,0070,Perfuratriz,Falha no compressor de ar,2024-10-17,Crítica
+0711,0014,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-06-10,Alta
+0712,0005,Perfuratriz,Quebra do motor de perfuração,2024-03-09,Alta
+0713,0045,Britador Primário,Bloqueio por material,2024-03-18,Crítica
+0714,0016,Perfuratriz,Falha no compressor de ar,2024-02-21,Média
+0715,0045,Britador Primário,Rompimento de correias,2024-11-01,Média
+0716,0018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-07-28,Média
+0717,0008,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-06,Alta
+0718,0069,Carregadeira,Falha no sistema hidráulico,2024-05-22,Alta
+0719,0038,Britador Primário,Falha no motor elétrico,2024-07-25,Alta
+0720,0066,Carregadeira,Desgaste dos pneus,2024-07-13,Média
+0721,0053,Carregadeira,Desgaste dos pneus,2024-12-20,Alta
+0722,0017,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-15,Média
+0723,0019,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-18,Média
+0724,0051,Carregadeira,Danos na caçamba de carga,2024-03-04,Média
+0725,0035,Carregadeira,Danos na caçamba de carga,2024-04-09,Crítica
+0726,0058,Perfuratriz,Desgaste da broca,2024-12-20,Baixa
+0727,0052,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-16,Alta
+0728,0059,Carregadeira,Danos na caçamba de carga,2024-07-06,Alta
+0729,0001,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-09,Crítica
+0730,0046,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-24,Crítica
+0731,0028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-16,Média
+0732,0064,Carregadeira,Superaquecimento do motor,2024-12-04,Alta
+0733,0037,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-11,Média
+0734,0063,Britador Primário,Falha no motor elétrico,2024-11-08,Baixa
+0735,0006,Perfuratriz,Desgaste da broca,2024-02-14,Crítica
+0736,0003,Carregadeira,Desgaste dos pneus,2024-06-30,Média
+0737,0057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-01-30,Baixa
+0738,0055,Perfuratriz,Falha no compressor de ar,2024-02-24,Média
+0739,0039,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-10-19,Alta
+0740,0012,Escavadeira Hidráulica,Falha no sistema de rotação,2024-03-28,Alta
+0741,0011,Britador Primário,Falha no motor elétrico,2024-11-30,Média
+0742,0007,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-19,Alta
+0743,0030,Britador Primário,Rompimento de correias,2024-10-08,Baixa
+0744,0013,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-09-18,Média
+0745,0062,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-03,Média
+0746,0029,Perfuratriz,Quebra do motor de perfuração,2024-11-24,Baixa
+0747,0002,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-08,Baixa
+0748,0055,Perfuratriz,Falha no compressor de ar,2024-08-04,Crítica
+0749,0010,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-22,Crítica
+0750,0012,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-05,Baixa
