@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import random
 from faker import Faker
+from tqdm import tqdm
 
 # Seeds para reprodutibilidade dos dados
 fake = Faker('pt_BR')
@@ -26,13 +27,6 @@ OPERATIONAL_COST = {
     'Britador Primário': 300, 
     'Caminhão Fora de Estrada': 640
 }
-
-# Tipos de manutenção
-MAINTENANCE_TYPE = [
-    'Preventiva',
-    'Preditiva',
-    'Corretiva'
-]
 
 # Custos de incidentes por máquina e variação min e max dos custos
 # (incidente, custo_min, custo_max)
@@ -91,6 +85,18 @@ FILE_PATHS = {
 def machine_data(n_entries: int, start_date: str, end_date: str) -> pd.DataFrame:
     """
     Gera dados sintéticos das máquinas
+
+    Parâmetros:
+        n_entries: int - Número de entradas
+        start_date: str - Data de início dos dados  
+        end_date: str - Data de fim dos dados
+
+    Retorna:
+        pd.DataFrame - DataFrame com os dados das máquinas
+            - machineId: str - Identificador da máquina
+            - machineType: str - Tipo da máquina
+            - dataFabricacao: str - Data de fabricação
+            - operationalCost: float - Custo de hora trabalhada
     """
     
     start_date = pd.to_datetime(start_date)
@@ -98,9 +104,12 @@ def machine_data(n_entries: int, start_date: str, end_date: str) -> pd.DataFrame
 
     data = []
 
-    for _ in range(n_entries):
+    for _ in tqdm(range(n_entries), desc = "Gerando dados de máquinas", unit = "entry"):
 
-        machine_type = random.choice(list(OPERATIONAL_COST.keys()))
+        machine_type = np.random.choice(
+            list(OPERATIONAL_COST.keys()), 
+            p = [0.25, 0.35, 0.15, 0.15, 0.10]
+        )
 
         data.append({
             'machineId': f"{_ + 1:04}",
@@ -117,11 +126,22 @@ def machine_data(n_entries: int, start_date: str, end_date: str) -> pd.DataFrame
 def operators_data(n_entries: int, machine_df: pd.DataFrame) -> pd.DataFrame:
     """
     Gera os dados sintéticos dos operadores, usando os dados da máquinas
+
+    Parâmetros:
+        n_entries: int - Número de entradas
+        machine_df: pd.DataFrame - DataFrame com os dados das máquinas
+    
+    Retorna:
+        pd.DataFrame - DataFrame com os dados dos operadores
+            - operatorId: str - Identificador do operador
+            - machineId: str - Identificador da máquina
+            - name: str - Nome do operador
+            - workShift: str - Turno de trabalho
     """
 
     data = []
 
-    for _ in range(n_entries):
+    for _ in tqdm(range(n_entries), desc = "Gerando dados de operadores", unit = "entry"):
 
         machine_id = random.choice(machine_df['machineId'])
 
@@ -137,13 +157,28 @@ def operators_data(n_entries: int, machine_df: pd.DataFrame) -> pd.DataFrame:
 def incident_data(n_entries: int, start_date: str, end_date: str, machine_df: pd.DataFrame) -> pd.DataFrame:
     """
     Gera os dados sintéticos dos incidentes, usando os dados das máquinas
+
+    Parâmetros:
+        n_entries: int - Número de entradas
+        start_date: str - Data de início dos dados
+        end_date: str - Data de fim dos dados
+        machine_df: pd.DataFrame - DataFrame com os dados das máquinas
+    
+    Retorna:
+        pd.DataFrame - DataFrame com os dados dos incidentes
+            - incidentId: str - Identificador do incidente
+            - machineId: str - Identificador da máquina
+            - machineType: str - Tipo da máquina
+            - incidentType: str - Tipo do incidente
+            - incidentDate: str - Data do incidente
+            - severity: str - Severidade do incidente
     """
     start_date = pd.to_datetime(start_date)
     end_date = pd.to_datetime(end_date)
 
     data = []
 
-    for _ in range(n_entries):
+    for _ in tqdm(range(n_entries), desc = "Gerando dados de incidentes", unit = "entry"):
 
         machine_id = random.choice(machine_df['machineId'])
         machine_type = machine_df[machine_df['machineId'] == machine_id]['machineType'].values[0]
@@ -166,10 +201,23 @@ def incident_data(n_entries: int, start_date: str, end_date: str, machine_df: pd
 def maintenance_data(n_entries: int, incident_data: pd.DataFrame) -> pd.DataFrame:
     """
     Gera os dados sintéticos das manutenção, usando os dados dos incidentes
+
+    Parâmetros:
+        n_entries: int - Número de entradas
+        incident_data: pd.DataFrame - DataFrame com os dados dos incidentes
+
+    Retorna:
+        pd.DataFrame - DataFrame com os dados das manutenções
+            - maintenanceId: str - Identificador da manutenção
+            - incidentId: str - Identificador do incidente
+            - machineId: str - Identificador da máquina
+            - maintenanceDate: str - Data da manutenção
+            - maintenanceCost: float - Custo da manutenção
+            - downtimeHours: int - Horas de parada
     """
     data = []
 
-    for _ in range(n_entries):
+    for _ in tqdm(range(n_entries), desc = "Gerando dados de manutenção", unit = "entry"):
 
         incident_id = random.choice(incident_data['incidentId'])
         incident_row = incident_data[incident_data['incidentId'] == incident_id].iloc[0]
@@ -204,13 +252,17 @@ if __name__=="__main__":
     Gerar dados fictícios para as máquinas, operadores, incidentes e 
     manutenções em arquivos .csv
     """
-    machine = machine_data(70, '2014-01-01', '2023-12-31')
-    operators = operators_data(210, machine)
-    incidents = incident_data(750, '2024-01-01', '2024-12-31', machine)
-    maitenance = maintenance_data(750, incidents)
+    N_MACHINES = 70
+    N_OPERATORS = int((N_MACHINES * 2.5))
+    N_INCIDENTS = int((N_MACHINES * 4))
+
+    machine = machine_data(N_MACHINES, '2014-01-01', '2023-12-31')
+    operators = operators_data(N_OPERATORS, machine)
+    incidents = incident_data(N_INCIDENTS, '2024-01-01', '2024-12-31', machine)
+    maitenance = maintenance_data(N_INCIDENTS, incidents)
 
     machine.to_csv(FILE_PATHS['machine'], index=False)
-    print(f"Dados das máquinas salvos com sucesso em {FILE_PATHS['machine']}")
+    print(f"\nDados das máquinas salvos com sucesso em {FILE_PATHS['machine']}")
 
     operators.to_csv(FILE_PATHS['operators'], index=False)   
     print(f"Dados dos operadores salvos com sucesso em {FILE_PATHS['operators']}")

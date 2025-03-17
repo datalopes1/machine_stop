@@ -1,71 +1,71 @@
 machineId,machineType,dataFrabricacao,operationalCost
-0001,Escavadeira Hidráulica,2015-11-23,630
+0001,Perfuratriz,2015-11-23,420
 0002,Escavadeira Hidráulica,2014-06-05,630
-0003,Carregadeira,2018-09-05,500
-0004,Perfuratriz,2018-03-02,420
+0003,Perfuratriz,2018-09-05,420
+0004,Carregadeira,2018-03-02,500
 0005,Perfuratriz,2017-10-18,420
-0006,Perfuratriz,2016-05-17,420
+0006,Britador Primário,2016-05-17,300
 0007,Escavadeira Hidráulica,2015-09-29,630
-0008,Caminhão Fora de Estrada,2023-04-12,640
+0008,Carregadeira,2023-04-12,500
 0009,Escavadeira Hidráulica,2015-06-25,630
-0010,Caminhão Fora de Estrada,2021-03-06,640
+0010,Escavadeira Hidráulica,2021-03-06,630
 0011,Britador Primário,2014-07-17,300
-0012,Escavadeira Hidráulica,2014-07-05,630
+0012,Perfuratriz,2014-07-05,420
 0013,Escavadeira Hidráulica,2015-08-06,630
-0014,Escavadeira Hidráulica,2017-09-20,630
+0014,Britador Primário,2017-09-20,300
 0015,Perfuratriz,2017-12-16,420
-0016,Perfuratriz,2022-08-07,420
-0017,Caminhão Fora de Estrada,2014-06-14,640
-0018,Caminhão Fora de Estrada,2023-07-20,640
-0019,Escavadeira Hidráulica,2017-05-20,630
-0020,Caminhão Fora de Estrada,2023-04-10,640
-0021,Perfuratriz,2021-02-19,420
-0022,Caminhão Fora de Estrada,2017-10-01,640
-0023,Britador Primário,2021-08-23,300
-0024,Perfuratriz,2018-09-25,420
-0025,Britador Primário,2014-02-10,300
-0026,Caminhão Fora de Estrada,2016-09-19,640
-0027,Carregadeira,2021-03-11,500
-0028,Escavadeira Hidráulica,2019-10-16,630
+0016,Escavadeira Hidráulica,2022-08-07,630
+0017,Carregadeira,2014-06-14,500
+0018,Escavadeira Hidráulica,2023-07-20,630
+0019,Caminhão Fora de Estrada,2017-05-20,640
+0020,Escavadeira Hidráulica,2023-04-10,630
+0021,Escavadeira Hidráulica,2021-02-19,630
+0022,Escavadeira Hidráulica,2017-10-01,630
+0023,Escavadeira Hidráulica,2021-08-23,630
+0024,Carregadeira,2018-09-25,500
+0025,Perfuratriz,2014-02-10,420
+0026,Escavadeira Hidráulica,2016-09-19,630
+0027,Escavadeira Hidráulica,2021-03-11,630
+0028,Perfuratriz,2019-10-16,420
 0029,Perfuratriz,2018-09-23,420
 0030,Britador Primário,2016-08-24,300
-0031,Carregadeira,2017-08-30,500
-0032,Carregadeira,2019-09-23,500
-0033,Perfuratriz,2015-09-28,420
+0031,Caminhão Fora de Estrada,2017-08-30,640
+0032,Escavadeira Hidráulica,2019-09-23,630
+0033,Britador Primário,2015-09-28,300
 0034,Perfuratriz,2015-07-31,420
-0035,Carregadeira,2020-06-18,500
-0036,Escavadeira Hidráulica,2015-08-24,630
-0037,Escavadeira Hidráulica,2020-02-09,630
-0038,Britador Primário,2019-11-08,300
-0039,Escavadeira Hidráulica,2018-07-02,630
-0040,Carregadeira,2014-09-27,500
-0041,Carregadeira,2021-10-25,500
-0042,Caminhão Fora de Estrada,2023-02-15,640
-0043,Carregadeira,2016-02-15,500
-0044,Escavadeira Hidráulica,2020-06-10,630
-0045,Britador Primário,2015-05-05,300
-0046,Caminhão Fora de Estrada,2023-05-24,640
-0047,Escavadeira Hidráulica,2018-12-27,630
-0048,Britador Primário,2020-02-26,300
-0049,Escavadeira Hidráulica,2023-10-28,630
-0050,Caminhão Fora de Estrada,2017-04-09,640
-0051,Carregadeira,2015-03-09,500
-0052,Caminhão Fora de Estrada,2014-10-12,640
-0053,Carregadeira,2017-11-17,500
-0054,Caminhão Fora de Estrada,2018-12-04,640
+0035,Perfuratriz,2020-06-18,420
+0036,Perfuratriz,2015-08-24,420
+0037,Carregadeira,2020-02-09,500
+0038,Escavadeira Hidráulica,2019-11-08,630
+0039,Caminhão Fora de Estrada,2018-07-02,640
+0040,Britador Primário,2014-09-27,300
+0041,Britador Primário,2021-10-25,300
+0042,Britador Primário,2023-02-15,300
+0043,Britador Primário,2016-02-15,300
+0044,Britador Primário,2020-06-10,300
+0045,Caminhão Fora de Estrada,2015-05-05,640
+0046,Perfuratriz,2023-05-24,420
+0047,Perfuratriz,2018-12-27,420
+0048,Escavadeira Hidráulica,2020-02-26,630
+0049,Perfuratriz,2023-10-28,420
+0050,Perfuratriz,2017-04-09,420
+0051,Escavadeira Hidráulica,2015-03-09,630
+0052,Perfuratriz,2014-10-12,420
+0053,Perfuratriz,2017-11-17,420
+0054,Carregadeira,2018-12-04,500
 0055,Perfuratriz,2015-05-11,420
-0056,Escavadeira Hidráulica,2017-12-17,630
-0057,Escavadeira Hidráulica,2015-09-20,630
-0058,Perfuratriz,2020-06-20,420
-0059,Carregadeira,2018-09-24,500
-0060,Escavadeira Hidráulica,2021-09-18,630
-0061,Perfuratriz,2020-03-16,420
-0062,Escavadeira Hidráulica,2016-10-07,630
-0063,Britador Primário,2020-04-19,300
-0064,Carregadeira,2020-01-17,500
-0065,Britador Primário,2017-07-25,300
-0066,Carregadeira,2018-07-17,500
-0067,Perfuratriz,2015-03-20,420
-0068,Carregadeira,2016-11-29,500
-0069,Carregadeira,2023-02-02,500
-0070,Perfuratriz,2018-03-02,420
+0056,Perfuratriz,2017-12-17,420
+0057,Perfuratriz,2015-09-20,420
+0058,Escavadeira Hidráulica,2020-06-20,630
+0059,Escavadeira Hidráulica,2018-09-24,630
+0060,Perfuratriz,2021-09-18,420
+0061,Escavadeira Hidráulica,2020-03-16,630
+0062,Carregadeira,2016-10-07,500
+0063,Escavadeira Hidráulica,2020-04-19,630
+0064,Perfuratriz,2020-01-17,420
+0065,Caminhão Fora de Estrada,2017-07-25,640
+0066,Escavadeira Hidráulica,2018-07-17,630
+0067,Escavadeira Hidráulica,2015-03-20,630
+0068,Perfuratriz,2016-11-29,420
+0069,Perfuratriz,2023-02-02,420
+0070,Escavadeira Hidráulica,2018-03-02,630
