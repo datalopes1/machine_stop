@@ -1,274 +1,230 @@
-# ------ IMPORTS E CONFIGS ------
 import pandas as pd
 import numpy as np
 import random
 from faker import Faker
 from tqdm import tqdm
 
-# Seeds para reprodutibilidade dos dados
 fake = Faker('pt_BR')
 Faker.seed(42)
 random.seed(42)
 
-# ------ CONSTANTES ------
-# Turnos de trabalho
-WORK_SHIFT = [
-    'Manhã',
-    'Tarde',
-    'Noite'
-]
-
-# Máquinas de custos de hora trabalhada
-# (máquina, custo)
-OPERATIONAL_COST = {
-    'Escavadeira Hidráulica': 630, 
-    'Perfuratriz': 420, 
-    'Carregadeira': 500, 
-    'Britador Primário': 300, 
-    'Caminhão Fora de Estrada': 640
+# ----- CONSTANTES -----
+MACHINES = {
+    'Escavadeira Hidráulica': 630.0, 
+    'Caminhão Fora de Estrada': 640.0, 
+    'Perfuratriz': 420.0, 
+    'Carregadeira': 500.0, 
+    'Britador Primário': 300.0,
 }
 
-# Custos de incidentes por máquina e variação min e max dos custos
-# (incidente, custo_min, custo_max)
-INCIDENT_COST = {
+INCIDENTS = {
     'Escavadeira Hidráulica': [
-        ('Vazamento de óleo hidráulico', 12000, 18000),
-        ('Desgaste dos dentes da caçamba', 2000, 5000),
-        ('Falha no sistema de rotação', 25000, 40000),
-        ('Quebra do cilindro hidráulico', 50000, 80000),
+        ('Vazamento de óleo hidráulico', "Média", 12000, 18000),
+        ('Desgaste dos dentes da caçamba', "Baixa", 2000, 5000),
+        ('Falha no sistema de rotação', "Alta", 25000, 40000),
+        ('Quebra do cilindro hidráulico', "Crítica", 50000, 80000),
     ],
     'Perfuratriz': [
-        ('Desgaste da broca', 8000, 15000),
-        ('Falha no compressor de ar', 20000, 35000),
-        ('Vazamento de combustível', 10000, 18000),
-        ('Quebra do motor de perfuração', 80000, 120000)
+        ('Desgaste da broca', "Baixa",8000, 15000),
+        ('Falha no compressor de ar', "Alta",20000, 35000),
+        ('Vazamento de combustível', "Média",10000, 18000),
+        ('Quebra do motor de perfuração', "Crítica", 80000, 120000)
 
     ],
     'Carregadeira': [
-        ('Desgaste dos pneus', 15000, 25000),
-        ('Falha no sistema hidráulico', 18000, 30000),
-        ('Superaquecimento do motor', 25000, 40000),
-        ('Danos na caçamba de carga', 50000, 70000)
+        ('Desgaste dos pneus', "Baixa", 15000, 25000),
+        ('Falha no sistema hidráulico', "Média", 18000, 30000),
+        ('Superaquecimento do motor', "Alta", 25000, 40000),
+        ('Danos na caçamba de carga', "Crítica", 50000, 70000)
     ],
     'Britador Primário': [
-        ('Bloqueio por material', 5000, 10000),
-        ('Desgaste das mandíbulas', 20000, 35000),
-        ('Falha no motor elétrico', 40000, 60000),
-        ('Rompimento de correias', 15000, 25000)
+        ('Bloqueio por material', "Média", 5000, 10000),
+        ('Desgaste das mandíbulas', "Baixa", 20000, 35000),
+        ('Falha no motor elétrico', "Alta", 40000, 60000),
+        ('Rompimento de correias', "Crítica", 15000, 25000)
     ],
     'Caminhão Fora de Estrada': [
-        ('Desgaste das pastilhas de freio', 8000, 12000),
-        ('Falha no sistema de transmissão', 30000, 50000),
-        ('Vazamento de óleo do motor', 15000, 25000),
-        ('Quebra do eixo traseiro', 80000, 150000)
+        ('Desgaste das pastilhas de freio', "Baixa", 8000, 12000),
+        ('Falha no sistema de transmissão', "Alta", 30000, 50000),
+        ('Vazamento de óleo do motor', "Média", 15000, 25000),
+        ('Quebra do eixo traseiro', "Crítica", 80000, 150000)
     ]
 }
 
-# Severidade dos incidentes e intervalo de horas de parada
-# (severidade, [min, max])
-INCIDENT_SEVERITY = {
+OPERATORS_PER_MACHINE = {
+    'Escavadeira Hidráulica': 3,
+    'Caminhão Fora de Estrada': 2,
+    'Perfuratriz': 2,
+    'Carregadeira': 1,
+    'Britador Primário': 1,
+}
+
+DOWNTIME = {
     'Baixa': [1, 4],
     'Média': [4, 24],
     'Alta': [24, 72],
     'Crítica': [72, 168]
 }
 
-# Caminho dos arquivos .csv finais
 FILE_PATHS = {
-    'machine': 'data/machine.csv',
-    'operators': 'data/operators.csv',
-    'incidents': 'data/incidents.csv',
-    'maintenance': 'data/maintenance.csv'
+    'machine': 'data/raw/machines.csv',
+    'operators': 'data/raw/operators.csv',
+    'incidents': 'data/raw/incidents.csv',
+    'maintenances': 'data/raw/maintenances.csv'
 }
 
-# ------ FUNÇÕES ------
-def machine_data(n_entries: int, start_date: str, end_date: str) -> pd.DataFrame:
+# ----- FUNÇÕES -----
+def generate_machine_data(n_entries: int, start_date: str, end_date: str) -> pd.DataFrame:
     """
-    Gera dados sintéticos das máquinas
+    Gera os dados de máquinas
 
     Parâmetros:
-        n_entries: int - Número de entradas
-        start_date: str - Data de início dos dados  
-        end_date: str - Data de fim dos dados
+        n_entries: int - Quantidade de registros
+        start_date: str - Data inicial
+        end_date: str - Data final
 
     Retorna:
         pd.DataFrame - DataFrame com os dados das máquinas
-            - machineId: str - Identificador da máquina
-            - machineType: str - Tipo da máquina
-            - dataFabricacao: str - Data de fabricação
-            - operationalCost: float - Custo de hora trabalhada
+        - machineId: str - Identificador único da máquina
+        - machineType: str - Tipo da máquina
+        - purchaseDate: str - Data de compra
+        - operationalCost: float - Custo operacional por hora trabalhada
     """
-    
     start_date = pd.to_datetime(start_date)
     end_date = pd.to_datetime(end_date)
-
     data = []
-
-    for _ in tqdm(range(n_entries), desc = "Gerando dados de máquinas", unit = "entry"):
-
-        machine_type = np.random.choice(
-            list(OPERATIONAL_COST.keys()), 
-            p = [0.25, 0.35, 0.15, 0.15, 0.10]
-        )
+    
+    for idx in tqdm(range(n_entries), desc="Gerando dados das máquinas", unit=" linhas"):
+        machine_type = np.random.choice(list(MACHINES.keys()), p=[0.35, 0.25, 0.20, 0.15, 0.05])
 
         data.append({
-            'machineId': f"{_ + 1:04}",
+            'machineId': f"{idx + 1:03}",
             'machineType': machine_type,
-            'dataFrabricacao': fake.date_between(
-                start_date=start_date, 
-                end_date=end_date
-            ),
-            'operationalCost': OPERATIONAL_COST[machine_type],
+            'purchaseDate': fake.date_between(start_date=start_date, end_date=end_date),
+            'operationalCost': MACHINES[machine_type],
         })
     
     return pd.DataFrame(data)
 
-def operators_data(n_entries: int, machine_df: pd.DataFrame) -> pd.DataFrame:
+def generate_operator_data(machine_data: pd.DataFrame) -> pd.DataFrame:
     """
-    Gera os dados sintéticos dos operadores, usando os dados da máquinas
+    Gera dados dos operadores
 
     Parâmetros:
-        n_entries: int - Número de entradas
-        machine_df: pd.DataFrame - DataFrame com os dados das máquinas
-    
+        machine_data: pd.DataFrame - DataFrame com os dados das máquinas
+
     Retorna:
         pd.DataFrame - DataFrame com os dados dos operadores
-            - operatorId: str - Identificador do operador
-            - machineId: str - Identificador da máquina
-            - name: str - Nome do operador
-            - workShift: str - Turno de trabalho
-    """
-
+        - operatorId: str - Identificador único do operador
+        - machineId: str - Identificador único da máquina
+        - operatorName: str - Nome do operador
+        - workShift: str - Turno de trabalho
+    """    
     data = []
+    operator_id = 1
 
-    for _ in tqdm(range(n_entries), desc = "Gerando dados de operadores", unit = "entry"):
+    for _, row in tqdm(machine_data.iterrows(), total=len(machine_data), desc="Gerando dados dos operadores", unit=" linhas"):
+        machine_id = row['machineId']
+        machine_type = row['machineType']
+        num_operators = OPERATORS_PER_MACHINE[machine_type]
 
-        machine_id = random.choice(machine_df['machineId'])
-
-        data.append({
-            'operatorId': f"{_ + 1:04}",
-            'machineId': machine_id,
-            'name': fake.name(),
-            'workShift': random.choice(WORK_SHIFT)
-        })
-
+        for _ in range(num_operators):
+            data.append({
+                'operatorId': f"{operator_id:03}",
+                'machineId': machine_id,
+                'operatorName': fake.name(),
+                'workShift': np.random.choice(['Manhã', 'Tarde', 'Noite'])
+            })
+            operator_id += 1
+    
     return pd.DataFrame(data)
 
-def incident_data(n_entries: int, start_date: str, end_date: str, machine_df: pd.DataFrame) -> pd.DataFrame:
+def generate_incident_data(n_entries: int, start_date: str, end_date: str, machine_data: pd.DataFrame) -> pd.DataFrame:
     """
-    Gera os dados sintéticos dos incidentes, usando os dados das máquinas
+    Gera dados dos incidentes
 
     Parâmetros:
-        n_entries: int - Número de entradas
-        start_date: str - Data de início dos dados
-        end_date: str - Data de fim dos dados
-        machine_df: pd.DataFrame - DataFrame com os dados das máquinas
-    
-    Retorna:
-        pd.DataFrame - DataFrame com os dados dos incidentes
-            - incidentId: str - Identificador do incidente
-            - machineId: str - Identificador da máquina
-            - machineType: str - Tipo da máquina
-            - incidentType: str - Tipo do incidente
-            - incidentDate: str - Data do incidente
-            - severity: str - Severidade do incidente
+        n_entries: int - Quantidade de registros
+        start_date: str - Data inicial
+        end_date: str - Data final
+        machine_data: pd.DataFrame - DataFrame com os dados das máquinas
     """
     start_date = pd.to_datetime(start_date)
     end_date = pd.to_datetime(end_date)
-
     data = []
 
-    for _ in tqdm(range(n_entries), desc = "Gerando dados de incidentes", unit = "entry"):
+    for idx in tqdm(range(n_entries), desc="Gerando dados dos incidentes", unit=" linhas"):
+        machine_id = random.choice(machine_data['machineId'])
+        machine_row = machine_data[machine_data['machineId'] == machine_id].iloc[0]
 
-        machine_id = random.choice(machine_df['machineId'])
-        machine_type = machine_df[machine_df['machineId'] == machine_id]['machineType'].values[0]
-        incident_type = random.choice(INCIDENT_COST[machine_type])
+        machine_type = machine_row['machineType']
+        purchase_date = pd.to_datetime(machine_row['purchaseDate'])
+
+        incident_type, severity, _, _ = random.choice(INCIDENTS[machine_type])
+        
 
         data.append({
-            'incidentId': f"{_ + 1:04}",
-            'machineId': machine_id,
+            'incidentId': f"{idx + 1:03}",
+            'machineId': machine_row['machineId'],
             'machineType': machine_type,
-            'incidentType': incident_type[0],
-            'incidentDate': fake.date_between(
-                start_date=start_date, 
-                end_date=end_date
-            ),
-            'severity': random.choice(list(INCIDENT_SEVERITY.keys())),
+            'incidentType': incident_type,
+            'incidentDate': fake.date_between(start_date=purchase_date, end_date=end_date),
+            'severity': severity,
         })
 
     return pd.DataFrame(data)
 
-def maintenance_data(n_entries: int, incident_data: pd.DataFrame) -> pd.DataFrame:
+def generate_maintenance_data(incident_data: pd.DataFrame) -> pd.DataFrame:
     """
-    Gera os dados sintéticos das manutenção, usando os dados dos incidentes
+    Gera dados das manutenções
 
     Parâmetros:
-        n_entries: int - Número de entradas
-        incident_data: pd.DataFrame - DataFrame com os dados dos incidentes
+        incident_data: pd.DataFrame - DataFrame com os dados dos incidents
 
     Retorna:
         pd.DataFrame - DataFrame com os dados das manutenções
-            - maintenanceId: str - Identificador da manutenção
-            - incidentId: str - Identificador do incidente
-            - machineId: str - Identificador da máquina
-            - maintenanceDate: str - Data da manutenção
-            - maintenanceCost: float - Custo da manutenção
-            - downtimeHours: int - Horas de parada
+        - maintenanceId: str - Identificador único da manutenção
+        - machineId: str - Identificador único da máquina
+        - maintenanceDate: str - Data da manutenção
+        - maintenanceCost: float - Custo da manutenção
+        - severity: str - Severidade do incidente
+        - downtime: int - Tempo de parada da máquina
     """
     data = []
-
-    for _ in tqdm(range(n_entries), desc = "Gerando dados de manutenção", unit = "entry"):
-
-        incident_id = random.choice(incident_data['incidentId'])
-        incident_row = incident_data[incident_data['incidentId'] == incident_id].iloc[0]
-
-        machine_type = incident_row['machineType']
-        incident_type = next(
-            item for item in INCIDENT_COST[machine_type] if item[0] == incident_row['incidentType']
-        )
-
+    
+    for idx, row in tqdm(incident_data.iterrows(), total=len(incident_data), desc="Gerando dados das manutenções", unit=" linhas"):
+        _, _, min_cost, max_cost = INCIDENTS[row['machineType']][0]
+        
         data.append({
-            'maintenanceId': f"{_ + 1:04}",
-            'incidentId': incident_id,
-            'machineId': incident_row['machineId'],
-            'maintenanceDate': incident_row['incidentDate'],
-            'maintenanceCost': round(
-                random.uniform(
-                    incident_type[1], 
-                    incident_type[2]
-                ), 
-                2
-            ),
-            'downtimeHours': random.randint(
-                INCIDENT_SEVERITY[incident_row['severity']][0],
-                INCIDENT_SEVERITY[incident_row['severity']][1]
-            ),
+            'maintenanceId': f"{idx + 1:03}",
+            'machineId': row['machineId'],
+            'maintenanceDate': row['incidentDate'] + pd.Timedelta(days=1),
+            'maintenanceCost': round(np.random.uniform(min_cost, max_cost), 2),
+            'severity': row['severity'],
+            'downtime': np.random.randint(DOWNTIME[row['severity']][0], DOWNTIME[row['severity']][1])
         })
-
+    
     return pd.DataFrame(data)
 
+# ----- MAIN -----
 if __name__=="__main__":
-    """
-    Gerar dados fictícios para as máquinas, operadores, incidentes e 
-    manutenções em arquivos .csv
-    """
-    N_MACHINES = 70
-    N_OPERATORS = int((N_MACHINES * 2.5))
-    N_INCIDENTS = int((N_MACHINES * 4))
+    # Constantes de número de registros
+    N_MACHINES = 150
+    N_INCIDENTS = N_MACHINES * 12
 
-    machine = machine_data(N_MACHINES, '2014-01-01', '2023-12-31')
-    operators = operators_data(N_OPERATORS, machine)
-    incidents = incident_data(N_INCIDENTS, '2024-01-01', '2024-12-31', machine)
-    maitenance = maintenance_data(N_INCIDENTS, incidents)
+    # Geração dos dados 
+    machine_df = generate_machine_data(N_MACHINES, '2015-01-01', '2024-12-31')
+    operator_df = generate_operator_data(machine_df)
+    incident_df = generate_incident_data(N_INCIDENTS, '2015-01-01', '2024-12-31', machine_df)
+    maintenance_df = generate_maintenance_data(incident_df)
 
-    machine.to_csv(FILE_PATHS['machine'], index=False)
-    print(f"\nDados das máquinas salvos com sucesso em {FILE_PATHS['machine']}")
+    # Salvar dados
+    machine_df.to_csv(f"{FILE_PATHS['machine']}", index=False)
+    operator_df.to_csv(f"{FILE_PATHS['operators']}", index=False)
+    incident_df.to_csv(f"{FILE_PATHS['incidents']}", index=False)
+    maintenance_df.to_csv(f"{FILE_PATHS['maintenances']}", index=False)
 
-    operators.to_csv(FILE_PATHS['operators'], index=False)   
-    print(f"Dados dos operadores salvos com sucesso em {FILE_PATHS['operators']}")
-
-    incidents.to_csv(FILE_PATHS['incidents'], index=False)
-    print(f"Dados dos incidentes salvos com sucesso em {FILE_PATHS['incidents']}")
-
-    maitenance.to_csv(FILE_PATHS['maintenance'], index=False)
-    print(f"Dados das manutenções salvos com sucesso em {FILE_PATHS['maintenance']}")
+    # Validações
+    print(f"\nMáquinas: {len(machine_df)}")
+    print(f"Incidentes: {len(incident_df)}")
+    print(f"Incidentes por máquina: {len(incident_df)/len(machine_df):.1f}")

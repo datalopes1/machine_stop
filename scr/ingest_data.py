@@ -1,4 +1,3 @@
-# ----- IMPORTS -----
 import psycopg2
 import csv
 from tqdm import tqdm
@@ -54,24 +53,24 @@ if __name__=="__main__":
     # Caminho dos arquivos, tabelas e colunas
     tables = [
         {
-            'file_path': 'data/machine.csv',
-            'table_name': 'machine',
-            'columns': ['machineId', 'machineType', 'dataFabricacao', 'operationalCost']
+            'file_path': 'data/raw/machines.csv',
+            'table_name': 'machines',
+            'columns': ['machineId', 'machineType', 'purchaseDate', 'operationalCost']
         },
         {
-            'file_path': 'data/operators.csv',
+            'file_path': 'data/raw/operators.csv',
             'table_name': 'operators',
-            'columns': ['operatorId', 'machineId', 'name', 'workShift']
+            'columns': ['operatorId', 'machineId', 'operatorName', 'workShift']
         },
         {
-            'file_path': 'data/incidents.csv',
+            'file_path': 'data/raw/incidents.csv',
             'table_name': 'incidents',
             'columns': ['incidentId', 'machineId', 'machineType', 'incidentType', 'incidentDate', 'severity']
         },
         {
-            'file_path': 'data/maintenance.csv',
-            'table_name': 'maintenance',
-            'columns': ['maintenanceId', 'incidentId', 'machineId', 'maintenanceDate', 'maintenanceCost', 'downtimeHours']
+            'file_path': 'data/raw/maintenances.csv',
+            'table_name': 'maintenances',
+            'columns': ['maintenanceId', 'machineId', 'maintenanceDate', 'maintenanceCost', 'severity', 'downtime']
         }
     ]
 

@@ -1,0 +1,334 @@
+operatorId,machineId,operatorName,workShift
+001,001,Isaque Araújo,Noite
+002,001,Bruno Barros,Tarde
+003,002,Sra. Ana Lívia Teixeira,Manhã
+004,002,Carolina Cardoso,Noite
+005,002,Olívia Novaes,Noite
+006,003,João Moura,Tarde
+007,003,Mariana Cunha,Manhã
+008,004,Gabriela Silva,Noite
+009,004,Murilo Rios,Manhã
+010,004,Maria Fernanda Macedo,Manhã
+011,005,Milena Campos,Tarde
+012,005,Henry Gabriel Azevedo,Manhã
+013,005,Sr. Yuri da Conceição,Manhã
+014,006,Hellena Abreu,Tarde
+015,006,Bento da Conceição,Tarde
+016,006,Arthur Gabriel Farias,Tarde
+017,007,Théo da Costa,Tarde
+018,008,Ryan Cunha,Noite
+019,009,Caroline Silveira,Tarde
+020,009,Olívia da Cruz,Tarde
+021,010,Maria Luísa Correia,Manhã
+022,010,Calebe Ribeiro,Noite
+023,011,Maria Lima,Manhã
+024,011,Nina Siqueira,Manhã
+025,012,Carlos Eduardo Araújo,Manhã
+026,013,Maitê Caldeira,Tarde
+027,013,Gael Correia,Manhã
+028,014,Melissa Carvalho,Tarde
+029,014,Emilly da Mota,Noite
+030,015,Isadora Barbosa,Manhã
+031,016,Beatriz Aragão,Noite
+032,016,Ágatha Albuquerque,Manhã
+033,017,Isaac Cavalcante,Tarde
+034,017,Raquel Mendes,Noite
+035,018,Murilo Araújo,Noite
+036,018,Mateus Abreu,Manhã
+037,019,Julia Viana,Noite
+038,019,Laura Lima,Noite
+039,019,Dra. Raquel Cassiano,Noite
+040,020,Juan Cunha,Noite
+041,020,Vitor Hugo Araújo,Noite
+042,020,Sra. Ana Laura Aragão,Tarde
+043,021,Pietra Montenegro,Manhã
+044,021,Eduarda Araújo,Tarde
+045,021,Anna Liz Cirino,Noite
+046,022,Bernardo Rocha,Tarde
+047,022,Nathan Campos,Tarde
+048,022,Isadora Pacheco,Noite
+049,023,Ana Cecília Pinto,Tarde
+050,024,Otto Ribeiro,Tarde
+051,024,Stephany Dias,Noite
+052,025,Gustavo Rios,Tarde
+053,025,Sra. Isabella da Luz,Noite
+054,026,Caroline Rios,Tarde
+055,026,Letícia Marques,Noite
+056,026,Sr. Anthony Marques,Manhã
+057,027,Beatriz Barbosa,Manhã
+058,027,Hadassa Montenegro,Tarde
+059,028,Davi Lucca Ferreira,Manhã
+060,028,Joaquim Freitas,Tarde
+061,028,Emanuel Macedo,Tarde
+062,029,Liz Pimenta,Manhã
+063,030,Vitória Albuquerque,Tarde
+064,030,Letícia Ribeiro,Noite
+065,031,Davi Luiz da Luz,Tarde
+066,031,Cauê Souza,Noite
+067,031,Daniela da Mata,Manhã
+068,032,Gustavo Henrique Silva,Manhã
+069,033,Sr. João Montenegro,Manhã
+070,033,Isis Aragão,Tarde
+071,033,Otávio da Mota,Manhã
+072,034,Alexandre Farias,Noite
+073,035,João Castro,Noite
+074,036,Sra. Mariane Novais,Noite
+075,036,Daniel Barbosa,Manhã
+076,036,Srta. Ísis Andrade,Tarde
+077,037,Sr. Pedro Cardoso,Tarde
+078,037,Leandro Fonseca,Tarde
+079,037,Luiz Henrique Costela,Noite
+080,038,Isadora Rios,Manhã
+081,038,Luiz Gustavo Vasconcelos,Tarde
+082,038,Maria Luísa Pinto,Manhã
+083,039,Srta. Isabela Castro,Tarde
+084,040,Noah Alves,Noite
+085,040,Lucas Gabriel Viana,Noite
+086,041,Isadora da Mata,Noite
+087,041,Cauê Garcia,Manhã
+088,041,Ravy Câmara,Manhã
+089,042,Raul Ferreira,Tarde
+090,042,Ian Câmara,Noite
+091,043,Gael Guerra,Tarde
+092,043,Dr. Bernardo Vargas,Noite
+093,044,Luiz Fernando Ramos,Tarde
+094,044,Maria Liz Rocha,Noite
+095,044,Luísa Alves,Noite
+096,045,José Pedro Cavalcanti,Noite
+097,045,Julia Andrade,Noite
+098,046,Pedro Henrique Ferreira,Tarde
+099,046,Sra. Maya Pereira,Noite
+100,046,Bruna Gomes,Noite
+101,047,Esther da Cunha,Tarde
+102,047,Pedro Henrique Abreu,Tarde
+103,047,Zoe Rodrigues,Noite
+104,048,Dra. Fernanda Fonseca,Noite
+105,048,Ana Lívia Rios,Noite
+106,049,Dr. Davi Silveira,Noite
+107,049,Thiago das Neves,Manhã
+108,049,Maria Luísa Duarte,Manhã
+109,050,Laís Novaes,Manhã
+110,050,Gael Leão,Manhã
+111,050,Maria Helena Rocha,Tarde
+112,051,Srta. Liz Guerra,Noite
+113,051,Agatha da Rosa,Noite
+114,052,Gustavo Henrique Lopes,Tarde
+115,053,Luna Martins,Tarde
+116,053,Melina Rocha,Noite
+117,054,Thomas Melo,Tarde
+118,054,Srta. Antonella da Paz,Noite
+119,054,Lívia Borges,Tarde
+120,055,Leonardo Câmara,Manhã
+121,055,Diogo Alves,Tarde
+122,055,Joaquim Melo,Manhã
+123,056,Ana Sophia Marques,Manhã
+124,057,Evelyn Silva,Tarde
+125,057,Sra. Sabrina Guerra,Tarde
+126,057,Diogo Rezende,Noite
+127,058,Srta. Bianca Vasconcelos,Manhã
+128,058,Hellena Cavalcanti,Tarde
+129,058,Dra. Nicole Aragão,Tarde
+130,059,Isadora Campos,Manhã
+131,059,Catarina Martins,Noite
+132,060,Vitória Novais,Tarde
+133,060,Luiza Sá,Noite
+134,061,Sofia Lima,Manhã
+135,061,Melissa Castro,Manhã
+136,061,Sra. Milena da Luz,Manhã
+137,062,João Guilherme Vargas,Tarde
+138,062,Raquel Pires,Tarde
+139,063,João Guilherme Macedo,Manhã
+140,063,João Pedro da Costa,Manhã
+141,063,Lucas Gabriel Dias,Tarde
+142,064,Anna Liz Carvalho,Noite
+143,065,Igor Gomes,Noite
+144,065,Srta. Hadassa Azevedo,Manhã
+145,065,Maria Luísa Farias,Tarde
+146,066,Nina Leão,Noite
+147,066,Gustavo Leão,Noite
+148,066,Alícia Teixeira,Manhã
+149,067,Maria Helena Mendes,Tarde
+150,067,Luiz Gustavo da Rosa,Tarde
+151,067,Mariah Nascimento,Tarde
+152,068,Dra. Ísis Pereira,Manhã
+153,068,Ryan Câmara,Manhã
+154,068,Pedro Henrique Mendonça,Manhã
+155,069,Mathias Fernandes,Noite
+156,069,Maria Luiza Silveira,Noite
+157,069,Ravi Lucca Cardoso,Noite
+158,070,Yasmin Alves,Noite
+159,071,Amanda Barros,Manhã
+160,071,Mariane Carvalho,Manhã
+161,071,Emilly Aragão,Manhã
+162,072,Mateus Duarte,Manhã
+163,073,Rafael Duarte,Manhã
+164,074,Dr. João Lucas Sá,Manhã
+165,074,Isis Barros,Tarde
+166,075,Allana Souza,Noite
+167,075,Ana Júlia Ferreira,Tarde
+168,076,Bernardo Vasconcelos,Noite
+169,076,Ana Cecília Sá,Manhã
+170,076,Josué Costa,Manhã
+171,077,Eduardo da Costa,Noite
+172,077,Renan Rios,Noite
+173,078,Henrique Martins,Manhã
+174,078,Sra. Maria Eduarda Cavalcante,Noite
+175,079,Bruna Vasconcelos,Manhã
+176,080,Leonardo Caldeira,Manhã
+177,080,Amanda das Neves,Noite
+178,081,Maria Flor Gonçalves,Manhã
+179,081,Srta. Ana Vitória Pastor,Tarde
+180,081,Dra. Isabelly Caldeira,Tarde
+181,082,Sra. Bárbara Vieira,Noite
+182,082,Ana Cecília Ferreira,Manhã
+183,083,Mariane Ribeiro,Tarde
+184,083,Sr. Thiago Ramos,Tarde
+185,083,Sr. Otto Mendonça,Manhã
+186,084,Pedro Fonseca,Tarde
+187,085,Natália Santos,Manhã
+188,085,Pedro Henrique Cavalcanti,Manhã
+189,085,Dra. Júlia Pimenta,Manhã
+190,086,Rafaela Martins,Manhã
+191,086,Juliana Duarte,Manhã
+192,087,Caio da Mota,Manhã
+193,087,Isabelly Sá,Tarde
+194,088,Maria Helena Fernandes,Manhã
+195,088,Thales Duarte,Manhã
+196,088,Ryan Cunha,Manhã
+197,089,Dr. Luigi da Mota,Tarde
+198,089,Kamilly Novais,Tarde
+199,090,Valentim Correia,Tarde
+200,090,Isaque Silveira,Tarde
+201,091,Rebeca Novais,Tarde
+202,091,Renan Ramos,Noite
+203,092,Sra. Melissa Vieira,Tarde
+204,092,Caleb da Rocha,Noite
+205,092,Nathan Sales,Tarde
+206,093,Leandro Ribeiro,Tarde
+207,093,Maria Eduarda Melo,Tarde
+208,093,Vitória Ferreira,Noite
+209,094,Luísa Fogaça,Noite
+210,094,Sra. Júlia das Neves,Manhã
+211,094,Igor Campos,Noite
+212,095,Srta. Luara Campos,Tarde
+213,095,Dra. Ester Correia,Manhã
+214,096,Rodrigo da Mota,Manhã
+215,097,Dra. Valentina Peixoto,Manhã
+216,097,Carlos Eduardo Correia,Tarde
+217,098,Ian Fonseca,Manhã
+218,098,Kevin Albuquerque,Tarde
+219,099,Dra. Carolina da Mota,Tarde
+220,099,Benjamim Novaes,Noite
+221,099,Davi Lucas Porto,Tarde
+222,100,Bella Albuquerque,Tarde
+223,101,Larissa Melo,Tarde
+224,101,Maysa Fernandes,Tarde
+225,102,Benjamim da Cunha,Tarde
+226,102,Bruna Azevedo,Noite
+227,103,Rebeca Barbosa,Noite
+228,103,Ana Júlia Cassiano,Tarde
+229,104,Kevin Barros,Manhã
+230,104,Dante Novais,Manhã
+231,104,Heloisa Vasconcelos,Manhã
+232,105,Maria Helena Machado,Tarde
+233,105,Letícia Pastor,Noite
+234,106,Lorena Nunes,Tarde
+235,106,Ana Liz Pimenta,Manhã
+236,107,Srta. Giovanna Pires,Noite
+237,107,João Ribeiro,Tarde
+238,108,Emanuel da Costa,Tarde
+239,108,Yuri Barbosa,Manhã
+240,108,Alexandre Jesus,Manhã
+241,109,Olivia da Rocha,Manhã
+242,109,Igor da Paz,Manhã
+243,109,Sra. Mirella Barbosa,Manhã
+244,110,Isabel da Luz,Manhã
+245,110,Fernanda Lima,Noite
+246,111,Yago Câmara,Noite
+247,111,Clarice da Mata,Tarde
+248,112,Brayan Araújo,Tarde
+249,113,Leandro Peixoto,Noite
+250,113,Dra. Laura Macedo,Noite
+251,114,Ravi Lucca Sales,Tarde
+252,114,Nathan da Mata,Noite
+253,115,Ágatha Monteiro,Manhã
+254,115,Anna Liz Peixoto,Tarde
+255,116,Pedro Sousa,Noite
+256,116,Dr. Apollo Borges,Noite
+257,117,Antônio Teixeira,Manhã
+258,117,Juliana Oliveira,Noite
+259,117,Erick Melo,Noite
+260,118,Melina da Mota,Tarde
+261,118,Pedro Henrique Porto,Noite
+262,119,Ayla Melo,Manhã
+263,119,Dr. Lucas Gabriel Duarte,Noite
+264,119,Bella Castro,Noite
+265,120,Dr. Thales da Paz,Tarde
+266,120,Maria Liz Teixeira,Tarde
+267,120,Ana Carolina Marques,Tarde
+268,121,Levi da Cunha,Manhã
+269,121,Sr. Nathan Moraes,Tarde
+270,121,Vitor Hugo Martins,Tarde
+271,122,Ana Júlia Correia,Tarde
+272,123,Maria Cecília Pinto,Noite
+273,124,Melina Teixeira,Manhã
+274,124,Gustavo da Mata,Tarde
+275,124,Caroline da Paz,Manhã
+276,125,Raquel Campos,Manhã
+277,125,Isaque Santos,Tarde
+278,125,Leonardo Novaes,Manhã
+279,126,Yuri Jesus,Manhã
+280,126,Henry Gabriel Camargo,Noite
+281,126,Bárbara Ramos,Noite
+282,127,Theo Silva,Noite
+283,127,Thomas Santos,Tarde
+284,128,Oliver Mendes,Noite
+285,128,Isabelly Marques,Tarde
+286,128,Clara Gomes,Manhã
+287,129,Thomas Souza,Tarde
+288,129,Bernardo da Mota,Tarde
+289,130,Manuela Viana,Manhã
+290,130,Juliana Abreu,Tarde
+291,131,Kaique Pastor,Tarde
+292,131,Rebeca Cassiano,Noite
+293,132,Zoe Mendes,Noite
+294,132,Dr. Yuri Teixeira,Tarde
+295,132,Maria Flor Marques,Manhã
+296,133,Sr. Isaque Oliveira,Manhã
+297,133,Isabel Vasconcelos,Noite
+298,134,Ana Clara Dias,Manhã
+299,134,Sra. Maria Helena Gomes,Noite
+300,135,Clarice Monteiro,Noite
+301,135,Davi Lucas Montenegro,Manhã
+302,135,Luísa Brito,Noite
+303,136,Beatriz Moura,Manhã
+304,136,Alice Silveira,Manhã
+305,137,Nicolas Rezende,Tarde
+306,138,Breno Melo,Noite
+307,138,Lucca Pinto,Noite
+308,139,Sra. Anna Liz Farias,Tarde
+309,139,Yasmin Garcia,Tarde
+310,139,Dr. Vitor Hugo Andrade,Manhã
+311,140,Ana Lívia da Costa,Noite
+312,141,Laura da Conceição,Manhã
+313,141,Srta. Maya Brito,Manhã
+314,141,Beatriz Macedo,Tarde
+315,142,Kaique Alves,Noite
+316,142,Luan Vieira,Noite
+317,143,Juan Fogaça,Noite
+318,144,Dr. Diogo da Cruz,Noite
+319,144,Maria Sophia Nunes,Manhã
+320,145,Emilly Cavalcante,Manhã
+321,146,Bruno Pimenta,Noite
+322,147,Isabella Monteiro,Manhã
+323,147,Cecília da Conceição,Tarde
+324,147,Jade Marques,Noite
+325,148,Anthony Martins,Noite
+326,148,Yago Castro,Manhã
+327,148,Pedro Miguel Ferreira,Noite
+328,149,Letícia Porto,Manhã
+329,149,Isis Marques,Tarde
+330,149,Gael Henrique Gomes,Tarde
+331,150,Bianca da Costa,Noite
+332,150,Maria Alice Oliveira,Tarde
+333,150,Juan Almeida,Noite

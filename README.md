@@ -22,15 +22,15 @@ Foram disponibilizados dados sobre máquinas, operadores, incidentes e manutenç
 1. Migrar os dados do ERP interno para um banco de dados em nuvem.
 2. Criar um dashboard para monitoramento dos custos de manutenção.
 3. Respondas às seguintes perguntas:
-    - Quais tipos de máquinas possuem os maiores custos operacionais e a maior quantidade de incidentes?
-    - Qual é o custo mensal de manutenção da empresa? Quais são os incidentes mais comuns?
-    - Qual é a disponibilidade das máquinas? Quanto tempo, em média, permanecem inativas por mês?
+    - Qual o tempo de inatividade das máquinas e sua taxa de disponibilidade?
+    - Qual o custo de manutenção por tipo de máquina, e máquina individualmente?
+    - Qual a quantidade de incidentes por tipo de máquina?
 
 ## ⚙️ Tecnologias Utilizadas
 - 🐍 **Python 3.12**
 - 📊 **Microsoft Power BI (Data Viz)**
 - 🎲 **dbt-core (Transformação dos Dados)**
-- 🔨 **Pandas, NumPy, Faker (Manipulação de Dados)**
+- 🦆 **duckdb, Pandas, NumPy, Faker (Manipulação de Dados)**
 
 ## 🚀 Como Executar
 

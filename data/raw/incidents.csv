@@ -1,0 +1,1801 @@
+incidentId,machineId,machineType,incidentType,incidentDate,severity
+001,029,Carregadeira,Desgaste dos pneus,2023-02-03,Baixa
+002,071,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-02-11,Baixa
+003,058,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-07-02,Baixa
+004,027,Perfuratriz,Desgaste da broca,2024-08-06,Baixa
+005,109,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2016-08-19,Média
+006,008,Carregadeira,Desgaste dos pneus,2024-12-02,Baixa
+007,056,Britador Primário,Desgaste das mandíbulas,2023-03-09,Baixa
+008,130,Perfuratriz,Desgaste da broca,2023-12-08,Baixa
+009,144,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-05,Alta
+010,140,Britador Primário,Rompimento de correias,2024-05-23,Crítica
+011,057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-09-03,Crítica
+012,072,Carregadeira,Desgaste dos pneus,2024-05-12,Baixa
+013,041,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-30,Crítica
+014,088,Escavadeira Hidráulica,Falha no sistema de rotação,2024-01-12,Alta
+015,040,Caminhão Fora de Estrada,Falha no sistema de transmissão,2018-12-21,Alta
+016,087,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-06-26,Baixa
+017,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-11-22,Crítica
+018,025,Caminhão Fora de Estrada,Vazamento de óleo do motor,2016-10-05,Média
+019,089,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-29,Média
+020,012,Carregadeira,Danos na caçamba de carga,2016-03-05,Crítica
+021,138,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-16,Baixa
+022,097,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-08-21,Baixa
+023,142,Perfuratriz,Vazamento de combustível,2018-01-11,Média
+024,093,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-06-07,Baixa
+025,018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-09-27,Baixa
+026,059,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-11-05,Média
+027,021,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-07-09,Baixa
+028,026,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-03-23,Crítica
+029,072,Carregadeira,Danos na caçamba de carga,2024-04-02,Crítica
+030,094,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-09-25,Baixa
+031,095,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-09-23,Média
+032,054,Escavadeira Hidráulica,Falha no sistema de rotação,2021-06-01,Alta
+033,019,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-02-02,Baixa
+034,137,Britador Primário,Desgaste das mandíbulas,2021-03-14,Baixa
+035,042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-12-16,Crítica
+036,098,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-01-21,Média
+037,143,Carregadeira,Falha no sistema hidráulico,2024-07-25,Média
+038,084,Carregadeira,Desgaste dos pneus,2024-08-30,Baixa
+039,059,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-01-17,Baixa
+040,081,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-10-07,Crítica
+041,069,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-05-11,Média
+042,055,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-21,Alta
+043,055,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-05-17,Crítica
+044,102,Perfuratriz,Quebra do motor de perfuração,2024-12-19,Crítica
+045,037,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-22,Alta
+046,036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-07-11,Baixa
+047,144,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-16,Média
+048,150,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-08-30,Crítica
+049,150,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-03-02,Crítica
+050,093,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-02-22,Baixa
+051,036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2017-11-03,Crítica
+052,024,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-08-25,Baixa
+053,029,Carregadeira,Falha no sistema hidráulico,2023-02-08,Média
+054,041,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-15,Crítica
+055,017,Caminhão Fora de Estrada,Quebra do eixo traseiro,2016-12-26,Crítica
+056,098,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-10-28,Crítica
+057,136,Caminhão Fora de Estrada,Vazamento de óleo do motor,2016-12-05,Média
+058,142,Perfuratriz,Desgaste da broca,2019-12-30,Baixa
+059,030,Perfuratriz,Vazamento de combustível,2022-03-18,Média
+060,088,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-09-01,Média
+061,076,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-08-08,Crítica
+062,041,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-19,Crítica
+063,001,Perfuratriz,Vazamento de combustível,2022-08-13,Média
+064,129,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-01-23,Alta
+065,130,Perfuratriz,Desgaste da broca,2023-11-01,Baixa
+066,077,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-10-04,Alta
+067,040,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-01-21,Média
+068,042,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-03-28,Baixa
+069,083,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-07-17,Crítica
+070,005,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-10-21,Média
+071,093,Escavadeira Hidráulica,Falha no sistema de rotação,2019-09-19,Alta
+072,062,Perfuratriz,Desgaste da broca,2023-01-13,Baixa
+073,062,Perfuratriz,Desgaste da broca,2022-07-17,Baixa
+074,022,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-07-16,Crítica
+075,018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-14,Alta
+076,033,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-08-15,Crítica
+077,141,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-12,Baixa
+078,068,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-06-13,Crítica
+079,055,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-02,Baixa
+080,080,Perfuratriz,Quebra do motor de perfuração,2020-09-07,Crítica
+081,096,Carregadeira,Danos na caçamba de carga,2024-11-23,Crítica
+082,133,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-05-20,Crítica
+083,031,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-08-27,Baixa
+084,058,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-01-23,Média
+085,087,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-09-26,Baixa
+086,142,Perfuratriz,Falha no compressor de ar,2018-01-23,Alta
+087,057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-04-22,Média
+088,019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-07-28,Média
+089,059,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-09-18,Baixa
+090,009,Perfuratriz,Vazamento de combustível,2018-02-17,Média
+091,019,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-05-18,Baixa
+092,072,Carregadeira,Danos na caçamba de carga,2023-06-10,Crítica
+093,055,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-12-19,Baixa
+094,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-11,Crítica
+095,063,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-11-16,Crítica
+096,105,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-01-21,Alta
+097,025,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-04-19,Baixa
+098,111,Perfuratriz,Vazamento de combustível,2021-03-01,Média
+099,109,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-06-06,Crítica
+100,120,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-07,Média
+101,026,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-04-15,Média
+102,104,Escavadeira Hidráulica,Falha no sistema de rotação,2019-07-28,Alta
+103,028,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-02,Baixa
+104,050,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-06-07,Baixa
+105,138,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-12-11,Crítica
+106,036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-02-11,Crítica
+107,047,Escavadeira Hidráulica,Falha no sistema de rotação,2022-05-14,Alta
+108,119,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-07-22,Baixa
+109,020,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-30,Crítica
+110,141,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-04-14,Média
+111,013,Perfuratriz,Desgaste da broca,2020-05-13,Baixa
+112,024,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-07-07,Alta
+113,043,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-02-17,Crítica
+114,125,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-03,Crítica
+115,055,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-07-11,Crítica
+116,016,Perfuratriz,Falha no compressor de ar,2023-10-23,Alta
+117,098,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-08-05,Baixa
+118,100,Carregadeira,Superaquecimento do motor,2024-08-08,Alta
+119,117,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-17,Alta
+120,109,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-11-25,Crítica
+121,040,Caminhão Fora de Estrada,Falha no sistema de transmissão,2016-10-07,Alta
+122,076,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-02-13,Baixa
+123,015,Carregadeira,Desgaste dos pneus,2021-04-21,Baixa
+124,081,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-12-24,Média
+125,013,Perfuratriz,Quebra do motor de perfuração,2024-10-30,Crítica
+126,129,Caminhão Fora de Estrada,Falha no sistema de transmissão,2018-09-23,Alta
+127,015,Carregadeira,Desgaste dos pneus,2022-10-28,Baixa
+128,048,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-07-17,Baixa
+129,018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-24,Alta
+130,104,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-07-13,Média
+131,146,Carregadeira,Falha no sistema hidráulico,2020-09-11,Média
+132,149,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2017-05-02,Média
+133,021,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-07-22,Crítica
+134,150,Escavadeira Hidráulica,Falha no sistema de rotação,2022-03-18,Alta
+135,067,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2018-05-10,Baixa
+136,081,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-02-10,Baixa
+137,068,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-06-30,Crítica
+138,034,Carregadeira,Superaquecimento do motor,2023-08-21,Alta
+139,118,Perfuratriz,Vazamento de combustível,2024-10-24,Média
+140,019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-02-04,Média
+141,118,Perfuratriz,Desgaste da broca,2024-03-21,Baixa
+142,019,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-05-15,Baixa
+143,130,Perfuratriz,Vazamento de combustível,2023-08-21,Média
+144,034,Carregadeira,Superaquecimento do motor,2023-06-30,Alta
+145,018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-09-02,Alta
+146,095,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-12-27,Média
+147,041,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-06-11,Crítica
+148,140,Britador Primário,Falha no motor elétrico,2024-04-22,Alta
+149,136,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-06-20,Baixa
+150,142,Perfuratriz,Vazamento de combustível,2022-10-25,Média
+151,027,Perfuratriz,Falha no compressor de ar,2022-03-15,Alta
+152,068,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-04-08,Média
+153,028,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-06-09,Baixa
+154,070,Carregadeira,Superaquecimento do motor,2020-05-24,Alta
+155,054,Escavadeira Hidráulica,Falha no sistema de rotação,2021-01-10,Alta
+156,053,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-06-22,Média
+157,130,Perfuratriz,Quebra do motor de perfuração,2023-10-14,Crítica
+158,065,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-01-18,Média
+159,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-08-31,Crítica
+160,071,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-05-27,Média
+161,001,Perfuratriz,Vazamento de combustível,2024-04-05,Média
+162,034,Carregadeira,Superaquecimento do motor,2016-10-18,Alta
+163,042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-04-06,Crítica
+164,142,Perfuratriz,Quebra do motor de perfuração,2017-11-15,Crítica
+165,144,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-05-27,Baixa
+166,029,Carregadeira,Desgaste dos pneus,2021-10-01,Baixa
+167,039,Britador Primário,Bloqueio por material,2024-07-04,Média
+168,095,Caminhão Fora de Estrada,Falha no sistema de transmissão,2021-12-12,Alta
+169,111,Perfuratriz,Falha no compressor de ar,2017-09-25,Alta
+170,011,Caminhão Fora de Estrada,Vazamento de óleo do motor,2018-07-03,Média
+171,094,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-08-19,Média
+172,092,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2017-11-15,Baixa
+173,064,Carregadeira,Desgaste dos pneus,2021-07-31,Baixa
+174,091,Perfuratriz,Quebra do motor de perfuração,2024-08-05,Crítica
+175,040,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-09-07,Alta
+176,042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-03-30,Alta
+177,106,Perfuratriz,Desgaste da broca,2023-10-21,Baixa
+178,046,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-23,Alta
+179,106,Perfuratriz,Falha no compressor de ar,2024-08-15,Alta
+180,069,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-30,Baixa
+181,028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-04-30,Crítica
+182,010,Perfuratriz,Quebra do motor de perfuração,2024-05-11,Crítica
+183,057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-10-07,Baixa
+184,118,Perfuratriz,Vazamento de combustível,2024-02-12,Média
+185,079,Carregadeira,Falha no sistema hidráulico,2022-09-28,Média
+186,058,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-08-11,Média
+187,050,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-02-26,Crítica
+188,085,Escavadeira Hidráulica,Falha no sistema de rotação,2023-10-28,Alta
+189,018,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-07-27,Média
+190,090,Perfuratriz,Quebra do motor de perfuração,2024-10-27,Crítica
+191,138,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-29,Média
+192,008,Carregadeira,Desgaste dos pneus,2024-08-06,Baixa
+193,067,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-01-03,Baixa
+194,149,Escavadeira Hidráulica,Falha no sistema de rotação,2022-05-17,Alta
+195,010,Perfuratriz,Desgaste da broca,2022-04-23,Baixa
+196,112,Carregadeira,Superaquecimento do motor,2018-03-28,Alta
+197,081,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-10,Crítica
+198,131,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-11-20,Baixa
+199,099,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-21,Baixa
+200,066,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-06-16,Média
+201,112,Carregadeira,Desgaste dos pneus,2021-11-22,Baixa
+202,134,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-02-06,Alta
+203,094,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-02-23,Crítica
+204,018,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-08-02,Média
+205,081,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-01-20,Média
+206,077,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-04-04,Média
+207,105,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-07-11,Média
+208,104,Escavadeira Hidráulica,Falha no sistema de rotação,2019-12-28,Alta
+209,142,Perfuratriz,Falha no compressor de ar,2018-04-22,Alta
+210,050,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2019-05-06,Crítica
+211,098,Caminhão Fora de Estrada,Falha no sistema de transmissão,2021-10-22,Alta
+212,146,Carregadeira,Superaquecimento do motor,2023-04-13,Alta
+213,104,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-12-20,Média
+214,078,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-22,Média
+215,054,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-06-07,Crítica
+216,149,Escavadeira Hidráulica,Falha no sistema de rotação,2020-10-05,Alta
+217,120,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-12,Crítica
+218,114,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-05-26,Alta
+219,131,Caminhão Fora de Estrada,Quebra do eixo traseiro,2016-09-28,Crítica
+220,044,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-24,Média
+221,073,Carregadeira,Superaquecimento do motor,2024-06-09,Alta
+222,024,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-09-14,Alta
+223,080,Perfuratriz,Falha no compressor de ar,2024-12-03,Alta
+224,051,Perfuratriz,Falha no compressor de ar,2019-11-04,Alta
+225,007,Carregadeira,Desgaste dos pneus,2020-05-26,Baixa
+226,063,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-03-21,Crítica
+227,019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-04-28,Crítica
+228,107,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-10,Alta
+229,099,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-19,Crítica
+230,103,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-09-04,Alta
+231,038,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-10-12,Média
+232,028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-06-26,Crítica
+233,057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-04-03,Baixa
+234,133,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-09-19,Crítica
+235,013,Perfuratriz,Falha no compressor de ar,2019-04-03,Alta
+236,032,Britador Primário,Rompimento de correias,2024-05-09,Crítica
+237,035,Carregadeira,Danos na caçamba de carga,2022-10-16,Crítica
+238,136,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-06-20,Média
+239,114,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-05-31,Crítica
+240,141,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-12-14,Crítica
+241,041,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-06-19,Crítica
+242,116,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-05-30,Média
+243,064,Carregadeira,Superaquecimento do motor,2024-12-19,Alta
+244,134,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-01-27,Crítica
+245,062,Perfuratriz,Vazamento de combustível,2018-05-03,Média
+246,113,Perfuratriz,Desgaste da broca,2022-07-27,Baixa
+247,074,Perfuratriz,Falha no compressor de ar,2020-04-26,Alta
+248,070,Carregadeira,Superaquecimento do motor,2019-12-16,Alta
+249,082,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-08-29,Baixa
+250,036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2017-06-19,Baixa
+251,060,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-04-18,Crítica
+252,040,Caminhão Fora de Estrada,Falha no sistema de transmissão,2017-12-13,Alta
+253,017,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-11-30,Crítica
+254,105,Caminhão Fora de Estrada,Vazamento de óleo do motor,2017-11-11,Média
+255,139,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-05-16,Crítica
+256,107,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-08-03,Baixa
+257,053,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-08-28,Crítica
+258,100,Carregadeira,Desgaste dos pneus,2023-09-10,Baixa
+259,148,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2017-05-30,Crítica
+260,123,Carregadeira,Desgaste dos pneus,2024-07-27,Baixa
+261,091,Perfuratriz,Vazamento de combustível,2024-04-23,Média
+262,100,Carregadeira,Danos na caçamba de carga,2024-02-02,Crítica
+263,138,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-09-29,Alta
+264,125,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-26,Baixa
+265,070,Carregadeira,Danos na caçamba de carga,2021-08-11,Crítica
+266,125,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-05-04,Média
+267,100,Carregadeira,Superaquecimento do motor,2023-08-14,Alta
+268,104,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-09-20,Baixa
+269,120,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-09,Baixa
+270,137,Britador Primário,Bloqueio por material,2024-12-28,Média
+271,101,Perfuratriz,Desgaste da broca,2024-12-28,Baixa
+272,022,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-07-22,Crítica
+273,035,Carregadeira,Danos na caçamba de carga,2022-02-13,Crítica
+274,047,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-02,Média
+275,067,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-01-11,Crítica
+276,084,Carregadeira,Falha no sistema hidráulico,2017-12-19,Média
+277,117,Escavadeira Hidráulica,Falha no sistema de rotação,2023-09-15,Alta
+278,087,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-06-24,Crítica
+279,072,Carregadeira,Danos na caçamba de carga,2023-05-09,Crítica
+280,065,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-12-06,Média
+281,121,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-17,Média
+282,139,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-04-21,Média
+283,090,Perfuratriz,Falha no compressor de ar,2023-07-22,Alta
+284,018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-12-30,Baixa
+285,008,Carregadeira,Falha no sistema hidráulico,2024-11-14,Média
+286,052,Britador Primário,Bloqueio por material,2016-03-23,Média
+287,040,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-04-14,Alta
+288,033,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2016-12-25,Crítica
+289,030,Perfuratriz,Falha no compressor de ar,2019-03-07,Alta
+290,120,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-13,Alta
+291,095,Caminhão Fora de Estrada,Falha no sistema de transmissão,2021-10-27,Alta
+292,030,Perfuratriz,Falha no compressor de ar,2020-07-14,Alta
+293,080,Perfuratriz,Desgaste da broca,2021-07-08,Baixa
+294,149,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2016-12-14,Média
+295,080,Perfuratriz,Quebra do motor de perfuração,2018-08-19,Crítica
+296,102,Perfuratriz,Falha no compressor de ar,2022-05-27,Alta
+297,020,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-14,Baixa
+298,027,Perfuratriz,Vazamento de combustível,2024-12-26,Média
+299,031,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-01-26,Média
+300,089,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-08-23,Crítica
+301,095,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-05-26,Baixa
+302,130,Perfuratriz,Vazamento de combustível,2022-11-06,Média
+303,004,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2019-12-12,Crítica
+304,126,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-03-31,Média
+305,111,Perfuratriz,Vazamento de combustível,2022-02-10,Média
+306,118,Perfuratriz,Falha no compressor de ar,2024-03-24,Alta
+307,112,Carregadeira,Falha no sistema hidráulico,2020-12-02,Média
+308,134,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-08-11,Média
+309,138,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-07,Crítica
+310,120,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-09,Crítica
+311,069,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-03,Alta
+312,063,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-11-14,Média
+313,072,Carregadeira,Danos na caçamba de carga,2024-03-10,Crítica
+314,063,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-05-13,Crítica
+315,146,Carregadeira,Danos na caçamba de carga,2023-04-10,Crítica
+316,087,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-01-27,Baixa
+317,127,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-06-09,Média
+318,047,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-04-23,Crítica
+319,055,Escavadeira Hidráulica,Falha no sistema de rotação,2019-01-13,Alta
+320,067,Escavadeira Hidráulica,Falha no sistema de rotação,2017-01-22,Alta
+321,072,Carregadeira,Superaquecimento do motor,2023-03-18,Alta
+322,143,Carregadeira,Desgaste dos pneus,2024-06-18,Baixa
+323,133,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-06-16,Alta
+324,022,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-18,Baixa
+325,105,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-12-16,Crítica
+326,143,Carregadeira,Falha no sistema hidráulico,2024-09-09,Média
+327,122,Carregadeira,Danos na caçamba de carga,2022-02-10,Crítica
+328,115,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-06-04,Baixa
+329,024,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-04-03,Média
+330,057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2019-01-15,Crítica
+331,063,Escavadeira Hidráulica,Falha no sistema de rotação,2022-03-19,Alta
+332,149,Escavadeira Hidráulica,Falha no sistema de rotação,2023-04-29,Alta
+333,122,Carregadeira,Superaquecimento do motor,2021-04-21,Alta
+334,109,Escavadeira Hidráulica,Falha no sistema de rotação,2017-09-26,Alta
+335,091,Perfuratriz,Quebra do motor de perfuração,2024-04-10,Crítica
+336,070,Carregadeira,Superaquecimento do motor,2022-10-27,Alta
+337,065,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-07-04,Baixa
+338,031,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-01-26,Baixa
+339,081,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-03,Média
+340,138,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-10-03,Alta
+341,050,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-12-11,Baixa
+342,124,Escavadeira Hidráulica,Falha no sistema de rotação,2022-02-28,Alta
+343,135,Escavadeira Hidráulica,Falha no sistema de rotação,2023-09-25,Alta
+344,026,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-08-05,Baixa
+345,076,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-02-05,Baixa
+346,093,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-08-08,Baixa
+347,078,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2016-11-18,Baixa
+348,137,Britador Primário,Desgaste das mandíbulas,2020-02-21,Baixa
+349,071,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-07-09,Média
+350,014,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-04-13,Média
+351,033,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-12,Crítica
+352,027,Perfuratriz,Desgaste da broca,2023-02-02,Baixa
+353,147,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-11,Alta
+354,121,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2017-07-12,Crítica
+355,113,Perfuratriz,Vazamento de combustível,2023-04-08,Média
+356,048,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-05-20,Baixa
+357,065,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-05-09,Crítica
+358,030,Perfuratriz,Desgaste da broca,2018-08-31,Baixa
+359,103,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-03-11,Crítica
+360,019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-08-12,Média
+361,039,Britador Primário,Desgaste das mandíbulas,2023-02-28,Baixa
+362,145,Carregadeira,Superaquecimento do motor,2017-12-30,Alta
+363,022,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-11-06,Baixa
+364,031,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-11-23,Crítica
+365,058,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-25,Crítica
+366,116,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-06-26,Crítica
+367,077,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-06-22,Crítica
+368,079,Carregadeira,Desgaste dos pneus,2023-02-25,Baixa
+369,026,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-06-20,Baixa
+370,055,Escavadeira Hidráulica,Falha no sistema de rotação,2022-05-19,Alta
+371,021,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-06-10,Baixa
+372,062,Perfuratriz,Falha no compressor de ar,2021-02-21,Alta
+373,142,Perfuratriz,Desgaste da broca,2024-01-22,Baixa
+374,041,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-12-29,Média
+375,105,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-01-23,Crítica
+376,121,Escavadeira Hidráulica,Falha no sistema de rotação,2015-07-07,Alta
+377,009,Perfuratriz,Falha no compressor de ar,2024-04-19,Alta
+378,074,Perfuratriz,Vazamento de combustível,2020-04-02,Média
+379,117,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-17,Média
+380,060,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-01-17,Média
+381,051,Perfuratriz,Quebra do motor de perfuração,2023-06-27,Crítica
+382,030,Perfuratriz,Falha no compressor de ar,2022-07-10,Alta
+383,039,Britador Primário,Falha no motor elétrico,2022-12-09,Alta
+384,037,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-15,Média
+385,016,Perfuratriz,Falha no compressor de ar,2024-12-16,Alta
+386,079,Carregadeira,Superaquecimento do motor,2022-06-13,Alta
+387,113,Perfuratriz,Desgaste da broca,2023-05-31,Baixa
+388,120,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-13,Alta
+389,104,Escavadeira Hidráulica,Falha no sistema de rotação,2022-03-05,Alta
+390,129,Caminhão Fora de Estrada,Quebra do eixo traseiro,2017-11-12,Crítica
+391,113,Perfuratriz,Desgaste da broca,2023-07-25,Baixa
+392,011,Caminhão Fora de Estrada,Quebra do eixo traseiro,2018-06-18,Crítica
+393,083,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-23,Alta
+394,007,Carregadeira,Desgaste dos pneus,2020-08-27,Baixa
+395,059,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-10-22,Baixa
+396,069,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-07,Média
+397,045,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-10-08,Crítica
+398,133,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-09-28,Crítica
+399,072,Carregadeira,Falha no sistema hidráulico,2023-11-24,Média
+400,150,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-01-10,Crítica
+401,126,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-11-27,Média
+402,121,Escavadeira Hidráulica,Falha no sistema de rotação,2022-01-03,Alta
+403,105,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-10-22,Média
+404,083,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-03-22,Média
+405,042,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-07-17,Média
+406,106,Perfuratriz,Quebra do motor de perfuração,2024-04-29,Crítica
+407,074,Perfuratriz,Quebra do motor de perfuração,2022-06-24,Crítica
+408,141,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-04-21,Média
+409,117,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-09-02,Média
+410,081,Escavadeira Hidráulica,Falha no sistema de rotação,2021-10-18,Alta
+411,083,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-03-15,Média
+412,104,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-01-27,Média
+413,139,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-10-08,Crítica
+414,106,Perfuratriz,Desgaste da broca,2023-11-29,Baixa
+415,049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-17,Alta
+416,128,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-07-25,Crítica
+417,014,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-05-14,Alta
+418,069,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-29,Baixa
+419,074,Perfuratriz,Quebra do motor de perfuração,2022-07-25,Crítica
+420,125,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-04-12,Média
+421,008,Carregadeira,Falha no sistema hidráulico,2024-12-17,Média
+422,041,Escavadeira Hidráulica,Falha no sistema de rotação,2023-06-11,Alta
+423,142,Perfuratriz,Desgaste da broca,2019-10-04,Baixa
+424,142,Perfuratriz,Quebra do motor de perfuração,2018-08-15,Crítica
+425,024,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-12-22,Alta
+426,030,Perfuratriz,Quebra do motor de perfuração,2019-10-28,Crítica
+427,031,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-05-03,Baixa
+428,128,Escavadeira Hidráulica,Falha no sistema de rotação,2023-02-18,Alta
+429,131,Caminhão Fora de Estrada,Vazamento de óleo do motor,2017-08-27,Média
+430,107,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-15,Crítica
+431,121,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2016-06-23,Baixa
+432,117,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-05-04,Baixa
+433,099,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-29,Baixa
+434,131,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-06-18,Alta
+435,018,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-17,Média
+436,107,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-30,Média
+437,130,Perfuratriz,Vazamento de combustível,2024-08-17,Média
+438,001,Perfuratriz,Vazamento de combustível,2022-09-08,Média
+439,077,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-04-08,Crítica
+440,039,Britador Primário,Rompimento de correias,2024-10-31,Crítica
+441,138,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-04-22,Crítica
+442,089,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-10-25,Média
+443,142,Perfuratriz,Quebra do motor de perfuração,2021-06-27,Crítica
+444,117,Escavadeira Hidráulica,Falha no sistema de rotação,2023-02-09,Alta
+445,049,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-11,Baixa
+446,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-02,Crítica
+447,060,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-01-01,Crítica
+448,012,Carregadeira,Superaquecimento do motor,2020-03-06,Alta
+449,122,Carregadeira,Danos na caçamba de carga,2021-12-23,Crítica
+450,099,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-12,Baixa
+451,127,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-12-26,Baixa
+452,033,Escavadeira Hidráulica,Falha no sistema de rotação,2021-01-20,Alta
+453,026,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-05-07,Crítica
+454,026,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-05-10,Crítica
+455,004,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-02-03,Baixa
+456,105,Caminhão Fora de Estrada,Falha no sistema de transmissão,2021-03-13,Alta
+457,020,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-23,Crítica
+458,068,Escavadeira Hidráulica,Falha no sistema de rotação,2018-05-24,Alta
+459,102,Perfuratriz,Desgaste da broca,2023-05-12,Baixa
+460,085,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-01-11,Crítica
+461,082,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-02-24,Crítica
+462,139,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-11-12,Média
+463,018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-05,Alta
+464,074,Perfuratriz,Falha no compressor de ar,2024-10-27,Alta
+465,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-13,Crítica
+466,026,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-01-11,Média
+467,114,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-08-15,Alta
+468,077,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-06-14,Baixa
+469,012,Carregadeira,Superaquecimento do motor,2024-12-08,Alta
+470,015,Carregadeira,Superaquecimento do motor,2019-04-22,Alta
+471,092,Escavadeira Hidráulica,Falha no sistema de rotação,2021-04-03,Alta
+472,111,Perfuratriz,Falha no compressor de ar,2024-06-27,Alta
+473,063,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-24,Crítica
+474,145,Carregadeira,Falha no sistema hidráulico,2018-03-18,Média
+475,044,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-10-22,Baixa
+476,021,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-15,Crítica
+477,062,Perfuratriz,Quebra do motor de perfuração,2021-10-23,Crítica
+478,150,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-04-22,Baixa
+479,060,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-05-10,Crítica
+480,066,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-01-25,Crítica
+481,066,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-05-16,Média
+482,120,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-09,Alta
+483,140,Britador Primário,Desgaste das mandíbulas,2024-06-30,Baixa
+484,019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-04-21,Crítica
+485,089,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-09-03,Média
+486,109,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-20,Alta
+487,117,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-02,Alta
+488,051,Perfuratriz,Quebra do motor de perfuração,2019-02-13,Crítica
+489,124,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-11-14,Média
+490,061,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-04-04,Crítica
+491,147,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-25,Alta
+492,148,Escavadeira Hidráulica,Falha no sistema de rotação,2022-10-12,Alta
+493,076,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-06-22,Média
+494,102,Perfuratriz,Vazamento de combustível,2024-01-09,Média
+495,003,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-02-15,Baixa
+496,128,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-27,Alta
+497,059,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-01-29,Média
+498,057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-10-24,Baixa
+499,065,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-09-25,Baixa
+500,025,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2019-12-03,Baixa
+501,080,Perfuratriz,Quebra do motor de perfuração,2022-02-19,Crítica
+502,009,Perfuratriz,Vazamento de combustível,2023-06-08,Média
+503,034,Carregadeira,Desgaste dos pneus,2023-03-02,Baixa
+504,076,Escavadeira Hidráulica,Falha no sistema de rotação,2021-08-12,Alta
+505,107,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-02,Alta
+506,052,Britador Primário,Desgaste das mandíbulas,2016-09-01,Baixa
+507,139,Escavadeira Hidráulica,Falha no sistema de rotação,2023-10-01,Alta
+508,136,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-04-26,Média
+509,043,Caminhão Fora de Estrada,Vazamento de óleo do motor,2019-12-20,Média
+510,124,Escavadeira Hidráulica,Falha no sistema de rotação,2020-02-05,Alta
+511,087,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-02-27,Baixa
+512,120,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-05,Média
+513,037,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-06-24,Baixa
+514,102,Perfuratriz,Vazamento de combustível,2024-09-04,Média
+515,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-01-08,Crítica
+516,004,Escavadeira Hidráulica,Falha no sistema de rotação,2021-07-31,Alta
+517,138,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-03-03,Baixa
+518,117,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-02,Alta
+519,068,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-06-30,Crítica
+520,096,Carregadeira,Desgaste dos pneus,2024-11-14,Baixa
+521,060,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-05-09,Crítica
+522,007,Carregadeira,Superaquecimento do motor,2019-07-30,Alta
+523,057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2017-05-30,Média
+524,119,Escavadeira Hidráulica,Falha no sistema de rotação,2024-03-26,Alta
+525,105,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-12-30,Baixa
+526,036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2017-11-05,Média
+527,010,Perfuratriz,Vazamento de combustível,2023-08-31,Média
+528,127,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-08-18,Baixa
+529,025,Caminhão Fora de Estrada,Falha no sistema de transmissão,2021-10-11,Alta
+530,138,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-11-29,Alta
+531,100,Carregadeira,Danos na caçamba de carga,2024-10-26,Crítica
+532,095,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-12-01,Crítica
+533,040,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-01-01,Crítica
+534,026,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-06-21,Crítica
+535,105,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-07-22,Média
+536,009,Perfuratriz,Vazamento de combustível,2022-01-25,Média
+537,056,Britador Primário,Rompimento de correias,2020-01-18,Crítica
+538,114,Caminhão Fora de Estrada,Falha no sistema de transmissão,2017-09-01,Alta
+539,093,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-02-08,Média
+540,095,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-07-09,Média
+541,016,Perfuratriz,Quebra do motor de perfuração,2024-05-14,Crítica
+542,071,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2017-12-07,Baixa
+543,032,Britador Primário,Rompimento de correias,2023-10-23,Crítica
+544,024,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-05-11,Alta
+545,006,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2018-11-28,Média
+546,086,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-10-05,Alta
+547,033,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-08-24,Baixa
+548,018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-12-14,Alta
+549,056,Britador Primário,Desgaste das mandíbulas,2023-02-04,Baixa
+550,085,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-03-22,Baixa
+551,001,Perfuratriz,Vazamento de combustível,2018-10-26,Média
+552,038,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-06-08,Baixa
+553,139,Escavadeira Hidráulica,Falha no sistema de rotação,2019-09-13,Alta
+554,045,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2017-08-26,Baixa
+555,007,Carregadeira,Falha no sistema hidráulico,2019-04-04,Média
+556,004,Escavadeira Hidráulica,Falha no sistema de rotação,2020-01-10,Alta
+557,061,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-13,Alta
+558,005,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-05-22,Baixa
+559,068,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-11,Média
+560,033,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-04-03,Crítica
+561,135,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-02,Média
+562,017,Caminhão Fora de Estrada,Quebra do eixo traseiro,2016-02-03,Crítica
+563,115,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-05-11,Média
+564,132,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-05-06,Média
+565,116,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-10-01,Alta
+566,012,Carregadeira,Superaquecimento do motor,2017-09-26,Alta
+567,118,Perfuratriz,Desgaste da broca,2024-08-19,Baixa
+568,016,Perfuratriz,Quebra do motor de perfuração,2024-05-25,Crítica
+569,103,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-10-24,Crítica
+570,028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-06-24,Crítica
+571,114,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2019-02-26,Baixa
+572,021,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-16,Alta
+573,038,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-16,Média
+574,033,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-01,Alta
+575,150,Escavadeira Hidráulica,Falha no sistema de rotação,2021-11-17,Alta
+576,098,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-03-11,Média
+577,117,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-01-20,Crítica
+578,026,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-03-18,Média
+579,142,Perfuratriz,Falha no compressor de ar,2020-11-04,Alta
+580,111,Perfuratriz,Quebra do motor de perfuração,2023-05-09,Crítica
+581,059,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-09-30,Crítica
+582,087,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-02-18,Crítica
+583,103,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-10-03,Crítica
+584,025,Caminhão Fora de Estrada,Vazamento de óleo do motor,2019-12-16,Média
+585,110,Perfuratriz,Vazamento de combustível,2023-04-07,Média
+586,066,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-11,Alta
+587,040,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-09-20,Crítica
+588,018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-10-30,Baixa
+589,022,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-10-13,Média
+590,111,Perfuratriz,Desgaste da broca,2020-03-25,Baixa
+591,096,Carregadeira,Falha no sistema hidráulico,2024-12-24,Média
+592,143,Carregadeira,Desgaste dos pneus,2024-09-03,Baixa
+593,144,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-25,Média
+594,032,Britador Primário,Rompimento de correias,2022-05-17,Crítica
+595,091,Perfuratriz,Quebra do motor de perfuração,2024-05-15,Crítica
+596,014,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-06-27,Média
+597,080,Perfuratriz,Vazamento de combustível,2023-01-15,Média
+598,027,Perfuratriz,Falha no compressor de ar,2024-02-26,Alta
+599,040,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-07-12,Crítica
+600,058,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-10,Média
+601,090,Perfuratriz,Vazamento de combustível,2023-05-10,Média
+602,030,Perfuratriz,Vazamento de combustível,2021-12-03,Média
+603,147,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-06-07,Baixa
+604,110,Perfuratriz,Desgaste da broca,2020-06-04,Baixa
+605,069,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-04,Média
+606,047,Escavadeira Hidráulica,Falha no sistema de rotação,2021-09-07,Alta
+607,080,Perfuratriz,Vazamento de combustível,2017-11-24,Média
+608,090,Perfuratriz,Desgaste da broca,2022-10-17,Baixa
+609,047,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-06-06,Baixa
+610,145,Carregadeira,Danos na caçamba de carga,2023-03-09,Crítica
+611,018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-09-29,Alta
+612,008,Carregadeira,Desgaste dos pneus,2024-11-12,Baixa
+613,136,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-10-03,Alta
+614,097,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-04-11,Crítica
+615,117,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-22,Alta
+616,041,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-06,Alta
+617,080,Perfuratriz,Vazamento de combustível,2020-05-24,Média
+618,146,Carregadeira,Desgaste dos pneus,2021-03-24,Baixa
+619,014,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-01-31,Alta
+620,041,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-12-22,Média
+621,021,Escavadeira Hidráulica,Falha no sistema de rotação,2024-01-17,Alta
+622,114,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-23,Crítica
+623,125,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-05-30,Crítica
+624,107,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-04-28,Média
+625,056,Britador Primário,Bloqueio por material,2019-09-27,Média
+626,089,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-12-19,Crítica
+627,029,Carregadeira,Superaquecimento do motor,2023-07-25,Alta
+628,125,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-19,Alta
+629,012,Carregadeira,Falha no sistema hidráulico,2021-06-15,Média
+630,102,Perfuratriz,Desgaste da broca,2021-11-27,Baixa
+631,002,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-06-26,Baixa
+632,078,Caminhão Fora de Estrada,Falha no sistema de transmissão,2016-11-08,Alta
+633,036,Escavadeira Hidráulica,Falha no sistema de rotação,2020-01-06,Alta
+634,075,Perfuratriz,Vazamento de combustível,2024-09-27,Média
+635,031,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-11-03,Média
+636,128,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-05-26,Crítica
+637,045,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-11-28,Alta
+638,098,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-02-29,Alta
+639,129,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-11-16,Média
+640,019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-04-16,Crítica
+641,011,Caminhão Fora de Estrada,Quebra do eixo traseiro,2016-01-08,Crítica
+642,005,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-07-04,Crítica
+643,020,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-17,Alta
+644,148,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-01-13,Crítica
+645,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-29,Crítica
+646,107,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-09-15,Média
+647,030,Perfuratriz,Quebra do motor de perfuração,2018-10-25,Crítica
+648,006,Escavadeira Hidráulica,Falha no sistema de rotação,2017-09-13,Alta
+649,044,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-08-29,Crítica
+650,093,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-07-10,Média
+651,112,Carregadeira,Desgaste dos pneus,2023-08-23,Baixa
+652,063,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-10-31,Crítica
+653,103,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-09-30,Baixa
+654,102,Perfuratriz,Vazamento de combustível,2024-10-17,Média
+655,087,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-05,Alta
+656,086,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-20,Alta
+657,020,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-03,Média
+658,136,Caminhão Fora de Estrada,Falha no sistema de transmissão,2016-11-08,Alta
+659,090,Perfuratriz,Vazamento de combustível,2022-01-25,Média
+660,038,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-12-06,Baixa
+661,027,Perfuratriz,Falha no compressor de ar,2023-04-12,Alta
+662,066,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-05-17,Baixa
+663,045,Caminhão Fora de Estrada,Falha no sistema de transmissão,2018-11-19,Alta
+664,020,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-08,Baixa
+665,127,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-06-24,Crítica
+666,145,Carregadeira,Danos na caçamba de carga,2022-03-18,Crítica
+667,145,Carregadeira,Superaquecimento do motor,2016-11-24,Alta
+668,081,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-10-26,Baixa
+669,113,Perfuratriz,Desgaste da broca,2023-03-12,Baixa
+670,121,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-04-26,Crítica
+671,078,Caminhão Fora de Estrada,Vazamento de óleo do motor,2018-01-09,Média
+672,015,Carregadeira,Superaquecimento do motor,2019-05-13,Alta
+673,130,Perfuratriz,Desgaste da broca,2023-09-25,Baixa
+674,080,Perfuratriz,Quebra do motor de perfuração,2022-09-08,Crítica
+675,116,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-03-17,Baixa
+676,015,Carregadeira,Superaquecimento do motor,2024-04-03,Alta
+677,074,Perfuratriz,Desgaste da broca,2023-06-25,Baixa
+678,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-04-07,Crítica
+679,119,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-03-21,Média
+680,116,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-08-14,Alta
+681,083,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-18,Crítica
+682,129,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-04-01,Alta
+683,016,Perfuratriz,Quebra do motor de perfuração,2023-08-19,Crítica
+684,027,Perfuratriz,Vazamento de combustível,2024-11-16,Média
+685,022,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-02-18,Baixa
+686,011,Caminhão Fora de Estrada,Falha no sistema de transmissão,2019-08-28,Alta
+687,113,Perfuratriz,Quebra do motor de perfuração,2022-10-17,Crítica
+688,135,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-03,Baixa
+689,094,Escavadeira Hidráulica,Falha no sistema de rotação,2021-01-09,Alta
+690,073,Carregadeira,Danos na caçamba de carga,2021-06-17,Crítica
+691,105,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-08-01,Média
+692,014,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-09-20,Média
+693,017,Caminhão Fora de Estrada,Vazamento de óleo do motor,2019-07-17,Média
+694,025,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-25,Crítica
+695,073,Carregadeira,Superaquecimento do motor,2023-03-24,Alta
+696,039,Britador Primário,Falha no motor elétrico,2021-02-02,Alta
+697,021,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-17,Baixa
+698,090,Perfuratriz,Vazamento de combustível,2024-07-28,Média
+699,101,Perfuratriz,Falha no compressor de ar,2024-12-08,Alta
+700,022,Escavadeira Hidráulica,Falha no sistema de rotação,2023-03-15,Alta
+701,144,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-05-28,Crítica
+702,085,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-03-02,Baixa
+703,135,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-02,Média
+704,109,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-06,Alta
+705,005,Escavadeira Hidráulica,Falha no sistema de rotação,2023-02-11,Alta
+706,080,Perfuratriz,Falha no compressor de ar,2024-12-21,Alta
+707,055,Escavadeira Hidráulica,Falha no sistema de rotação,2016-09-13,Alta
+708,125,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-06-12,Baixa
+709,058,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-06-20,Baixa
+710,040,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2016-06-23,Baixa
+711,076,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-21,Média
+712,130,Perfuratriz,Desgaste da broca,2024-05-12,Baixa
+713,087,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-07-12,Alta
+714,097,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-06-09,Alta
+715,042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-12-01,Alta
+716,043,Caminhão Fora de Estrada,Quebra do eixo traseiro,2017-04-05,Crítica
+717,012,Carregadeira,Danos na caçamba de carga,2021-07-31,Crítica
+718,094,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-01-30,Baixa
+719,114,Caminhão Fora de Estrada,Vazamento de óleo do motor,2017-03-24,Média
+720,115,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-01-04,Alta
+721,137,Britador Primário,Desgaste das mandíbulas,2022-02-16,Baixa
+722,080,Perfuratriz,Quebra do motor de perfuração,2017-04-23,Crítica
+723,050,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-30,Alta
+724,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-07-19,Crítica
+725,119,Escavadeira Hidráulica,Falha no sistema de rotação,2022-02-08,Alta
+726,098,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-08-08,Crítica
+727,042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-03-03,Alta
+728,036,Escavadeira Hidráulica,Falha no sistema de rotação,2019-08-22,Alta
+729,014,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-05-13,Crítica
+730,096,Carregadeira,Desgaste dos pneus,2024-09-23,Baixa
+731,133,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-11-18,Baixa
+732,073,Carregadeira,Desgaste dos pneus,2022-03-13,Baixa
+733,042,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-13,Média
+734,116,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-27,Alta
+735,112,Carregadeira,Desgaste dos pneus,2021-09-03,Baixa
+736,057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-08-19,Crítica
+737,090,Perfuratriz,Desgaste da broca,2023-10-07,Baixa
+738,107,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-09-26,Baixa
+739,102,Perfuratriz,Vazamento de combustível,2022-07-27,Média
+740,061,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-27,Crítica
+741,021,Escavadeira Hidráulica,Falha no sistema de rotação,2022-09-16,Alta
+742,058,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-09-26,Média
+743,082,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-11-13,Baixa
+744,086,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-21,Alta
+745,036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2016-12-15,Média
+746,074,Perfuratriz,Quebra do motor de perfuração,2022-02-01,Crítica
+747,036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-05-11,Crítica
+748,115,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-09-24,Baixa
+749,021,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-12-25,Média
+750,066,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-11-24,Baixa
+751,039,Britador Primário,Rompimento de correias,2022-03-08,Crítica
+752,029,Carregadeira,Superaquecimento do motor,2022-05-13,Alta
+753,061,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-25,Alta
+754,032,Britador Primário,Bloqueio por material,2024-02-11,Média
+755,062,Perfuratriz,Quebra do motor de perfuração,2024-09-13,Crítica
+756,118,Perfuratriz,Desgaste da broca,2024-07-29,Baixa
+757,029,Carregadeira,Danos na caçamba de carga,2023-10-02,Crítica
+758,138,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-03-04,Baixa
+759,132,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-10-16,Baixa
+760,037,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-23,Alta
+761,110,Perfuratriz,Desgaste da broca,2022-05-14,Baixa
+762,091,Perfuratriz,Falha no compressor de ar,2023-08-14,Alta
+763,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-12-03,Crítica
+764,048,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-09-02,Baixa
+765,135,Escavadeira Hidráulica,Falha no sistema de rotação,2023-09-27,Alta
+766,018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-11-23,Baixa
+767,100,Carregadeira,Danos na caçamba de carga,2023-09-13,Crítica
+768,012,Carregadeira,Danos na caçamba de carga,2020-02-26,Crítica
+769,096,Carregadeira,Superaquecimento do motor,2024-08-13,Alta
+770,005,Escavadeira Hidráulica,Falha no sistema de rotação,2021-12-04,Alta
+771,018,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-11,Média
+772,062,Perfuratriz,Desgaste da broca,2021-03-02,Baixa
+773,149,Escavadeira Hidráulica,Falha no sistema de rotação,2023-03-24,Alta
+774,035,Carregadeira,Desgaste dos pneus,2023-05-02,Baixa
+775,091,Perfuratriz,Vazamento de combustível,2024-06-13,Média
+776,045,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-02-08,Crítica
+777,123,Carregadeira,Falha no sistema hidráulico,2024-05-01,Média
+778,035,Carregadeira,Desgaste dos pneus,2023-07-28,Baixa
+779,118,Perfuratriz,Desgaste da broca,2024-09-25,Baixa
+780,076,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-12-19,Baixa
+781,012,Carregadeira,Falha no sistema hidráulico,2021-10-03,Média
+782,011,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-05-16,Média
+783,080,Perfuratriz,Quebra do motor de perfuração,2020-01-31,Crítica
+784,140,Britador Primário,Rompimento de correias,2024-05-31,Crítica
+785,065,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-04-07,Média
+786,049,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-07,Alta
+787,092,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2018-02-06,Média
+788,085,Escavadeira Hidráulica,Falha no sistema de rotação,2022-04-02,Alta
+789,032,Britador Primário,Falha no motor elétrico,2022-04-05,Alta
+790,112,Carregadeira,Danos na caçamba de carga,2022-05-12,Crítica
+791,113,Perfuratriz,Quebra do motor de perfuração,2023-06-07,Crítica
+792,087,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-01-31,Alta
+793,128,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-10-31,Crítica
+794,095,Caminhão Fora de Estrada,Vazamento de óleo do motor,2019-11-16,Média
+795,022,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-07-15,Crítica
+796,021,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-11,Crítica
+797,047,Escavadeira Hidráulica,Falha no sistema de rotação,2022-07-02,Alta
+798,083,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-02-28,Média
+799,021,Escavadeira Hidráulica,Falha no sistema de rotação,2024-01-12,Alta
+800,076,Escavadeira Hidráulica,Falha no sistema de rotação,2023-11-11,Alta
+801,115,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-05,Crítica
+802,043,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-09-29,Crítica
+803,090,Perfuratriz,Quebra do motor de perfuração,2022-06-09,Crítica
+804,011,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-02-03,Média
+805,112,Carregadeira,Superaquecimento do motor,2020-09-17,Alta
+806,015,Carregadeira,Desgaste dos pneus,2022-10-05,Baixa
+807,104,Escavadeira Hidráulica,Falha no sistema de rotação,2019-02-02,Alta
+808,132,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-06-24,Baixa
+809,008,Carregadeira,Falha no sistema hidráulico,2024-12-05,Média
+810,113,Perfuratriz,Desgaste da broca,2024-01-12,Baixa
+811,033,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-01-28,Média
+812,061,Escavadeira Hidráulica,Falha no sistema de rotação,2023-12-04,Alta
+813,093,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2019-12-29,Crítica
+814,146,Carregadeira,Desgaste dos pneus,2021-02-25,Baixa
+815,040,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-08-25,Crítica
+816,095,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-04-14,Média
+817,114,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-10-22,Baixa
+818,147,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-27,Baixa
+819,136,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-08-03,Média
+820,102,Perfuratriz,Vazamento de combustível,2022-06-22,Média
+821,072,Carregadeira,Falha no sistema hidráulico,2022-12-30,Média
+822,030,Perfuratriz,Desgaste da broca,2018-11-10,Baixa
+823,048,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-05,Crítica
+824,133,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-21,Crítica
+825,144,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-09-28,Baixa
+826,068,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-22,Alta
+827,115,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-05-29,Alta
+828,074,Perfuratriz,Quebra do motor de perfuração,2019-11-21,Crítica
+829,052,Britador Primário,Bloqueio por material,2017-12-04,Média
+830,035,Carregadeira,Desgaste dos pneus,2021-09-30,Baixa
+831,116,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-06-30,Alta
+832,114,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-04-24,Baixa
+833,082,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-05-13,Média
+834,017,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-12-17,Média
+835,077,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-10-16,Alta
+836,045,Caminhão Fora de Estrada,Vazamento de óleo do motor,2018-12-13,Média
+837,131,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-09-16,Alta
+838,032,Britador Primário,Desgaste das mandíbulas,2023-11-18,Baixa
+839,036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-10-22,Baixa
+840,127,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-10-08,Baixa
+841,093,Escavadeira Hidráulica,Falha no sistema de rotação,2020-02-27,Alta
+842,120,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-07-22,Baixa
+843,023,Britador Primário,Bloqueio por material,2024-11-22,Média
+844,080,Perfuratriz,Quebra do motor de perfuração,2021-10-15,Crítica
+845,123,Carregadeira,Danos na caçamba de carga,2024-07-22,Crítica
+846,105,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-01-10,Baixa
+847,033,Escavadeira Hidráulica,Falha no sistema de rotação,2022-04-07,Alta
+848,019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-10-01,Crítica
+849,120,Escavadeira Hidráulica,Falha no sistema de rotação,2024-09-03,Alta
+850,033,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-28,Baixa
+851,034,Carregadeira,Danos na caçamba de carga,2017-07-17,Crítica
+852,129,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2017-11-28,Baixa
+853,032,Britador Primário,Desgaste das mandíbulas,2022-04-23,Baixa
+854,078,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-06-09,Alta
+855,042,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-03,Média
+856,058,Escavadeira Hidráulica,Falha no sistema de rotação,2023-02-11,Alta
+857,133,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-16,Média
+858,021,Escavadeira Hidráulica,Falha no sistema de rotação,2022-08-20,Alta
+859,051,Perfuratriz,Vazamento de combustível,2020-08-20,Média
+860,033,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-01,Alta
+861,137,Britador Primário,Bloqueio por material,2022-04-16,Média
+862,129,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-09-05,Alta
+863,149,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-09-12,Baixa
+864,044,Escavadeira Hidráulica,Falha no sistema de rotação,2022-05-09,Alta
+865,145,Carregadeira,Desgaste dos pneus,2019-11-13,Baixa
+866,008,Carregadeira,Desgaste dos pneus,2024-10-18,Baixa
+867,012,Carregadeira,Superaquecimento do motor,2018-11-29,Alta
+868,054,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-12-19,Crítica
+869,008,Carregadeira,Danos na caçamba de carga,2024-06-02,Crítica
+870,140,Britador Primário,Falha no motor elétrico,2024-11-07,Alta
+871,078,Caminhão Fora de Estrada,Quebra do eixo traseiro,2017-03-18,Crítica
+872,063,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-03-22,Crítica
+873,077,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-12-26,Crítica
+874,019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-13,Média
+875,041,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-15,Crítica
+876,107,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-08-01,Crítica
+877,119,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-12-29,Baixa
+878,088,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-18,Baixa
+879,081,Escavadeira Hidráulica,Falha no sistema de rotação,2023-04-28,Alta
+880,089,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-08-19,Crítica
+881,034,Carregadeira,Superaquecimento do motor,2021-04-03,Alta
+882,132,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-03,Média
+883,082,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-01-22,Alta
+884,120,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-09-23,Média
+885,069,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-28,Crítica
+886,064,Carregadeira,Falha no sistema hidráulico,2021-09-17,Média
+887,025,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2018-01-26,Baixa
+888,075,Perfuratriz,Quebra do motor de perfuração,2024-11-23,Crítica
+889,108,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-08-15,Baixa
+890,041,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-23,Alta
+891,148,Escavadeira Hidráulica,Falha no sistema de rotação,2019-02-23,Alta
+892,049,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-07,Baixa
+893,128,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-04-02,Crítica
+894,128,Escavadeira Hidráulica,Falha no sistema de rotação,2022-12-26,Alta
+895,128,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-05-27,Média
+896,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-12-07,Crítica
+897,130,Perfuratriz,Quebra do motor de perfuração,2022-10-30,Crítica
+898,062,Perfuratriz,Falha no compressor de ar,2020-11-01,Alta
+899,150,Escavadeira Hidráulica,Falha no sistema de rotação,2023-07-13,Alta
+900,013,Perfuratriz,Desgaste da broca,2021-06-18,Baixa
+901,073,Carregadeira,Danos na caçamba de carga,2023-01-09,Crítica
+902,121,Escavadeira Hidráulica,Falha no sistema de rotação,2023-02-23,Alta
+903,138,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-10-22,Baixa
+904,028,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-05-04,Crítica
+905,035,Carregadeira,Superaquecimento do motor,2024-01-24,Alta
+906,094,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-23,Crítica
+907,094,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2018-02-08,Média
+908,103,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-06-09,Baixa
+909,146,Carregadeira,Falha no sistema hidráulico,2023-02-22,Média
+910,093,Escavadeira Hidráulica,Falha no sistema de rotação,2022-11-22,Alta
+911,019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-24,Crítica
+912,130,Perfuratriz,Quebra do motor de perfuração,2024-10-02,Crítica
+913,141,Escavadeira Hidráulica,Falha no sistema de rotação,2023-08-06,Alta
+914,031,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-02-26,Baixa
+915,025,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-01-28,Crítica
+916,096,Carregadeira,Superaquecimento do motor,2024-12-26,Alta
+917,143,Carregadeira,Superaquecimento do motor,2024-10-14,Alta
+918,037,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-06-02,Baixa
+919,131,Caminhão Fora de Estrada,Quebra do eixo traseiro,2017-03-09,Crítica
+920,129,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-05-20,Baixa
+921,012,Carregadeira,Desgaste dos pneus,2016-10-07,Baixa
+922,036,Escavadeira Hidráulica,Falha no sistema de rotação,2020-06-21,Alta
+923,122,Carregadeira,Danos na caçamba de carga,2020-11-28,Crítica
+924,039,Britador Primário,Desgaste das mandíbulas,2023-11-25,Baixa
+925,084,Carregadeira,Superaquecimento do motor,2021-12-26,Alta
+926,042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-04-04,Crítica
+927,077,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-01-24,Média
+928,130,Perfuratriz,Quebra do motor de perfuração,2023-04-08,Crítica
+929,145,Carregadeira,Superaquecimento do motor,2022-05-15,Alta
+930,122,Carregadeira,Desgaste dos pneus,2021-03-23,Baixa
+931,095,Caminhão Fora de Estrada,Vazamento de óleo do motor,2019-09-01,Média
+932,029,Carregadeira,Danos na caçamba de carga,2020-10-12,Crítica
+933,150,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-18,Alta
+934,007,Carregadeira,Danos na caçamba de carga,2018-01-16,Crítica
+935,068,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-06-30,Baixa
+936,014,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-02-13,Crítica
+937,044,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-02-16,Crítica
+938,038,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-03-23,Baixa
+939,009,Perfuratriz,Desgaste da broca,2020-04-25,Baixa
+940,049,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-29,Média
+941,113,Perfuratriz,Vazamento de combustível,2024-05-22,Média
+942,108,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-27,Baixa
+943,106,Perfuratriz,Falha no compressor de ar,2024-04-09,Alta
+944,106,Perfuratriz,Quebra do motor de perfuração,2023-11-02,Crítica
+945,016,Perfuratriz,Falha no compressor de ar,2024-02-17,Alta
+946,133,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-12-07,Alta
+947,144,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-11,Média
+948,123,Carregadeira,Danos na caçamba de carga,2024-09-19,Crítica
+949,081,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-09-13,Baixa
+950,118,Perfuratriz,Vazamento de combustível,2024-02-18,Média
+951,140,Britador Primário,Falha no motor elétrico,2022-11-30,Alta
+952,068,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-06-26,Crítica
+953,050,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-06-30,Baixa
+954,072,Carregadeira,Superaquecimento do motor,2023-04-06,Alta
+955,058,Escavadeira Hidráulica,Falha no sistema de rotação,2023-08-09,Alta
+956,074,Perfuratriz,Falha no compressor de ar,2021-01-09,Alta
+957,126,Escavadeira Hidráulica,Falha no sistema de rotação,2021-12-06,Alta
+958,123,Carregadeira,Superaquecimento do motor,2024-10-01,Alta
+959,144,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-03-08,Média
+960,074,Perfuratriz,Desgaste da broca,2021-01-17,Baixa
+961,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-09-17,Crítica
+962,102,Perfuratriz,Vazamento de combustível,2024-06-13,Média
+963,038,Escavadeira Hidráulica,Falha no sistema de rotação,2023-12-01,Alta
+964,011,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-04-13,Média
+965,021,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-13,Alta
+966,114,Caminhão Fora de Estrada,Vazamento de óleo do motor,2016-10-11,Média
+967,123,Carregadeira,Falha no sistema hidráulico,2024-03-01,Média
+968,052,Britador Primário,Falha no motor elétrico,2017-02-27,Alta
+969,144,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-01-26,Média
+970,036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-09-17,Média
+971,062,Perfuratriz,Falha no compressor de ar,2023-03-22,Alta
+972,013,Perfuratriz,Falha no compressor de ar,2023-02-25,Alta
+973,060,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-11-03,Baixa
+974,026,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-04-03,Crítica
+975,085,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-05-19,Crítica
+976,026,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-03-28,Baixa
+977,002,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-07-06,Baixa
+978,105,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-08-11,Crítica
+979,123,Carregadeira,Falha no sistema hidráulico,2024-10-24,Média
+980,074,Perfuratriz,Vazamento de combustível,2019-11-07,Média
+981,074,Perfuratriz,Desgaste da broca,2023-10-30,Baixa
+982,023,Britador Primário,Desgaste das mandíbulas,2024-12-17,Baixa
+983,137,Britador Primário,Bloqueio por material,2022-07-16,Média
+984,045,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-06-24,Crítica
+985,046,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-26,Média
+986,102,Perfuratriz,Quebra do motor de perfuração,2022-11-01,Crítica
+987,048,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-07-29,Média
+988,010,Perfuratriz,Desgaste da broca,2023-11-26,Baixa
+989,077,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-01-18,Baixa
+990,086,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-21,Média
+991,117,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-02-12,Crítica
+992,035,Carregadeira,Danos na caçamba de carga,2024-05-22,Crítica
+993,070,Carregadeira,Falha no sistema hidráulico,2019-09-04,Média
+994,029,Carregadeira,Superaquecimento do motor,2021-01-26,Alta
+995,042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-03,Crítica
+996,066,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-01-28,Baixa
+997,004,Escavadeira Hidráulica,Falha no sistema de rotação,2023-04-14,Alta
+998,076,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-09-07,Baixa
+999,045,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-10-23,Crítica
+1000,110,Perfuratriz,Vazamento de combustível,2019-10-04,Média
+1001,023,Britador Primário,Rompimento de correias,2023-04-03,Crítica
+1002,025,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-06-05,Alta
+1003,036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-12-21,Crítica
+1004,083,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-04-09,Baixa
+1005,002,Escavadeira Hidráulica,Falha no sistema de rotação,2021-04-20,Alta
+1006,099,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-20,Baixa
+1007,115,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-02-06,Média
+1008,085,Escavadeira Hidráulica,Falha no sistema de rotação,2021-09-28,Alta
+1009,150,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-05-13,Média
+1010,067,Escavadeira Hidráulica,Falha no sistema de rotação,2018-01-07,Alta
+1011,061,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-07-24,Média
+1012,031,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-09-19,Crítica
+1013,079,Carregadeira,Falha no sistema hidráulico,2022-11-12,Média
+1014,104,Escavadeira Hidráulica,Falha no sistema de rotação,2019-10-09,Alta
+1015,031,Escavadeira Hidráulica,Falha no sistema de rotação,2020-12-08,Alta
+1016,095,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-01-07,Alta
+1017,057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2018-10-29,Baixa
+1018,123,Carregadeira,Falha no sistema hidráulico,2024-04-13,Média
+1019,117,Escavadeira Hidráulica,Falha no sistema de rotação,2023-03-03,Alta
+1020,107,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-07-03,Crítica
+1021,138,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-02,Alta
+1022,064,Carregadeira,Desgaste dos pneus,2022-09-04,Baixa
+1023,135,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-10,Crítica
+1024,136,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-05-14,Média
+1025,020,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-14,Média
+1026,016,Perfuratriz,Falha no compressor de ar,2023-12-09,Alta
+1027,147,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-01-04,Baixa
+1028,043,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-01-13,Média
+1029,134,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-03-04,Crítica
+1030,030,Perfuratriz,Falha no compressor de ar,2020-04-21,Alta
+1031,150,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-12-24,Crítica
+1032,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-02-01,Crítica
+1033,015,Carregadeira,Danos na caçamba de carga,2023-03-13,Crítica
+1034,034,Carregadeira,Danos na caçamba de carga,2020-12-15,Crítica
+1035,117,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-12-15,Média
+1036,144,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-07-20,Crítica
+1037,079,Carregadeira,Desgaste dos pneus,2021-07-09,Baixa
+1038,102,Perfuratriz,Vazamento de combustível,2023-11-28,Média
+1039,001,Perfuratriz,Falha no compressor de ar,2017-02-02,Alta
+1040,149,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2017-09-01,Média
+1041,012,Carregadeira,Danos na caçamba de carga,2022-03-13,Crítica
+1042,089,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-07-26,Baixa
+1043,139,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-04-09,Média
+1044,018,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-09-03,Crítica
+1045,009,Perfuratriz,Vazamento de combustível,2020-02-20,Média
+1046,105,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-04-25,Alta
+1047,035,Carregadeira,Danos na caçamba de carga,2022-12-18,Crítica
+1048,096,Carregadeira,Danos na caçamba de carga,2024-07-29,Crítica
+1049,115,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-10-04,Crítica
+1050,097,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-06-20,Baixa
+1051,139,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-08-04,Baixa
+1052,090,Perfuratriz,Desgaste da broca,2024-04-09,Baixa
+1053,046,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-21,Crítica
+1054,136,Caminhão Fora de Estrada,Falha no sistema de transmissão,2019-03-29,Alta
+1055,058,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-10-01,Média
+1056,006,Escavadeira Hidráulica,Falha no sistema de rotação,2017-06-11,Alta
+1057,119,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-03-10,Crítica
+1058,137,Britador Primário,Rompimento de correias,2023-09-28,Crítica
+1059,059,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-11-13,Alta
+1060,118,Perfuratriz,Vazamento de combustível,2024-12-08,Média
+1061,040,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-03-27,Média
+1062,049,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-01,Média
+1063,009,Perfuratriz,Quebra do motor de perfuração,2023-05-04,Crítica
+1064,005,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-11-27,Baixa
+1065,053,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2019-04-06,Baixa
+1066,026,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-02-14,Média
+1067,115,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-10-05,Baixa
+1068,063,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-09-21,Média
+1069,103,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-07-19,Crítica
+1070,060,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-07-17,Alta
+1071,015,Carregadeira,Falha no sistema hidráulico,2022-01-15,Média
+1072,129,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-05-24,Média
+1073,060,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-12-10,Média
+1074,148,Escavadeira Hidráulica,Falha no sistema de rotação,2016-07-31,Alta
+1075,061,Escavadeira Hidráulica,Falha no sistema de rotação,2022-11-06,Alta
+1076,037,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-04-02,Baixa
+1077,106,Perfuratriz,Vazamento de combustível,2024-08-16,Média
+1078,071,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-12,Média
+1079,143,Carregadeira,Falha no sistema hidráulico,2024-10-04,Média
+1080,110,Perfuratriz,Quebra do motor de perfuração,2019-03-31,Crítica
+1081,013,Perfuratriz,Vazamento de combustível,2023-08-13,Média
+1082,098,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-08,Média
+1083,107,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-11-03,Crítica
+1084,039,Britador Primário,Falha no motor elétrico,2024-09-11,Alta
+1085,097,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-18,Alta
+1086,138,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-11-28,Crítica
+1087,062,Perfuratriz,Falha no compressor de ar,2018-08-03,Alta
+1088,077,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-11-13,Alta
+1089,119,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-06-14,Média
+1090,144,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-11-12,Crítica
+1091,107,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-02-12,Alta
+1092,100,Carregadeira,Falha no sistema hidráulico,2024-08-29,Média
+1093,066,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-08-25,Baixa
+1094,085,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-10-26,Média
+1095,116,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-05-04,Média
+1096,024,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-08,Alta
+1097,014,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-01-18,Média
+1098,097,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-08-05,Baixa
+1099,019,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-08-20,Baixa
+1100,144,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-01-24,Alta
+1101,123,Carregadeira,Falha no sistema hidráulico,2024-03-07,Média
+1102,086,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-01,Média
+1103,004,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-04-30,Baixa
+1104,049,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-28,Média
+1105,123,Carregadeira,Falha no sistema hidráulico,2024-12-27,Média
+1106,053,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-11-27,Crítica
+1107,062,Perfuratriz,Vazamento de combustível,2022-03-08,Média
+1108,073,Carregadeira,Danos na caçamba de carga,2023-05-25,Crítica
+1109,120,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-26,Alta
+1110,079,Carregadeira,Superaquecimento do motor,2024-01-20,Alta
+1111,093,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-11-21,Crítica
+1112,120,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-23,Média
+1113,121,Escavadeira Hidráulica,Falha no sistema de rotação,2020-10-09,Alta
+1114,053,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-02-03,Média
+1115,081,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-01-28,Crítica
+1116,012,Carregadeira,Falha no sistema hidráulico,2018-04-09,Média
+1117,038,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-07-10,Média
+1118,067,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-04-21,Crítica
+1119,076,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-10-14,Baixa
+1120,051,Perfuratriz,Vazamento de combustível,2021-11-27,Média
+1121,059,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-01-17,Crítica
+1122,146,Carregadeira,Falha no sistema hidráulico,2024-11-06,Média
+1123,128,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-28,Alta
+1124,066,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-15,Crítica
+1125,126,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-12-04,Crítica
+1126,044,Escavadeira Hidráulica,Falha no sistema de rotação,2023-11-01,Alta
+1127,044,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-09-18,Baixa
+1128,140,Britador Primário,Rompimento de correias,2021-08-21,Crítica
+1129,048,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-08-15,Baixa
+1130,135,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-09-02,Média
+1131,020,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-30,Média
+1132,002,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-01-22,Crítica
+1133,036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-05-17,Baixa
+1134,018,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-09,Alta
+1135,003,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-03-22,Alta
+1136,130,Perfuratriz,Quebra do motor de perfuração,2024-01-10,Crítica
+1137,096,Carregadeira,Desgaste dos pneus,2024-12-21,Baixa
+1138,124,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-21,Crítica
+1139,005,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-01-08,Média
+1140,137,Britador Primário,Rompimento de correias,2024-02-11,Crítica
+1141,004,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-06-03,Média
+1142,136,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-05-21,Média
+1143,138,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-12,Média
+1144,005,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-16,Crítica
+1145,046,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-19,Média
+1146,025,Caminhão Fora de Estrada,Falha no sistema de transmissão,2015-12-26,Alta
+1147,062,Perfuratriz,Falha no compressor de ar,2022-09-23,Alta
+1148,135,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-28,Alta
+1149,091,Perfuratriz,Vazamento de combustível,2023-07-13,Média
+1150,102,Perfuratriz,Desgaste da broca,2024-01-09,Baixa
+1151,096,Carregadeira,Danos na caçamba de carga,2024-11-19,Crítica
+1152,118,Perfuratriz,Falha no compressor de ar,2024-10-07,Alta
+1153,058,Escavadeira Hidráulica,Falha no sistema de rotação,2024-02-07,Alta
+1154,021,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-10-02,Média
+1155,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-12-27,Crítica
+1156,098,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-07-12,Crítica
+1157,142,Perfuratriz,Quebra do motor de perfuração,2018-01-06,Crítica
+1158,015,Carregadeira,Desgaste dos pneus,2023-10-29,Baixa
+1159,044,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-02,Média
+1160,128,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-11-11,Crítica
+1161,085,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-03-18,Média
+1162,136,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2016-12-20,Baixa
+1163,059,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-06-25,Alta
+1164,146,Carregadeira,Danos na caçamba de carga,2023-03-08,Crítica
+1165,070,Carregadeira,Desgaste dos pneus,2022-09-23,Baixa
+1166,020,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-06,Alta
+1167,140,Britador Primário,Bloqueio por material,2021-02-10,Média
+1168,046,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-10,Alta
+1169,005,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-04-14,Baixa
+1170,037,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-03-29,Crítica
+1171,020,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-02,Alta
+1172,042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-16,Alta
+1173,146,Carregadeira,Danos na caçamba de carga,2021-01-16,Crítica
+1174,139,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-20,Alta
+1175,099,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-14,Baixa
+1176,021,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-04,Alta
+1177,014,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-06-25,Baixa
+1178,112,Carregadeira,Falha no sistema hidráulico,2022-06-29,Média
+1179,020,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-13,Alta
+1180,102,Perfuratriz,Vazamento de combustível,2024-08-10,Média
+1181,008,Carregadeira,Superaquecimento do motor,2024-10-13,Alta
+1182,116,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-09-23,Crítica
+1183,059,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-12-07,Média
+1184,142,Perfuratriz,Quebra do motor de perfuração,2020-05-31,Crítica
+1185,111,Perfuratriz,Falha no compressor de ar,2019-01-27,Alta
+1186,150,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-02-17,Crítica
+1187,022,Escavadeira Hidráulica,Falha no sistema de rotação,2023-04-14,Alta
+1188,064,Carregadeira,Desgaste dos pneus,2022-07-01,Baixa
+1189,022,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-25,Alta
+1190,040,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-10-06,Crítica
+1191,040,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-03-26,Crítica
+1192,082,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-06-01,Média
+1193,028,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-11-06,Média
+1194,002,Escavadeira Hidráulica,Falha no sistema de rotação,2018-09-11,Alta
+1195,114,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-04-09,Média
+1196,070,Carregadeira,Desgaste dos pneus,2021-07-15,Baixa
+1197,034,Carregadeira,Desgaste dos pneus,2021-04-28,Baixa
+1198,048,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-06-03,Crítica
+1199,115,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-07-02,Crítica
+1200,027,Perfuratriz,Desgaste da broca,2023-06-16,Baixa
+1201,023,Britador Primário,Falha no motor elétrico,2023-11-14,Alta
+1202,142,Perfuratriz,Desgaste da broca,2023-09-29,Baixa
+1203,084,Carregadeira,Danos na caçamba de carga,2019-08-26,Crítica
+1204,004,Escavadeira Hidráulica,Falha no sistema de rotação,2023-04-29,Alta
+1205,106,Perfuratriz,Quebra do motor de perfuração,2024-05-05,Crítica
+1206,022,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-10-30,Baixa
+1207,147,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-01-20,Baixa
+1208,098,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-03-27,Alta
+1209,036,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-01,Alta
+1210,078,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-08-08,Média
+1211,127,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-06-10,Alta
+1212,017,Caminhão Fora de Estrada,Falha no sistema de transmissão,2017-07-10,Alta
+1213,112,Carregadeira,Superaquecimento do motor,2022-08-07,Alta
+1214,108,Escavadeira Hidráulica,Falha no sistema de rotação,2022-04-20,Alta
+1215,124,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-27,Média
+1216,093,Escavadeira Hidráulica,Falha no sistema de rotação,2022-09-25,Alta
+1217,064,Carregadeira,Danos na caçamba de carga,2024-11-07,Crítica
+1218,051,Perfuratriz,Quebra do motor de perfuração,2022-11-23,Crítica
+1219,028,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-08,Baixa
+1220,078,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-10-27,Baixa
+1221,102,Perfuratriz,Vazamento de combustível,2022-06-01,Média
+1222,098,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-12-09,Média
+1223,113,Perfuratriz,Vazamento de combustível,2022-05-12,Média
+1224,111,Perfuratriz,Falha no compressor de ar,2020-01-17,Alta
+1225,077,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-03-10,Média
+1226,052,Britador Primário,Rompimento de correias,2021-09-02,Crítica
+1227,081,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-17,Baixa
+1228,102,Perfuratriz,Vazamento de combustível,2024-08-01,Média
+1229,075,Perfuratriz,Quebra do motor de perfuração,2024-08-10,Crítica
+1230,148,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-06-25,Baixa
+1231,084,Carregadeira,Danos na caçamba de carga,2019-10-07,Crítica
+1232,072,Carregadeira,Danos na caçamba de carga,2023-09-21,Crítica
+1233,094,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-01,Média
+1234,145,Carregadeira,Falha no sistema hidráulico,2024-03-03,Média
+1235,140,Britador Primário,Desgaste das mandíbulas,2019-11-27,Baixa
+1236,141,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-10-02,Média
+1237,119,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-08-02,Baixa
+1238,113,Perfuratriz,Vazamento de combustível,2022-10-07,Média
+1239,018,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-09,Crítica
+1240,128,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-21,Baixa
+1241,078,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-01-08,Alta
+1242,065,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-08-16,Baixa
+1243,109,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2016-08-30,Crítica
+1244,019,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-01-30,Crítica
+1245,123,Carregadeira,Danos na caçamba de carga,2024-09-12,Crítica
+1246,137,Britador Primário,Rompimento de correias,2021-12-30,Crítica
+1247,140,Britador Primário,Bloqueio por material,2023-01-10,Média
+1248,093,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-06-26,Média
+1249,028,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-01-04,Baixa
+1250,091,Perfuratriz,Falha no compressor de ar,2023-03-26,Alta
+1251,012,Carregadeira,Danos na caçamba de carga,2022-07-16,Crítica
+1252,085,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-05-26,Crítica
+1253,028,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-11-03,Média
+1254,026,Escavadeira Hidráulica,Falha no sistema de rotação,2021-09-25,Alta
+1255,057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2017-07-28,Baixa
+1256,115,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-06-10,Média
+1257,101,Perfuratriz,Quebra do motor de perfuração,2024-12-10,Crítica
+1258,129,Caminhão Fora de Estrada,Falha no sistema de transmissão,2017-09-25,Alta
+1259,089,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-08-30,Baixa
+1260,124,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-11-17,Média
+1261,076,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-03-13,Crítica
+1262,022,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-20,Média
+1263,037,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-07,Alta
+1264,080,Perfuratriz,Vazamento de combustível,2023-08-21,Média
+1265,117,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-12-23,Baixa
+1266,134,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-07-29,Crítica
+1267,090,Perfuratriz,Quebra do motor de perfuração,2022-07-30,Crítica
+1268,025,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-12-30,Crítica
+1269,116,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-11-09,Média
+1270,018,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-12,Média
+1271,012,Carregadeira,Desgaste dos pneus,2016-07-06,Baixa
+1272,006,Escavadeira Hidráulica,Falha no sistema de rotação,2023-11-30,Alta
+1273,028,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-03-02,Baixa
+1274,063,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-01-27,Baixa
+1275,142,Perfuratriz,Falha no compressor de ar,2022-08-18,Alta
+1276,085,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-07-25,Crítica
+1277,119,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-10-30,Baixa
+1278,104,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-17,Baixa
+1279,048,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-10-07,Crítica
+1280,102,Perfuratriz,Desgaste da broca,2021-12-13,Baixa
+1281,051,Perfuratriz,Quebra do motor de perfuração,2019-02-28,Crítica
+1282,110,Perfuratriz,Quebra do motor de perfuração,2020-06-02,Crítica
+1283,002,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2018-06-01,Baixa
+1284,053,Caminhão Fora de Estrada,Vazamento de óleo do motor,2019-03-09,Média
+1285,017,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-03-15,Baixa
+1286,138,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-09-08,Alta
+1287,094,Escavadeira Hidráulica,Falha no sistema de rotação,2018-12-16,Alta
+1288,051,Perfuratriz,Quebra do motor de perfuração,2021-02-08,Crítica
+1289,030,Perfuratriz,Vazamento de combustível,2017-12-18,Média
+1290,126,Escavadeira Hidráulica,Falha no sistema de rotação,2016-12-22,Alta
+1291,100,Carregadeira,Danos na caçamba de carga,2023-07-23,Crítica
+1292,030,Perfuratriz,Vazamento de combustível,2022-06-23,Média
+1293,091,Perfuratriz,Quebra do motor de perfuração,2023-04-06,Crítica
+1294,045,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-01-14,Média
+1295,022,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-03-03,Baixa
+1296,081,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-25,Média
+1297,062,Perfuratriz,Vazamento de combustível,2023-03-22,Média
+1298,030,Perfuratriz,Falha no compressor de ar,2022-04-07,Alta
+1299,096,Carregadeira,Falha no sistema hidráulico,2024-10-29,Média
+1300,131,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-06-17,Crítica
+1301,108,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-02-09,Baixa
+1302,148,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2017-08-12,Crítica
+1303,109,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-18,Baixa
+1304,125,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-10-11,Baixa
+1305,143,Carregadeira,Falha no sistema hidráulico,2024-06-18,Média
+1306,126,Escavadeira Hidráulica,Falha no sistema de rotação,2018-07-16,Alta
+1307,036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-07-10,Baixa
+1308,081,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-04-28,Crítica
+1309,014,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-07-13,Média
+1310,003,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-01-21,Crítica
+1311,035,Carregadeira,Falha no sistema hidráulico,2024-07-27,Média
+1312,099,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-22,Crítica
+1313,105,Caminhão Fora de Estrada,Quebra do eixo traseiro,2022-11-13,Crítica
+1314,107,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-12-10,Crítica
+1315,126,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-01-04,Baixa
+1316,022,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-05-01,Média
+1317,057,Escavadeira Hidráulica,Falha no sistema de rotação,2016-11-01,Alta
+1318,009,Perfuratriz,Vazamento de combustível,2022-03-19,Média
+1319,058,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-30,Alta
+1320,044,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-09-11,Crítica
+1321,145,Carregadeira,Danos na caçamba de carga,2024-09-01,Crítica
+1322,141,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-24,Média
+1323,147,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-03,Média
+1324,069,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-17,Alta
+1325,139,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-11-16,Média
+1326,113,Perfuratriz,Falha no compressor de ar,2024-10-12,Alta
+1327,109,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-09-12,Média
+1328,064,Carregadeira,Superaquecimento do motor,2024-07-23,Alta
+1329,009,Perfuratriz,Quebra do motor de perfuração,2023-10-03,Crítica
+1330,068,Escavadeira Hidráulica,Falha no sistema de rotação,2022-04-17,Alta
+1331,023,Britador Primário,Rompimento de correias,2024-01-14,Crítica
+1332,031,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-05-26,Baixa
+1333,054,Escavadeira Hidráulica,Falha no sistema de rotação,2023-05-02,Alta
+1334,110,Perfuratriz,Falha no compressor de ar,2022-07-23,Alta
+1335,036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2017-06-15,Baixa
+1336,053,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-06-13,Baixa
+1337,146,Carregadeira,Superaquecimento do motor,2021-09-16,Alta
+1338,137,Britador Primário,Falha no motor elétrico,2024-02-20,Alta
+1339,138,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-04-28,Alta
+1340,083,Escavadeira Hidráulica,Falha no sistema de rotação,2021-08-30,Alta
+1341,075,Perfuratriz,Vazamento de combustível,2024-06-23,Média
+1342,132,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-09-12,Média
+1343,035,Carregadeira,Danos na caçamba de carga,2023-02-03,Crítica
+1344,016,Perfuratriz,Vazamento de combustível,2024-02-05,Média
+1345,033,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-07-15,Baixa
+1346,064,Carregadeira,Falha no sistema hidráulico,2024-03-31,Média
+1347,083,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-10-28,Baixa
+1348,101,Perfuratriz,Quebra do motor de perfuração,2024-12-20,Crítica
+1349,037,Escavadeira Hidráulica,Falha no sistema de rotação,2022-05-23,Alta
+1350,107,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-19,Crítica
+1351,116,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-07-25,Baixa
+1352,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-08-08,Crítica
+1353,132,Escavadeira Hidráulica,Falha no sistema de rotação,2019-07-30,Alta
+1354,095,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-06-02,Crítica
+1355,125,Escavadeira Hidráulica,Falha no sistema de rotação,2023-07-26,Alta
+1356,149,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-12-18,Média
+1357,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-09-28,Crítica
+1358,092,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2017-12-16,Média
+1359,137,Britador Primário,Rompimento de correias,2021-01-30,Crítica
+1360,056,Britador Primário,Rompimento de correias,2022-12-01,Crítica
+1361,055,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-07-29,Crítica
+1362,069,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-04,Alta
+1363,073,Carregadeira,Superaquecimento do motor,2023-03-06,Alta
+1364,141,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-04-11,Baixa
+1365,145,Carregadeira,Danos na caçamba de carga,2023-07-23,Crítica
+1366,088,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-07,Média
+1367,012,Carregadeira,Desgaste dos pneus,2020-10-18,Baixa
+1368,118,Perfuratriz,Desgaste da broca,2024-09-25,Baixa
+1369,032,Britador Primário,Desgaste das mandíbulas,2021-09-21,Baixa
+1370,113,Perfuratriz,Quebra do motor de perfuração,2024-11-24,Crítica
+1371,001,Perfuratriz,Quebra do motor de perfuração,2024-09-07,Crítica
+1372,052,Britador Primário,Desgaste das mandíbulas,2020-10-18,Baixa
+1373,078,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-03-15,Alta
+1374,071,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-01-03,Média
+1375,093,Escavadeira Hidráulica,Falha no sistema de rotação,2021-05-20,Alta
+1376,022,Escavadeira Hidráulica,Falha no sistema de rotação,2020-08-11,Alta
+1377,043,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2018-04-04,Baixa
+1378,102,Perfuratriz,Vazamento de combustível,2023-10-29,Média
+1379,060,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-05-13,Crítica
+1380,024,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-08-08,Baixa
+1381,001,Perfuratriz,Falha no compressor de ar,2023-04-03,Alta
+1382,123,Carregadeira,Desgaste dos pneus,2024-10-11,Baixa
+1383,034,Carregadeira,Falha no sistema hidráulico,2019-10-03,Média
+1384,133,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-05-25,Crítica
+1385,003,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-05-07,Baixa
+1386,088,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-08-15,Média
+1387,109,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-11,Baixa
+1388,123,Carregadeira,Desgaste dos pneus,2024-12-26,Baixa
+1389,059,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-08-02,Crítica
+1390,023,Britador Primário,Bloqueio por material,2023-09-11,Média
+1391,027,Perfuratriz,Vazamento de combustível,2024-09-21,Média
+1392,095,Caminhão Fora de Estrada,Vazamento de óleo do motor,2019-11-22,Média
+1393,036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-02-10,Crítica
+1394,035,Carregadeira,Falha no sistema hidráulico,2023-05-12,Média
+1395,018,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-10-29,Baixa
+1396,043,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-02-09,Crítica
+1397,090,Perfuratriz,Falha no compressor de ar,2023-04-09,Alta
+1398,039,Britador Primário,Rompimento de correias,2020-02-29,Crítica
+1399,114,Caminhão Fora de Estrada,Falha no sistema de transmissão,2017-12-27,Alta
+1400,023,Britador Primário,Bloqueio por material,2022-11-26,Média
+1401,036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-09-10,Média
+1402,099,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-24,Alta
+1403,110,Perfuratriz,Vazamento de combustível,2024-07-18,Média
+1404,036,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-12-10,Baixa
+1405,071,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-07-02,Média
+1406,064,Carregadeira,Superaquecimento do motor,2023-06-24,Alta
+1407,007,Carregadeira,Superaquecimento do motor,2021-04-22,Alta
+1408,053,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-02-25,Alta
+1409,101,Perfuratriz,Vazamento de combustível,2024-12-11,Média
+1410,014,Caminhão Fora de Estrada,Falha no sistema de transmissão,2021-07-05,Alta
+1411,127,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-06-01,Crítica
+1412,029,Carregadeira,Falha no sistema hidráulico,2023-06-26,Média
+1413,128,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-11-21,Média
+1414,136,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-08-06,Baixa
+1415,093,Escavadeira Hidráulica,Falha no sistema de rotação,2021-04-02,Alta
+1416,034,Carregadeira,Danos na caçamba de carga,2022-09-04,Crítica
+1417,146,Carregadeira,Danos na caçamba de carga,2024-09-02,Crítica
+1418,094,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2018-02-23,Baixa
+1419,121,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-11-17,Média
+1420,005,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-08-02,Média
+1421,004,Escavadeira Hidráulica,Falha no sistema de rotação,2019-08-21,Alta
+1422,056,Britador Primário,Bloqueio por material,2022-10-25,Média
+1423,016,Perfuratriz,Quebra do motor de perfuração,2023-11-17,Crítica
+1424,130,Perfuratriz,Vazamento de combustível,2024-11-25,Média
+1425,129,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-03-22,Crítica
+1426,109,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-07-28,Crítica
+1427,022,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-07-19,Baixa
+1428,072,Carregadeira,Desgaste dos pneus,2023-02-09,Baixa
+1429,080,Perfuratriz,Desgaste da broca,2023-05-31,Baixa
+1430,131,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-04-18,Alta
+1431,040,Caminhão Fora de Estrada,Vazamento de óleo do motor,2016-02-09,Média
+1432,101,Perfuratriz,Desgaste da broca,2024-12-23,Baixa
+1433,080,Perfuratriz,Quebra do motor de perfuração,2019-11-16,Crítica
+1434,062,Perfuratriz,Desgaste da broca,2024-09-16,Baixa
+1435,063,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-04-23,Média
+1436,112,Carregadeira,Desgaste dos pneus,2024-01-25,Baixa
+1437,117,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-06-05,Média
+1438,080,Perfuratriz,Falha no compressor de ar,2016-10-14,Alta
+1439,031,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-01-17,Média
+1440,036,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-03-31,Média
+1441,042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-06-27,Crítica
+1442,089,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-25,Média
+1443,043,Caminhão Fora de Estrada,Vazamento de óleo do motor,2017-08-31,Média
+1444,033,Escavadeira Hidráulica,Falha no sistema de rotação,2021-05-05,Alta
+1445,031,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-03-05,Média
+1446,086,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-09-07,Crítica
+1447,070,Carregadeira,Desgaste dos pneus,2023-03-07,Baixa
+1448,068,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2018-03-07,Média
+1449,128,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-08-13,Crítica
+1450,131,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-01-04,Média
+1451,015,Carregadeira,Danos na caçamba de carga,2020-06-27,Crítica
+1452,146,Carregadeira,Falha no sistema hidráulico,2021-08-31,Média
+1453,095,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-26,Alta
+1454,066,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-02-12,Média
+1455,147,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-09,Média
+1456,059,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-12-25,Baixa
+1457,012,Carregadeira,Desgaste dos pneus,2023-02-20,Baixa
+1458,063,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-29,Média
+1459,121,Escavadeira Hidráulica,Falha no sistema de rotação,2021-08-13,Alta
+1460,099,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-20,Baixa
+1461,046,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-23,Média
+1462,142,Perfuratriz,Quebra do motor de perfuração,2023-07-22,Crítica
+1463,058,Escavadeira Hidráulica,Falha no sistema de rotação,2024-04-13,Alta
+1464,064,Carregadeira,Danos na caçamba de carga,2024-10-05,Crítica
+1465,082,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-02-12,Média
+1466,020,Escavadeira Hidráulica,Falha no sistema de rotação,2024-05-30,Alta
+1467,031,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-21,Média
+1468,046,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-10-05,Baixa
+1469,133,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-10-08,Baixa
+1470,103,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-12-01,Baixa
+1471,120,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-24,Alta
+1472,080,Perfuratriz,Vazamento de combustível,2022-03-26,Média
+1473,023,Britador Primário,Rompimento de correias,2024-11-21,Crítica
+1474,003,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-10-04,Média
+1475,052,Britador Primário,Falha no motor elétrico,2019-07-26,Alta
+1476,145,Carregadeira,Superaquecimento do motor,2015-01-25,Alta
+1477,063,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-07-06,Crítica
+1478,095,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-05-22,Crítica
+1479,051,Perfuratriz,Falha no compressor de ar,2021-04-04,Alta
+1480,039,Britador Primário,Bloqueio por material,2023-06-09,Média
+1481,105,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-01-30,Baixa
+1482,060,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-07-07,Média
+1483,003,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-03-14,Média
+1484,001,Perfuratriz,Quebra do motor de perfuração,2020-02-13,Crítica
+1485,079,Carregadeira,Desgaste dos pneus,2020-11-06,Baixa
+1486,053,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-12-24,Alta
+1487,108,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-06-18,Crítica
+1488,016,Perfuratriz,Falha no compressor de ar,2024-05-01,Alta
+1489,072,Carregadeira,Desgaste dos pneus,2023-07-10,Baixa
+1490,012,Carregadeira,Falha no sistema hidráulico,2020-03-12,Média
+1491,134,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-08-23,Crítica
+1492,096,Carregadeira,Danos na caçamba de carga,2024-12-07,Crítica
+1493,022,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-09-16,Média
+1494,130,Perfuratriz,Falha no compressor de ar,2022-11-09,Alta
+1495,101,Perfuratriz,Desgaste da broca,2024-12-24,Baixa
+1496,146,Carregadeira,Desgaste dos pneus,2020-08-24,Baixa
+1497,112,Carregadeira,Falha no sistema hidráulico,2019-10-08,Média
+1498,061,Escavadeira Hidráulica,Falha no sistema de rotação,2022-01-30,Alta
+1499,067,Escavadeira Hidráulica,Falha no sistema de rotação,2017-05-11,Alta
+1500,101,Perfuratriz,Vazamento de combustível,2024-12-08,Média
+1501,082,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-05-07,Crítica
+1502,070,Carregadeira,Falha no sistema hidráulico,2019-06-14,Média
+1503,020,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-09-29,Baixa
+1504,035,Carregadeira,Desgaste dos pneus,2024-01-02,Baixa
+1505,040,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2016-07-25,Baixa
+1506,043,Caminhão Fora de Estrada,Quebra do eixo traseiro,2019-03-16,Crítica
+1507,120,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-16,Alta
+1508,105,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-10-09,Baixa
+1509,138,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-07-26,Média
+1510,054,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-12-01,Crítica
+1511,079,Carregadeira,Danos na caçamba de carga,2023-06-27,Crítica
+1512,068,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-10-05,Média
+1513,024,Caminhão Fora de Estrada,Falha no sistema de transmissão,2020-03-18,Alta
+1514,078,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2018-05-02,Baixa
+1515,056,Britador Primário,Falha no motor elétrico,2023-03-31,Alta
+1516,038,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-01-30,Média
+1517,064,Carregadeira,Superaquecimento do motor,2022-01-14,Alta
+1518,102,Perfuratriz,Desgaste da broca,2024-11-26,Baixa
+1519,077,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-03-25,Média
+1520,045,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-10-17,Baixa
+1521,104,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-09-29,Crítica
+1522,143,Carregadeira,Falha no sistema hidráulico,2024-06-30,Média
+1523,025,Caminhão Fora de Estrada,Quebra do eixo traseiro,2017-07-19,Crítica
+1524,027,Perfuratriz,Falha no compressor de ar,2024-12-30,Alta
+1525,032,Britador Primário,Bloqueio por material,2022-08-09,Média
+1526,016,Perfuratriz,Falha no compressor de ar,2024-06-23,Alta
+1527,034,Carregadeira,Falha no sistema hidráulico,2019-02-18,Média
+1528,103,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-04-30,Média
+1529,022,Escavadeira Hidráulica,Falha no sistema de rotação,2019-04-08,Alta
+1530,020,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-11-11,Média
+1531,017,Caminhão Fora de Estrada,Falha no sistema de transmissão,2018-06-06,Alta
+1532,114,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-05-07,Alta
+1533,024,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-06-16,Média
+1534,032,Britador Primário,Bloqueio por material,2024-12-09,Média
+1535,119,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2019-09-04,Média
+1536,044,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-11-27,Crítica
+1537,102,Perfuratriz,Quebra do motor de perfuração,2024-07-12,Crítica
+1538,008,Carregadeira,Danos na caçamba de carga,2024-12-27,Crítica
+1539,110,Perfuratriz,Falha no compressor de ar,2020-02-09,Alta
+1540,091,Perfuratriz,Falha no compressor de ar,2024-02-29,Alta
+1541,048,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-02-11,Média
+1542,072,Carregadeira,Danos na caçamba de carga,2024-08-19,Crítica
+1543,039,Britador Primário,Bloqueio por material,2022-12-21,Média
+1544,063,Escavadeira Hidráulica,Falha no sistema de rotação,2021-12-06,Alta
+1545,128,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-02,Crítica
+1546,141,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-12-17,Crítica
+1547,016,Perfuratriz,Desgaste da broca,2023-12-27,Baixa
+1548,072,Carregadeira,Danos na caçamba de carga,2024-11-16,Crítica
+1549,036,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-09-10,Crítica
+1550,052,Britador Primário,Desgaste das mandíbulas,2019-08-12,Baixa
+1551,140,Britador Primário,Bloqueio por material,2020-02-27,Média
+1552,098,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-09-11,Média
+1553,123,Carregadeira,Danos na caçamba de carga,2024-12-27,Crítica
+1554,089,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-06-23,Média
+1555,100,Carregadeira,Superaquecimento do motor,2022-07-14,Alta
+1556,047,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-08,Média
+1557,082,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-07-31,Alta
+1558,008,Carregadeira,Superaquecimento do motor,2024-09-19,Alta
+1559,015,Carregadeira,Danos na caçamba de carga,2023-09-12,Crítica
+1560,136,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-04-26,Média
+1561,150,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2021-09-29,Baixa
+1562,041,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-19,Média
+1563,064,Carregadeira,Falha no sistema hidráulico,2022-01-28,Média
+1564,069,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-05-11,Média
+1565,057,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2018-06-12,Crítica
+1566,091,Perfuratriz,Falha no compressor de ar,2024-03-18,Alta
+1567,046,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-06-22,Baixa
+1568,082,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-09-26,Média
+1569,008,Carregadeira,Superaquecimento do motor,2024-09-02,Alta
+1570,146,Carregadeira,Falha no sistema hidráulico,2021-04-20,Média
+1571,145,Carregadeira,Falha no sistema hidráulico,2024-02-14,Média
+1572,127,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-08-11,Média
+1573,045,Caminhão Fora de Estrada,Quebra do eixo traseiro,2017-03-20,Crítica
+1574,010,Perfuratriz,Desgaste da broca,2023-04-27,Baixa
+1575,015,Carregadeira,Falha no sistema hidráulico,2022-03-01,Média
+1576,057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2022-06-13,Média
+1577,135,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-02,Crítica
+1578,001,Perfuratriz,Vazamento de combustível,2022-01-08,Média
+1579,052,Britador Primário,Desgaste das mandíbulas,2016-06-13,Baixa
+1580,088,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-03-28,Baixa
+1581,083,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-02-25,Média
+1582,006,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-03-20,Baixa
+1583,037,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-05-06,Média
+1584,135,Escavadeira Hidráulica,Falha no sistema de rotação,2024-11-19,Alta
+1585,019,Escavadeira Hidráulica,Falha no sistema de rotação,2024-07-17,Alta
+1586,102,Perfuratriz,Desgaste da broca,2024-08-25,Baixa
+1587,087,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-03-14,Média
+1588,083,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-08-19,Baixa
+1589,041,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-14,Crítica
+1590,125,Escavadeira Hidráulica,Falha no sistema de rotação,2024-06-25,Alta
+1591,045,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-01-01,Média
+1592,058,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-10-03,Baixa
+1593,097,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-03-08,Média
+1594,076,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-07-15,Baixa
+1595,046,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-04,Média
+1596,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-11-20,Crítica
+1597,146,Carregadeira,Desgaste dos pneus,2021-07-06,Baixa
+1598,047,Escavadeira Hidráulica,Falha no sistema de rotação,2024-01-22,Alta
+1599,057,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-30,Média
+1600,128,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-06-05,Baixa
+1601,085,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-04,Média
+1602,061,Escavadeira Hidráulica,Falha no sistema de rotação,2023-10-10,Alta
+1603,082,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-10-25,Alta
+1604,023,Britador Primário,Falha no motor elétrico,2023-07-06,Alta
+1605,115,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-03-26,Baixa
+1606,068,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-12-12,Baixa
+1607,064,Carregadeira,Desgaste dos pneus,2023-05-23,Baixa
+1608,090,Perfuratriz,Vazamento de combustível,2023-02-05,Média
+1609,028,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-01,Média
+1610,013,Perfuratriz,Quebra do motor de perfuração,2019-01-01,Crítica
+1611,113,Perfuratriz,Quebra do motor de perfuração,2023-10-20,Crítica
+1612,043,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-02-01,Crítica
+1613,127,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-07-12,Crítica
+1614,090,Perfuratriz,Quebra do motor de perfuração,2024-06-27,Crítica
+1615,026,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-10-09,Crítica
+1616,148,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-07-30,Baixa
+1617,042,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-05-26,Crítica
+1618,019,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-06-10,Média
+1619,076,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-02-05,Média
+1620,082,Caminhão Fora de Estrada,Vazamento de óleo do motor,2023-12-09,Média
+1621,027,Perfuratriz,Desgaste da broca,2024-03-03,Baixa
+1622,088,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-06-16,Baixa
+1623,097,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-12-08,Alta
+1624,020,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-10-08,Média
+1625,087,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-01-28,Crítica
+1626,008,Carregadeira,Danos na caçamba de carga,2024-06-28,Crítica
+1627,043,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-04-10,Crítica
+1628,041,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-02-23,Média
+1629,026,Escavadeira Hidráulica,Falha no sistema de rotação,2021-03-28,Alta
+1630,053,Caminhão Fora de Estrada,Falha no sistema de transmissão,2019-04-08,Alta
+1631,105,Caminhão Fora de Estrada,Vazamento de óleo do motor,2022-02-19,Média
+1632,073,Carregadeira,Superaquecimento do motor,2022-05-24,Alta
+1633,061,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-05-10,Média
+1634,013,Perfuratriz,Quebra do motor de perfuração,2017-11-01,Crítica
+1635,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-05-07,Crítica
+1636,040,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-03-04,Baixa
+1637,093,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-03-18,Média
+1638,110,Perfuratriz,Desgaste da broca,2024-10-25,Baixa
+1639,076,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-09-14,Crítica
+1640,052,Britador Primário,Bloqueio por material,2022-11-18,Média
+1641,007,Carregadeira,Falha no sistema hidráulico,2019-04-03,Média
+1642,044,Escavadeira Hidráulica,Falha no sistema de rotação,2022-02-01,Alta
+1643,021,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-12-20,Crítica
+1644,030,Perfuratriz,Vazamento de combustível,2020-06-13,Média
+1645,102,Perfuratriz,Quebra do motor de perfuração,2022-10-09,Crítica
+1646,126,Escavadeira Hidráulica,Falha no sistema de rotação,2020-02-17,Alta
+1647,024,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-07-30,Crítica
+1648,048,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-09-11,Média
+1649,098,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-07-23,Média
+1650,048,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-04-11,Crítica
+1651,012,Carregadeira,Superaquecimento do motor,2024-11-15,Alta
+1652,113,Perfuratriz,Quebra do motor de perfuração,2024-12-18,Crítica
+1653,068,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-09-26,Baixa
+1654,069,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-06-12,Média
+1655,039,Britador Primário,Bloqueio por material,2021-09-08,Média
+1656,022,Escavadeira Hidráulica,Falha no sistema de rotação,2022-11-27,Alta
+1657,139,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-07-15,Crítica
+1658,059,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-11-26,Baixa
+1659,100,Carregadeira,Danos na caçamba de carga,2024-03-31,Crítica
+1660,138,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-12-29,Crítica
+1661,147,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-11-14,Baixa
+1662,122,Carregadeira,Superaquecimento do motor,2023-09-16,Alta
+1663,021,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-08-20,Crítica
+1664,009,Perfuratriz,Falha no compressor de ar,2019-05-11,Alta
+1665,031,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2019-11-07,Crítica
+1666,045,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-08-24,Alta
+1667,055,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2019-06-27,Baixa
+1668,033,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-07-15,Média
+1669,109,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2016-10-18,Média
+1670,112,Carregadeira,Falha no sistema hidráulico,2022-03-06,Média
+1671,038,Escavadeira Hidráulica,Falha no sistema de rotação,2020-12-29,Alta
+1672,082,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2022-02-20,Baixa
+1673,023,Britador Primário,Rompimento de correias,2022-11-06,Crítica
+1674,143,Carregadeira,Danos na caçamba de carga,2024-12-26,Crítica
+1675,142,Perfuratriz,Vazamento de combustível,2017-10-19,Média
+1676,071,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-04-15,Crítica
+1677,004,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-05-02,Crítica
+1678,029,Carregadeira,Danos na caçamba de carga,2021-09-11,Crítica
+1679,039,Britador Primário,Desgaste das mandíbulas,2020-01-29,Baixa
+1680,146,Carregadeira,Desgaste dos pneus,2021-10-19,Baixa
+1681,028,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-10-29,Média
+1682,074,Perfuratriz,Vazamento de combustível,2021-06-14,Média
+1683,106,Perfuratriz,Vazamento de combustível,2024-09-28,Média
+1684,099,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-12-22,Crítica
+1685,147,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-02-08,Crítica
+1686,010,Perfuratriz,Falha no compressor de ar,2022-06-07,Alta
+1687,071,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-01-13,Crítica
+1688,037,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2023-10-26,Crítica
+1689,010,Perfuratriz,Quebra do motor de perfuração,2024-10-18,Crítica
+1690,085,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2022-09-13,Baixa
+1691,013,Perfuratriz,Quebra do motor de perfuração,2022-03-15,Crítica
+1692,069,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-09,Alta
+1693,006,Escavadeira Hidráulica,Falha no sistema de rotação,2017-07-04,Alta
+1694,078,Caminhão Fora de Estrada,Vazamento de óleo do motor,2016-01-24,Média
+1695,072,Carregadeira,Danos na caçamba de carga,2024-08-11,Crítica
+1696,026,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2017-10-25,Baixa
+1697,035,Carregadeira,Superaquecimento do motor,2021-07-13,Alta
+1698,114,Caminhão Fora de Estrada,Vazamento de óleo do motor,2020-10-02,Média
+1699,069,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-08-28,Crítica
+1700,023,Britador Primário,Desgaste das mandíbulas,2023-11-11,Baixa
+1701,114,Caminhão Fora de Estrada,Falha no sistema de transmissão,2016-05-15,Alta
+1702,105,Caminhão Fora de Estrada,Quebra do eixo traseiro,2021-08-16,Crítica
+1703,133,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-12-12,Média
+1704,015,Carregadeira,Falha no sistema hidráulico,2022-08-14,Média
+1705,017,Caminhão Fora de Estrada,Vazamento de óleo do motor,2018-07-01,Média
+1706,130,Perfuratriz,Quebra do motor de perfuração,2023-03-05,Crítica
+1707,035,Carregadeira,Desgaste dos pneus,2021-11-14,Baixa
+1708,045,Caminhão Fora de Estrada,Falha no sistema de transmissão,2018-11-15,Alta
+1709,052,Britador Primário,Bloqueio por material,2019-11-17,Média
+1710,064,Carregadeira,Desgaste dos pneus,2021-11-10,Baixa
+1711,117,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-04-12,Média
+1712,093,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-12-25,Baixa
+1713,071,Escavadeira Hidráulica,Falha no sistema de rotação,2019-12-05,Alta
+1714,119,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2022-04-17,Crítica
+1715,032,Britador Primário,Bloqueio por material,2022-12-31,Média
+1716,062,Perfuratriz,Vazamento de combustível,2024-07-11,Média
+1717,126,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2020-04-10,Crítica
+1718,046,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-06-22,Crítica
+1719,142,Perfuratriz,Vazamento de combustível,2020-12-02,Média
+1720,089,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-05-10,Alta
+1721,067,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-01-09,Média
+1722,073,Carregadeira,Desgaste dos pneus,2023-11-09,Baixa
+1723,099,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-16,Média
+1724,042,Caminhão Fora de Estrada,Falha no sistema de transmissão,2024-11-11,Alta
+1725,057,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2018-08-21,Baixa
+1726,053,Caminhão Fora de Estrada,Vazamento de óleo do motor,2021-06-05,Média
+1727,105,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2023-03-04,Baixa
+1728,003,Caminhão Fora de Estrada,Quebra do eixo traseiro,2020-05-12,Crítica
+1729,034,Carregadeira,Falha no sistema hidráulico,2022-02-20,Média
+1730,003,Caminhão Fora de Estrada,Falha no sistema de transmissão,2019-12-12,Alta
+1731,065,Escavadeira Hidráulica,Falha no sistema de rotação,2019-05-11,Alta
+1732,071,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2021-03-24,Crítica
+1733,097,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-07-28,Média
+1734,118,Perfuratriz,Vazamento de combustível,2024-05-26,Média
+1735,056,Britador Primário,Rompimento de correias,2023-08-30,Crítica
+1736,078,Caminhão Fora de Estrada,Quebra do eixo traseiro,2024-01-18,Crítica
+1737,150,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-05-31,Média
+1738,002,Escavadeira Hidráulica,Falha no sistema de rotação,2015-08-02,Alta
+1739,144,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-07,Média
+1740,077,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2021-12-22,Baixa
+1741,124,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-03-28,Média
+1742,087,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-08-09,Média
+1743,084,Carregadeira,Superaquecimento do motor,2023-07-05,Alta
+1744,067,Escavadeira Hidráulica,Falha no sistema de rotação,2021-11-06,Alta
+1745,049,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-12-20,Baixa
+1746,133,Caminhão Fora de Estrada,Falha no sistema de transmissão,2023-09-20,Alta
+1747,015,Carregadeira,Danos na caçamba de carga,2023-06-13,Crítica
+1748,082,Caminhão Fora de Estrada,Falha no sistema de transmissão,2022-01-02,Alta
+1749,007,Carregadeira,Danos na caçamba de carga,2018-09-11,Crítica
+1750,076,Escavadeira Hidráulica,Falha no sistema de rotação,2020-07-13,Alta
+1751,108,Escavadeira Hidráulica,Quebra do cilindro hidráulico,2024-03-18,Crítica
+1752,100,Carregadeira,Desgaste dos pneus,2024-09-12,Baixa
+1753,150,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-03-13,Baixa
+1754,088,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-12-03,Baixa
+1755,137,Britador Primário,Rompimento de correias,2020-06-21,Crítica
+1756,092,Escavadeira Hidráulica,Falha no sistema de rotação,2018-01-22,Alta
+1757,044,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-05-08,Baixa
+1758,076,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-02-13,Média
+1759,121,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2024-06-07,Baixa
+1760,067,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2016-10-09,Baixa
+1761,086,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2024-09-28,Baixa
+1762,057,Escavadeira Hidráulica,Falha no sistema de rotação,2024-08-13,Alta
+1763,058,Escavadeira Hidráulica,Falha no sistema de rotação,2022-10-21,Alta
+1764,108,Escavadeira Hidráulica,Falha no sistema de rotação,2016-09-04,Alta
+1765,096,Carregadeira,Superaquecimento do motor,2024-08-29,Alta
+1766,150,Escavadeira Hidráulica,Falha no sistema de rotação,2023-09-02,Alta
+1767,119,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2020-07-02,Média
+1768,121,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-12-20,Média
+1769,150,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-07-02,Média
+1770,121,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-04-14,Baixa
+1771,129,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2019-01-26,Baixa
+1772,098,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-04-07,Média
+1773,106,Perfuratriz,Desgaste da broca,2024-03-06,Baixa
+1774,039,Britador Primário,Desgaste das mandíbulas,2024-04-26,Baixa
+1775,052,Britador Primário,Falha no motor elétrico,2022-05-26,Alta
+1776,105,Caminhão Fora de Estrada,Quebra do eixo traseiro,2023-02-10,Crítica
+1777,037,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-01,Alta
+1778,047,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-08-01,Média
+1779,125,Escavadeira Hidráulica,Falha no sistema de rotação,2022-03-13,Alta
+1780,046,Escavadeira Hidráulica,Falha no sistema de rotação,2024-10-19,Alta
+1781,015,Carregadeira,Desgaste dos pneus,2020-02-23,Baixa
+1782,116,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-11-07,Média
+1783,054,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-08-03,Baixa
+1784,148,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2023-11-07,Baixa
+1785,126,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2023-03-29,Média
+1786,034,Carregadeira,Danos na caçamba de carga,2024-11-12,Crítica
+1787,110,Perfuratriz,Quebra do motor de perfuração,2019-10-22,Crítica
+1788,110,Perfuratriz,Quebra do motor de perfuração,2017-04-27,Crítica
+1789,099,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2024-12-13,Média
+1790,010,Perfuratriz,Falha no compressor de ar,2024-01-13,Alta
+1791,096,Carregadeira,Desgaste dos pneus,2024-09-03,Baixa
+1792,083,Escavadeira Hidráulica,Desgaste dos dentes da caçamba,2020-03-14,Baixa
+1793,005,Escavadeira Hidráulica,Vazamento de óleo hidráulico,2021-09-10,Média
+1794,064,Carregadeira,Falha no sistema hidráulico,2023-08-14,Média
+1795,089,Caminhão Fora de Estrada,Vazamento de óleo do motor,2024-10-18,Média
+1796,034,Carregadeira,Desgaste dos pneus,2024-09-12,Baixa
+1797,099,Escavadeira Hidráulica,Falha no sistema de rotação,2024-12-25,Alta
+1798,043,Caminhão Fora de Estrada,Desgaste das pastilhas de freio,2020-06-30,Baixa
+1799,012,Carregadeira,Superaquecimento do motor,2021-01-22,Alta
+1800,075,Perfuratriz,Quebra do motor de perfuração,2024-06-27,Crítica
