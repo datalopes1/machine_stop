@@ -1,32 +1,36 @@
 # 🏭 Astarte Data Warehouse
 
-## Processo de Modelagem dimensional
-### 1. Definir o processo de negócio
+![arq](../doc/img/arq.png)
+
+## 1. Processos de negócio
 
 |Processo de Negócio|Tabela Fato|Tipo de Grão do Fato|Granularidade|machine|operator|incident|date|Prioridade|
 |---|---|---|---|---|---|---|---|---|
 |Manutenção|fact_maintenance|Transacão|Uma linha por manutenção|x| |x|x|Alta|
 
-### 2. Declarar a granularidade
-- **fact_maintenance**: Uma linha por manutenção
+### 2. Granularidade
+- **fact_maintenance**: Uma linha por manutenção.
 
-### 3. Identificar as dimensões
+### 3. Dimensões
 
 |Dimensão|Atributos|
 |---|---|
-|**dim_machines**|`machine_id`, `machine_type_id`, `machine_type`, `purchaseDate`|
-|**dim_incidents**|`incident_id`, `machine_type_id`, `incident_type`, `incident_severity`|
-|**dim_date**|`date_key`, `full_date`, `year`, `month`, `day`, `quarter`, `day_of_week`, `day_name`, `month_name`, `is_weekend`|
+|**dim_machines**|`machine_id`, `purchase_date`, `machine_type`, `machine_code`, `operational_cost`|
+|**dim_incidents**|`incident_id`, `machine_code`, `incident_type`, `incident_severity`|
+|**dim_date**|``data``, ``ano``, ``mes_num``, ``dia``, ``trimestre``, ``dia_da_semana``, ``dia_nome``, ``mes_nome``, ``fim_de_semana``|
 
-### 4. Identificar os fatos
+### 4. Fatos
 
 **fact_maintenance**
 
 |Coluna|Tipo|Descrição|
 |---|---|---|
-|**maintenance_id**|VARCHAR|Identificador único da manutenção|
-|**machine_id**|VARCHAR|Identificador único da máquina|
-|**incident_id**|VARCHAR|Identificador único do incidente|
+|**maintenance_id**|INT|Identificador único da manutenção|
+|**machine_id**|INT|Identificador único da máquina|
+|**incident_id**|INT|Identificador único do incidente|
 |**maintenance_date**|DATE|Data da manutenção|
-|**downtimeHours**|INT|Tempo de parada|
-|**maintenanceCost**|FLOAT|Custo de manutenção|
+|**downtime_hours**|INT|Tempo de parada|
+|**maintenance_cost**|FLOAT|Custo de manutenção|
+
+### 5. Data Mart: Maintenance
+![erd](../doc/img/erd.png)

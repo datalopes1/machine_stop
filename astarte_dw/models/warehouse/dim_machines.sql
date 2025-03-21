@@ -9,10 +9,9 @@ WITH source AS (
             WHEN machineType = 'Caminhão Fora de Estrada' THEN 'CAM'
             WHEN machineType = 'Carregadeira' THEN 'CAR'
             ELSE 'BPR'		
-        END AS machine_type_id
+        END AS machine_code
         , operationalCost AS operational_cost
     FROM {{ref('stg_machines')}}
-    WHERE machineId IS NOT NULL
 )
 
 SELECT

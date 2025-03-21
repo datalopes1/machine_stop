@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: stg_machines
+    description: Camada staging de machine
+    columns:
+      - name: machineId
+        tests:
+          - unique
+          - not_null
+      - name: machineType
+        tests:
+          - not_null
+
+  - name: stg_operators
+    description: Camada staging de operators
+    columns:
+      - name: operatorId
+        tests:
+          - unique
+          - not_null
+      - name: machineId
+        tests:
+          - not_null
+  
+  - name: stg_incidents
+    description: Camada staging de incidents
+    columns:
+      - name: incidentId
+        tests:
+          - unique
+          - not_null
+      - name: machineId
+        tests:
+          - not_null
+      - name: machineType
+        tests:
+          - not_null
+      - name: incidentType
+        tests:
+          - not_null
+
+  - name: stg_maintenances
+    description: Camada staging de maintenances
+    columns:
+      - name: maintenanceId
+        tests:
+          - unique
+          - not_null
+      - name: machineId
+        tests:
+          - not_null

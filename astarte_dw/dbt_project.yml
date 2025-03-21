@@ -40,3 +40,8 @@ models:
       +materialized: table
       +enabled: True
       +schema: dwh_astarte
+    marts:
+      maintenance:
+        +materialized: table
+        +enabled: True
+        +schema: mart_astarte

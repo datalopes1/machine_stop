@@ -5,7 +5,6 @@ WITH source AS (
         , operatorName AS operator_name
         , workShift AS work_shift
     FROM {{ref('stg_operators')}}
-    WHERE operatorId IS NOT NULL
 )
 
 SELECT
