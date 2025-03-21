@@ -31,6 +31,7 @@ Foram disponibilizados dados sobre máquinas, operadores, incidentes e manutenç
 - 📊 **Microsoft Power BI (Data Viz)**
 - 🎲 **dbt-core (Transformação dos Dados)**
 - 🦆 **duckdb, Pandas, NumPy, Faker (Manipulação de Dados)**
+- 🐘 **PostgreSQL - deploy em nuvem no Render (Banco de Dados)**
 
 ## 🚀 Como Executar
 

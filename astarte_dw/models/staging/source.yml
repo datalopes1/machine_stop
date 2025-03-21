@@ -1,0 +1,9 @@
+version: 2 
+sources:
+  - name: astarte
+    schema: public
+    tables: 
+      - name: machines
+      - name: operators
+      - name: incidents
+      - name: maintenances
